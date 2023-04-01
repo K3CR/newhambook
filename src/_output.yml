@@ -1,0 +1,33 @@
+bookdown::gitbook:
+  css: css/style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">New Ham Book</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
+    download: ["pdf", "epub"]
+  repo:
+      base: https://github.com/k3cr/newhambook
+      branch: main
+      subdir: src
+
+bookdown::bs4_book:
+  css: include/css/style.css
+  theme:
+    primary: "#325ca8"
+    code_folding: hide
+  repo:
+      base: https://github.com/k3cr/newhambook
+      branch: main
+      subdir: src
+
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+
+bookdown::epub_book: default

@@ -1,0 +1,33 @@
+--- 
+title: "A ham: What I am"
+author: "Rick Gilmore W3TM"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [include/bib/packages.bib]
+url: your book url like https://k3cr.github.io/newhambook
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a guidebook for new hams, focused on Penn State.
+biblio-style: apa
+csl: include/bib/apa.csl
+---
+
+# About
+
+This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+
+## Usage 
+
+Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+
+Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+
+The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+
+```{r add-bib-entries, include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'include/bib/packages.bib')
+```
