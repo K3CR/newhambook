@@ -17,13 +17,19 @@ csl: include/bib/apa.csl
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
-## Usage 
+## Origins
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+This book originated when a group of students expressed interest in a licensing class.
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+## Philosophy 
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+Most hams agree that getting their "ticket" or license was the start of the journey, not the destination.
+In fact, for many hams, much of the material that must be mastered to pass one of the licensing exams only really makes sense in the specific context of operating.
+So, our philosophy with this book is to emphasize operating practices, and especially *listening*.
+
+In the U.S., you don't need a license to listen, and even if you are an active operator, you'll spend most of your time listening. 
+Many hams started out as shortwave listeners (SWLs) back when the airwaves were full of shortwave stations that broadcasted programs in the ham bands or adjacent to ham bands.
+And listening to other hams operate is one of the best ways to learn what to do, and sometimes, what not to do.
 
 ```{r add-bib-entries, include=FALSE}
 # automatically create a bib database for R packages

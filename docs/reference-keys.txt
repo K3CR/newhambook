@@ -1,4 +1,11 @@
 about
-usage
+origins
+philosophy
 getting-started
+dont-buy-a-radio-yet
 operating
+lingo
+acronyms
+abbreviationsvariables
+q-codes
+morse-code

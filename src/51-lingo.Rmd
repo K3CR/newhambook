@@ -1,0 +1,228 @@
+# Lingo
+
+Ham radio is no different than any other human activity: There's a bunch of specialized lingo.
+Actually, ham radio may have more lingo, jargon, and acronyms than most hobbies.
+But fear not.
+Learning to talk the talk is part of what makes joining a new community fun.
+And with ham radio, communicating (in one form or another) is the main point.
+As an international hobby with a 100+ year history, learning how to 'speak ham' is one of the best ways to join our community.
+
+## Acronyms
+
+### A {-}
+
+Amperes. A unit of electric current.
+
+### AC {-}
+
+Alternating current.
+
+### AF {-}
+
+Audio frequency. 
+
+### AM {-}
+
+Amplitude modulation.
+
+### AGC {-}
+
+Automatic gain control.
+
+### APRS {-}
+
+Automatic Packet Reporting System.
+
+### cm {-}
+
+Centimeters.
+
+### CW {-}
+
+Continuous wave.
+
+### CTCSS {-}
+
+Continuous Tone-Coded Squelch System.
+
+### DC {-}
+
+Direct current.
+
+### DMR {-}
+
+Digital mobile radio.
+
+### DTMF {-}
+
+Dual tone multi-frequency.
+
+### FCC {-}
+
+Federal Commmunications Commission. The U.S. Government agency charged with regulating radio communications. The FCC grants amateur radio operators licenses.
+
+### FEMA {-}
+
+Federal Emergency Management Agency.
+
+### FET {-}
+
+Field Effect Transistor.
+
+### FM {-}
+
+Frequency modulation.
+
+### GHz {-}
+
+Gigahertz. 
+
+### HF {-}
+
+High frequency. A set of frequencies between 3 [MHz] and 30 [MHz.] The 80/75[m], 60[m], 40[m], 30[m], 20[m], 15[m], 17[m], 15[m], 12[m], and 10[m] ham bands are [HF] bands. [HF] signals can propagate for long distances under common atmospheric conditions.
+
+### ITU {-}
+
+International Telecommunications Union.
+
+### kHz {-}
+
+Kilohertz. A unit of frequency. 1 kHz is 1 thousand cycles/sec. The 'H' is capitalized because it is named after Henrich Hertz. 
+
+### LED {-}
+
+Light emitting diode.
+
+### $LiFePO_4$ {-}
+
+Lithium Iron Phosphate. A type of rechargeable battery.
+
+### LSB {-}
+
+Lower sideband.
+
+### m {-}
+
+Meter or meters.
+
+### mA {-}
+
+Milliamperes. A unit of current. 1/1,000 of an Ampere ([A]).
+
+### mF {-}
+
+Microfarad. A unit of capacitance. 1/1,000,000 of a Farad. $\mu F$ is another abbreviation for microfarad using the Greek letter mu ($\mu$).
+
+### MHz {-}
+
+Megahertz. A unit of frequency. 1 MHz is 1 million cycles/sec or 1 million Hertz (Hz). The 'H' is capitalized because it is named after Henrich Hertz.
+
+### NCS {-}
+
+Net control station.
+
+### PTT {-}
+
+Push to talk.
+
+### RACES {-}
+
+Radio Amateur Civil Emergency Service.
+
+### RF {-}
+
+Radio frequency.
+
+### RIT {-}
+
+Receiver incremental tuning.
+
+### SDR {-}
+
+Software defined radio.
+
+### SPDT {-}
+
+Single pole double throw. A type of switch.
+
+### SSB {-}
+
+Single Sideband.
+
+### SWL {-}
+
+Shortwave listener.
+
+### SWR {-}
+
+Standing Wave Ratio. The ratio of forward power to reflected power. High SWR (> 3:1 or more) means that the impedance of your antenna is a poor match to the impedance of your transmitter. This doesn't matter very much for receiving signals, but it does pose a potential problem if you decide to transmit.
+
+### V {-}
+
+Volt or volts. A unit of electrical force.
+
+### VFO {-}
+
+Variable frequency oscillator.
+
+### VHF {-}
+
+Very high frequency. A set of frequencies between 30 and 300 [MHz]. The 6[m], 2[m], and 1.25[cm] bands are VHF bands.
+
+### UHF {-}
+
+Ultra-high frequency. A set of frequencies between 300 [MHz] and 3 [GHz] (3,000 [MHz]). The 70[cm] band is the most commonly used UHF ham band.
+
+### ULS {-}
+
+Universal Licensing System.
+
+### USB {-}
+
+Upper sideband.
+
+### w {-}
+
+Watts. A unit of power.
+
+## Abbreviations/variables
+
+### CQ {-}
+
+### E {-}
+
+Voltage. $E=IR$
+
+### FT8/FT4 {-}
+
+A digital mode of communication.
+
+### I {-}
+
+Current. $I=E/R$
+
+### P {-}
+
+Power. $P=IE=I^2R$. Power is usually measured in watts ([w]) or some multiple of watts.
+
+### R {-}
+
+Resistance. $R=E/R$. 
+
+### VOX {-}
+
+## Q-codes
+
+### QRM {-}
+
+### QRN {-}
+
+### QRP {-}
+
+### QRZ {-}
+
+### QSL {-}
+
+### QTH {-}
+
+## Morse code
