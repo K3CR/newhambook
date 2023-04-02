@@ -14,7 +14,61 @@ That sounds like they are interested in an edible pork product, not our glorious
 Most hams are forgiving people who want newcomers to join our ranks.
 But saying certain things is like writing a scarlet H in the middle of your forehead.
 
-## Acronyms {-}
+## Phonetic alphabet {- #phonetic-alphabet}
+
+### Alpha {-}
+
+### Bravo {-}
+
+### Charlie {-}
+
+### Delta {-}
+
+### Echo {-}
+
+### Foxtrot {-}
+
+### Golf {-}
+
+### Hotel {-}
+
+### India {-}
+
+### Juliet {-}
+
+### Kilo {-}
+
+### Lima {-}
+
+### Mike {-}
+
+### November {-}
+
+### Oscar {-}
+
+### Papa {-}
+
+### Quebec {-}
+
+### Romeo {-}
+
+### Sierra {-}
+
+### Tango {-}
+
+### Uniform {-}
+
+### Victor {-}
+
+### Whiskey {-}
+
+### X-ray {-}
+
+### Yankee {-}
+
+### Zulu {-}
+
+## Acronyms {- #bar}
 
 ### A {-}
 
@@ -45,6 +99,10 @@ Amplitude modulation.
 Automatic Packet Reporting System.
 
 ### ARQ {-}
+
+### [CSCE](#CSCE) {-}
+
+Certificate of Successful Completion of (an amateur radio licensing) Examination.
 
 ### cm {-}
 

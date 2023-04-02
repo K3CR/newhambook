@@ -14,9 +14,9 @@ Editorial Note: Nomenclature changes to part 97 appear at 63 FR 54077, Oct. 8, 1
 
 :::
 
-## Subpart A—General Provisions
+## Subpart A—General Provisions {- #subpart-A}
 
-### § 97.1 Basis and purpose. [- #97.1]
+### § 97.1 Basis and purpose. {- #97.1}
 
 The rules and regulations in this part are designed to provide an amateur radio service having a fundamental purpose as expressed in the following principles:
   
@@ -30,27 +30,55 @@ The rules and regulations in this part are designed to provide an amateur radio 
 
 (e) Continuation and extension of the amateur's unique ability to enhance international goodwill.
 
-### § 97.3 Definitions.
+### § 97.3 Definitions. {- #97.3}
 
 (a) The definitions of terms used in part 97 are:
-  
-(1) Amateur operator. A person named in an amateur operator/primary license station grant on the ULS consolidated licensee database to be the control operator of an amateur station.
 
-(2) Amateur radio services. The amateur service, the amateur-satellite service and the radio amateur civil emergency service.
+(1)   
+::: {.def #amateur-operator}
+Amateur operator. A person named in an amateur operator/primary license station grant on the ULS consolidated licensee database to be the control operator of an amateur station.
+:::
 
-(4) Amateur service. A radiocommunication service for the purpose of self-training, intercommunication and technical investigations carried out by amateurs, that is, duly authorized persons interested in radio technique solely with a personal aim and without pecuniary interest.
+(2)
+::: {.def #amateur-radio-service}
+Amateur radio services. The amateur service, the amateur-satellite service and the radio amateur civil emergency service.
+:::
 
-(5) Amateur station. A station in an amateur radio service consisting of the apparatus necessary for carrying on radiocommunications.
+(4) 
+::: {.def #amateur-service}
+Amateur service. A radiocommunication service for the purpose of self-training, intercommunication and technical investigations carried out by amateurs, that is, duly authorized persons interested in radio technique solely with a personal aim and without pecuniary interest.
+:::
 
-(6) Automatic control. The use of devices and procedures for control of a station when it is transmitting so that compliance with the FCC Rules is achieved without the control operator being present at a control point.
+(5) 
+:::{.def #amateur-station}
+Amateur station. A station in an amateur radio service consisting of the apparatus necessary for carrying on radiocommunications.
+:::
 
-(7) Auxiliary station. An amateur station, other than in a message forwarding system, that is transmitting communications point-to-point within a system of cooperating amateur stations.
+(6)
+:::{.def #automatic-control}
+Automatic control. The use of devices and procedures for control of a station when it is transmitting so that compliance with the FCC Rules is achieved without the control operator being present at a control point.
+:::
 
-(8) Bandwidth. The width of a frequency band outside of which the mean power of the transmitted signal is attenuated at least 26 dB below the mean power of the transmitted signal within the band.
 
-(9) Beacon. An amateur station transmitting communications for the purposes of observation of propagation and reception or other related experimental activities.
+(7)
+:::{.def #auxiliary-station}
+Auxiliary station. An amateur station, other than in a message forwarding system, that is transmitting communications point-to-point within a system of cooperating amateur stations.
+:::
 
-(10) Broadcasting. Transmissions intended for reception by the general public, either direct or relayed.
+(8)
+:::{.def #bandwidth}
+Bandwidth. The width of a frequency band outside of which the mean power of the transmitted signal is attenuated at least 26 dB below the mean power of the transmitted signal within the band.
+:::
+
+(9)
+:::{.def #beacon}
+Beacon. An amateur station transmitting communications for the purposes of observation of propagation and reception or other related experimental activities.
+:::
+
+(10)
+:::{.def#broadcasting}
+Broadcasting. Transmissions intended for reception by the general public, either direct or relayed.
+:::
 
 (11) Call sign system. The method used to select a call sign for amateur station over-the-air identification purposes. The call sign systems are:
   
@@ -62,13 +90,25 @@ The rules and regulations in this part are designed to provide an amateur radio 
 
 (12) CEPT radio amateur license. A license issued by a country belonging to the European Conference of Postal and Telecommunications Administrations (CEPT) that has adopted Recommendation T/R 61–01 (Nice 1985, Paris 1992, Nicosia 2003).
 
-(13) Control operator. An amateur operator designated by the licensee of a station to be responsible for the transmissions from that station to assure compliance with the FCC Rules.
+(13) 
+:::{.def #control-operator}
+Control operator. An amateur operator designated by the licensee of a station to be responsible for the transmissions from that station to assure compliance with the FCC Rules.
+:::
 
-(14) Control point. The location at which the control operator function is performed.
+(14)
+:::{.def #control-point}
+Control point. The location at which the control operator function is performed.
+:::
 
-(15) CSCE. Certificate of successful completion of an examination.
+(15)
+:::{.def #CSCE}
+CSCE. Certificate of successful completion of an examination.
+:::
 
-(16) Earth station. An amateur station located on, or within 50 km of, the Earth's surface intended for communications with space stations or with other Earth stations by means of one or more other objects in space.
+(16)
+:::{.def #earth-station}
+Earth station. An amateur station located on, or within 50 km of, the Earth's surface intended for communications with space stations or with other Earth stations by means of one or more other objects in space.
+:::
 
 (17) [Reserved]
 
@@ -80,7 +120,10 @@ The rules and regulations in this part are designed to provide an amateur radio 
 
 (21) FCC. Federal Communications Commission.
 
-(22) Frequency coordinator. An entity, recognized in a local or regional area by amateur operators whose stations are eligible to be auxiliary or repeater stations, that recommends transmit/receive channels and associated operating and technical parameters for such stations in order to avoid or minimize potential interference.
+(22) 
+:::{.def #frequency-coordinator}
+Frequency coordinator. An entity, recognized in a local or regional area by amateur operators whose stations are eligible to be auxiliary or repeater stations, that recommends transmit/receive channels and associated operating and technical parameters for such stations in order to avoid or minimize potential interference.
+:::
 
 (23) Harmful interference. Interference which endangers the functioning of a radionavigation service or of other safety services or seriously degrades, obstructs or repeatedly interrupts a radiocommunication service operating in accordance with the Radio Regulations.
 
@@ -98,7 +141,10 @@ The rules and regulations in this part are designed to provide an amateur radio 
 
 (30) Line A. Begins at Aberdeen, WA, running by great circle arc to the intersection of 48° N, 120° W, thence along parallel 48° N, to the intersection of 95° W, thence by great circle arc through the southernmost point of Duluth, MN, thence by great circle arc to 45° N, 85° W, thence southward along meridian 85° W, to its intersection with parallel 41° N, thence along parallel 41° N, to its intersection with meridian 82° W, thence by great circle arc through the southernmost point of Bangor, ME, thence by great circle arc through the southernmost point of Searsport, ME, at which point it terminates.
 
-(31) Local control. The use of a control operator who directly manipulates the operating adjustments in the station to achieve compliance with the FCC Rules.
+(31)
+:::{.def #local-control}
+Local control. The use of a control operator who directly manipulates the operating adjustments in the station to achieve compliance with the FCC Rules.
+:::
 
 (32) Message forwarding system. A group of amateur stations participating in a voluntary, cooperative, interactive arrangement where communications are sent from the control operator of an originating station to the control operator of one or more destination stations by one or more forwarding stations.
 
@@ -112,13 +158,25 @@ The rules and regulations in this part are designed to provide an amateur radio 
 
 (37) Radio Regulations. The latest ITU Radio Regulations to which the United States is a party.
 
-(38) RACES (radio amateur civil emergency service). A radio service using amateur stations for civil defense communications during periods of local, regional or national civil emergencies.
+(38)
+:::{.def #RACES}
+RACES (radio amateur civil emergency service). A radio service using amateur stations for civil defense communications during periods of local, regional or national civil emergencies.
+:::
 
-(39) Remote control. The use of a control operator who indirectly manipulates the operating adjustments in the station through a control link to achieve compliance with the FCC Rules.
+(39)
+:::{.def #remote-control}
+Remote control. The use of a control operator who indirectly manipulates the operating adjustments in the station through a control link to achieve compliance with the FCC Rules.
+:::
 
-(40) Repeater. An amateur station that simultaneously retransmits the transmission of another amateur station on a different channel or channels.
+(40)
+:::{.def #repeater}
+Repeater. An amateur station that simultaneously retransmits the transmission of another amateur station on a different channel or channels.
+:::
 
-(41) Space station. An amateur station located more than 50 km above the Earth's surface.
+(41)
+:::{.def #space-station}
+Space station. An amateur station located more than 50 km above the Earth's surface.
+:::
 
 (42) Space telemetry. A one-way transmission from a space station of measurements made from the measuring instruments in a spacecraft, including those relating to the functioning of the spacecraft.
 
@@ -130,7 +188,10 @@ The rules and regulations in this part are designed to provide an amateur radio 
 
 (46) Telemetry. A one-way transmission of measurements at a distance from the measuring instrument.
 
-(47) Third party communications. A message from the control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party).
+(47)
+:::{.def #third-party-communications}
+Third party communications. A message from the control operator (first party) of an amateur station to another amateur station control operator (second party) on behalf of another person (third party).
+:::
 
 (48) ULS (Universal Licensing System). The consolidated database, application filing system and processing system for all Wireless Telecommunications Services.
 
@@ -205,7 +266,7 @@ Editorial Note: For Federal Register citations affecting § 97.3, see the List o
 
 :::
 
-### § 97.5 Station license required.
+### § 97.5 Station license required. {- #97.5}
 
 (a) The station apparatus must be under the physical control of a person named in an amateur station license grant on the ULS consolidated license database or a person authorized for alien reciprocal operation by § 97.107 of this part, before the station may transmit on any amateur service frequency from any place that is:
 
@@ -247,7 +308,7 @@ Editorial Note: For Federal Register citations affecting § 97.3, see the List o
 
 [59 FR 54831, Nov. 2, 1994, as amended at 62 FR 17567, Apr. 10, 1997; 63 FR 68977, Dec. 14, 1998; 75 FR 78169, Dec. 15, 2010]
 
-### § 97.7 Control operator required.
+### § 97.7 Control operator required. {- #97.7}
 
 When transmitting, each amateur station must have a control operator. The control operator must be a person:
   
@@ -257,7 +318,7 @@ When transmitting, each amateur station must have a control operator. The contro
 
 [63 FR 68978, Dec. 14, 1998]
 
-### § 97.9 Operator license grant.
+### § 97.9 Operator license grant. {- #97.9}
 
 (a) The classes of amateur operator license grants are: Novice, Technician, General, Advanced, and Amateur Extra. The person named in the operator license grant is authorized to be the control operator of an amateur station with the privileges authorized to the operator class specified on the license grant.
 
@@ -265,7 +326,7 @@ When transmitting, each amateur station must have a control operator. The contro
 
 [75 FR 78169, Dec. 15, 2010]
 
-### § 97.11 Stations aboard ships or aircraft.
+### § 97.11 Stations aboard ships or aircraft. {- #97.11}
 
 (a) The installation and operation of an amateur station on a ship or aircraft must be approved by the master of the ship or pilot in command of the aircraft.
 
@@ -273,7 +334,7 @@ When transmitting, each amateur station must have a control operator. The contro
 
 (c) The station must not constitute a hazard to the safety of life or property. For a station aboard an aircraft, the apparatus shall not be operated while the aircraft is operating under Instrument Flight Rules, as defined by the FAA, unless the station has been found to comply with all applicable FAA Rules.
 
-### § 97.13 Restrictions on station location.
+### § 97.13 Restrictions on station location. {-}
 
 (a) Before placing an amateur station on land of environmental importance or that is significant in American history, architecture or culture, the licensee may be required to take certain actions prescribed by §§ 1.1305–1.1319 of this chapter.
 
@@ -287,7 +348,7 @@ When transmitting, each amateur station must have a control operator. The contro
 
 [54 FR 25857, June 20, 1989, as amended at 55 FR 20398, May 16, 1990; 61 FR 41019, Aug. 7, 1996; 62 FR 47963, Sept. 12, 1997; 62 FR 49557, Sept. 22, 1997; 62 FR 61448, Nov. 18, 1997; 63 FR 68978, Dec. 14, 1998; 65 FR 6549, Feb. 10, 2000; 80 FR 53752, Sept. 8, 2015; 85 FR 18151, Apr. 1, 2020]
 
-### § 97.15 Station antenna structures.
+### § 97.15 Station antenna structures. {-}
 
 (a) Owners of certain antenna structures more than 60.96 meters (200 feet) above ground level at the site or located near or at a public use airport must notify the Federal Aviation Administration and register with the Commission as required by part 17 of this chapter.
 
@@ -297,7 +358,7 @@ When transmitting, each amateur station must have a control operator. The contro
 
 [64 FR 53242, Oct. 1, 1999, as amended at 82 FR 27214, June 14, 2017]
 
-### § 97.17 Application for new license grant.
+### § 97.17 Application for new license grant. {- #97.17}
 
 (a) Any qualified person is eligible to apply for a new operator/primary station, club station or military recreation station license grant. No new license grant will be issued for a Novice or Advanced Class operator/primary station.
 
@@ -313,7 +374,7 @@ When transmitting, each amateur station must have a control operator. The contro
 
 [63 FR 68978, Dec. 14, 1998, as amended at 64 FR 53242, Oct. 1, 1999; 65 FR 6549, Feb. 10, 2000; 75 FR 78170, Dec. 15, 2010]
 
-### § 97.19 Application for a vanity call sign.
+### § 97.19 Application for a vanity call sign. {-}
 
 (a) The person named in an operator/primary station license grant or in a club station license grant is eligible to make application for modification of the license grant, or the renewal thereof, to show a call sign selected by the vanity call sign system. Effective February 14, 2011, the person named in a club station license grant that shows on the license a call sign that was selected by a trustee is not eligible for an additional vanity call sign. (The person named in a club station license grant that shows on the license a call sign that was selected by a trustee is eligible for a vanity call sign for his or her operator/primary station license grant on the same basis as any other person who holds an operator/primary station license grant.) Military recreation stations are not eligible for a vanity call sign.
 
@@ -349,7 +410,7 @@ When transmitting, each amateur station must have a control operator. The contro
 
 [60 FR 7460, Feb. 8, 1995, as amended at 60 FR 50123, Sept. 28, 1995; 60 FR 53132, Oct. 12, 1995; 63 FR 68979, Dec. 14, 1998; 71 FR 66461, Nov. 15, 2006; 75 FR 78170, Dec. 15, 2010]
 
-### § 97.21 Application for a modified or renewed license grant.
+### § 97.21 Application for a modified or renewed license grant. {- #97.21}
 
 (a) A person holding a valid amateur station license grant:
   
@@ -371,13 +432,13 @@ When transmitting, each amateur station must have a control operator. The contro
 
 [63 FR 68979, Dec. 14, 1998, as amended at 64 FR 53242, Oct. 1, 1999; 65 FR 6550, Feb. 10, 2000; 75 FR 78170, Dec. 15, 2010; 79 FR 35291, July 21, 2014; 85 FR 85532, Dec. 29, 2020]
 
-### § 97.23 Mailing and email addresses.
+### § 97.23 Mailing and email addresses. {- #97.23}
 
 Each license grant must show the grantee's correct name, mailing address, and email address. The email address must be an address where the grantee can receive electronic correspondence. Revocation of the station license or suspension of the operator license may result when correspondence from the FCC is returned as undeliverable because the grantee failed to provide the correct email address.
 
 [85 FR 85533, Dec. 29, 2020]
 
-### § 97.25 License term.
+### § 97.25 License term. {- #97.25}
 
 An amateur service license is normally granted for a 10-year term.
 
@@ -395,13 +456,13 @@ An amateur service license is normally granted for a 10-year term.
 
 [59 FR 54833, Nov. 2, 1994, as amended at 63 FR 68979, Dec. 14, 1998]
 
-### § 97.29 Replacement license grant document.
+### § 97.29 Replacement license grant document. {-}
 
 Each grantee whose amateur station license grant document is lost, mutilated or destroyed may apply to the FCC for a replacement in accordance with § 1.913 of this chapter.
 
 [63 FR 68979, Dec. 14, 1998]
 
-### § 97.31 Cancellation on account of the licensee's death.
+### § 97.31 Cancellation on account of the licensee's death. {-}
 
 (a) A person may request cancellation of an operator/primary station license grant on account of the licensee's death by submitting a signed request that includes a death certificate, obituary, or Social Security Death Index data that shows the person named in the operator/primary station license grant has died. Such a request may be submitted as a pleading associated with the deceased licensee's license. See § 1.45 of this chapter. In addition, the Commission may cancel an operator/primary station license grant if it becomes aware of the grantee's death through other means. No action will be taken during the last thirty days of the post-expiration grace period (see § 97.21(b)) on a request to cancel a license due to the licensee's death.
 
@@ -409,9 +470,9 @@ Each grantee whose amateur station license grant document is lost, mutilated or 
 
 [75 FR 78171, Dec. 15, 2010]
 
-## Subpart B—Station Operation Standards
+## Subpart B—Station Operation Standards {-}
 
-### § 97.101 General standards.
+### § 97.101 General standards. {- #97.101}
 
 (a) In all respects not specifically covered by FCC Rules each amateur station must be operated in accordance with good engineering and good amateur practice.
 
@@ -421,7 +482,7 @@ Each grantee whose amateur station license grant document is lost, mutilated or 
 
 (d) No amateur operator shall willfully or maliciously interfere with or cause interference to any radio communication or signal.
 
-### § 97.103 Station licensee responsibilities.
+### § 97.103 Station licensee responsibilities. {-}
 
 (a) The station licensee is responsible for the proper operation of the station in accordance with the FCC Rules. When the control operator is a different amateur operator than the station licensee, both persons are equally responsible for proper operation of the station.
 
@@ -431,13 +492,13 @@ Each grantee whose amateur station license grant document is lost, mutilated or 
 
 [54 FR 25857, June 20, 1989, as amended at 71 FR 66462, Nov. 15, 2006; 75 FR 27201, May 14, 2010]
 
-### § 97.105 Control operator duties.
+### § 97.105 Control operator duties. {-}
 
 (a) The control operator must ensure the immediate proper operation of the station, regardless of the type of control.
 
 (b) A station may only be operated in the manner and to the extent permitted by the privileges authorized for the class of operator license held by the control operator.
 
-### § 97.107 Reciprocal operating authority.
+### § 97.107 Reciprocal operating authority. {-}
 
 A non-citizen of the United States (“alien”) holding an amateur service authorization granted by the alien's government is authorized to be the control operator of an amateur station located at places where the amateur service is regulated by the FCC, provided there is in effect a multilateral or bilateral reciprocal operating arrangement, to which the United States and the alien's government are parties, for amateur service operation on a reciprocal basis. The FCC will issue public announcements listing the countries with which the United States has such an arrangement. No citizen of the United States or person holding an FCC amateur operator/primary station license grant is eligible for the reciprocal operating authority granted by this section. The privileges granted to a control operator under this authorization are:
   
@@ -461,7 +522,7 @@ A non-citizen of the United States (“alien”) holding an amateur service auth
 
 [63 FR 68979, Dec. 14, 1998]
 
-### § 97.109 Station control.
+### § 97.109 Station control. {-}
 
 (a) Each amateur station must have at least one control point.
 
@@ -473,7 +534,7 @@ A non-citizen of the United States (“alien”) holding an amateur service auth
 
 [54 FR 39535, Sept. 27, 1989, as amended at 60 FR 26001, May 16, 1995; 69 FR 24997, May 5, 2004; 80 FR 53753, Sept. 8, 2015]
 
-### § 97.111 Authorized transmissions.
+### § 97.111 Authorized transmissions. {- #97.111}
 
 (a) An amateur station may transmit the following types of two-way communications:
   
@@ -505,7 +566,7 @@ A non-citizen of the United States (“alien”) holding an amateur service auth
 
 [54 FR 25857, June 20, 1989, as amended at 56 FR 56171, Nov. 1, 1991; 71 FR 25982, May 3, 2006; 71 FR 66462, Nov. 15, 2006]
 
-### § 97.113 Prohibited transmissions.
+### § 97.113 Prohibited transmissions. {- #97.113}
 
 (a) No amateur station shall transmit:
   
@@ -535,7 +596,7 @@ A non-citizen of the United States (“alien”) holding an amateur service auth
 
 [58 FR 43072, Aug. 13, 1993; 58 FR 47219, Sept. 8, 1993, as amended at 71 FR 25982, May 3, 2006; 71 FR 66462, Nov. 15, 2006; 75 FR 46857, Aug. 4, 2010; 79 FR 35291, June 20, 2014]
 
-### § 97.115 Third party communications.
+### § 97.115 Third party communications. {-}
 
 (a) An amateur station may transmit messages for a third party to:
   
@@ -555,13 +616,13 @@ A non-citizen of the United States (“alien”) holding an amateur service auth
 
 [54 FR 25857, June 20, 1989; 54 FR 39535, Sept. 27, 1989, as amended at 71 FR 25982, May 3, 2006; 71 FR 66462, Nov. 15, 2006]
 
-### § 97.117 International communications.
+### § 97.117 International communications. {- #97.117}
 
 Transmissions to a different country, where permitted, shall be limited to communications incidental to the purposes of the amateur service and to remarks of a personal character.
 
 [71 FR 25982, May 3, 2006]
 
-### § 97.119 Station identification.
+### § 97.119 Station identification. {- #97.119}
 
 (a) Each amateur station, except a space station or telecommand station, must transmit its assigned call sign on its transmitting channel at the end of each communication, and at least every 10 minutes during a communication, for the purpose of clearly making the source of the transmissions from the station known to those receiving the transmissions. No station may transmit unidentified communications or signals, or transmit as the station call sign, any call sign not authorized to the station.
 
@@ -569,7 +630,7 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 (1) By a CW emission. When keyed by an automatic device used only for identification, the speed must not exceed 20 words per minute;
 
-(2) By a phone emission in the English language. Use of a phonetic alphabet as an aid for correct station identification is encouraged;
+(2) By a phone emission in the English language. Use of a [phonetic alphabet](#phonetic-alphabet) as an aid for correct station identification is encouraged;
 
 (3) By a RTTY emission using a specified digital code when all or part of the communications are transmitted by a RTTY or data emission;
 
@@ -593,15 +654,15 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 [54 FR 25857, June 20, 1989, as amended at 54 FR 39535, Sept. 27, 1989; 55 FR 30457, July 26, 1990; 56 FR 28, Jan. 2, 1991; 62 FR 17567, Apr. 10, 1997; 63 FR 68980, Dec. 14, 1998; 64 FR 51471, Sept. 23, 1999; 66 FR 20752, Apr. 25, 2001; 75 FR 78171, Dec. 15, 2010]
 
-### § 97.121 Restricted operation.
+### § 97.121 Restricted operation. {-}
 
 (a) If the operation of an amateur station causes general interference to the reception of transmissions from stations operating in the domestic broadcast service when receivers of good engineering design, including adequate selectivity characteristics, are used to receive such transmissions, and this fact is made known to the amateur station licensee, the amateur station shall not be operated during the hours from 8 p.m. to 10:30 p.m., local time, and on Sunday for the additional period from 10:30 a.m. until 1 p.m., local time, upon the frequency or frequencies used when the interference is created.
 
 (b) In general, such steps as may be necessary to minimize interference to stations operating in other services may be required after investigation by the FCC.
 
-## Subpart C—Special Operations
+## Subpart C—Special Operations {-}
 
-### § 97.201 Auxiliary station.
+### § 97.201 Auxiliary station. {-}
 
 (a) Any amateur station licensed to a holder of a Technician, General, Advanced or Amateur Extra Class operator license may be an auxiliary station. A holder of a Technician, General, Advanced or Amateur Extra Class operator license may be the control operator of an auxiliary station, subject to the privileges of the class of operator license held.
 
@@ -615,7 +676,7 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 [54 FR 25857, June 20, 1989, as amended at 56 FR 56171, Nov. 1, 1991; 60 FR 15687, Mar. 27, 1995; 63 FR 68980, Dec. 14, 1998; 71 FR 66462, Nov. 15, 2006; 75 FR 78171, Dec. 15, 2010]
 
-### § 97.203 Beacon station.
+### § 97.203 Beacon station. {-}
 
 (a) Any amateur station licensed to a holder of a Technician, General, Advanced or Amateur Extra Class operator license may be a beacon. A holder of a Technician, General, Advanced or Amateur Extra Class operator license may be the control operator of a beacon, subject to the privileges of the class of operator license held.
 
@@ -637,7 +698,7 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 [54 FR 25857, June 20, 1989, as amended at 55 FR 9323, Mar. 13, 1990; 56 FR 19610, Apr. 29, 1991; 56 FR 32517, July 17, 1991; 62 FR 55536, Oct. 27, 1997; 63 FR 41204, Aug. 3, 1998; 63 FR 68980, Dec. 14, 1998; 69 FR 24997, May 5, 2004; 71 FR 66462, Nov. 15, 2006; 75 FR 78171, Dec. 15, 2010; 80 FR 53753, Sept. 8, 2015]
 
-### § 97.205 Repeater station.
+### § 97.205 Repeater station. {-}
 
 (a) Any amateur station licensed to a holder of a Technician, General, Advanced or Amateur Extra Class operator license may be a repeater. A holder of a Technician, General, Advanced or Amateur Extra Class operator license may be the control operator of a repeater, subject to the privileges of the class of operator license held.
 
@@ -661,7 +722,7 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 [54 FR 25857, June 20, 1989, as amended at 55 FR 4613, Feb. 9, 1990; 56 FR 32517, July 17, 1991; 58 FR 64385, Dec. 7, 1993; 59 FR 18975, Apr. 21, 1994; 62 FR 55536, Oct. 27, 1997; 63 FR 41205, Aug. 3, 1998; 63 FR 68980, Dec. 14, 1998; 69 FR 24997, May 5, 2004; 70 FR 31374, June 1, 2005]
 
-### § 97.207 Space station.
+### § 97.207 Space station. {- #97.207}
 
 (a) Any amateur station may be a space station. A holder of any class operator license may be the control operator of a space station, subject to the privileges of the class of operator license held by the control operator.
 
@@ -741,7 +802,7 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 [54 FR 25857, June 20, 1989, as amended at 54 FR 39535, Sept. 27, 1989; 56 FR 56171, Nov. 1, 1991; 57 FR 32736, July 23, 1992; 60 FR 50124, Sept. 28, 1995; 63 FR 68980, Dec. 14, 1998; 69 FR 54588, Sept. 9, 2004; 71 FR 66462, Nov. 15, 2006; 75 FR 27201, May 14, 2010; 85 FR 52453, Aug. 25, 2020; 85 FR 64068, Oct. 9, 2020]
 
-### § 97.209 Earth station.
+### § 97.209 Earth station. {-}
 
 (a) Any amateur station may be an Earth station. A holder of any class operator license may be the control operator of an Earth station, subject to the privileges of the class of operator license held by the control operator.
 
@@ -753,7 +814,7 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 [54 FR 25857, June 20, 1989, as amended at 54 FR 39535, Sept. 27, 1989; 85 FR 64068, Oct. 9, 2020; 85 FR 69515, Nov. 3, 2020]
 
-### § 97.211 Space telecommand station.
+### § 97.211 Space telecommand station. {-}
 
 (a) Any amateur station designated by the licensee of a space station is eligible to transmit as a telecommand station for that space station, subject to the privileges of the class of operator license held by the control operator.
 
@@ -769,7 +830,7 @@ Transmissions to a different country, where permitted, shall be limited to commu
 
 [54 FR 25857, June 20, 1989, as amended at 54 FR 39535, Sept. 27, 1989; 56 FR 56171, Nov. 1, 1991; 85 FR 64068, Oct. 9, 2020]
 
-### § 97.213 Telecommand of an amateur station.
+### § 97.213 Telecommand of an amateur station. {-}
 
 An amateur station on or within 50 km of the Earth's surface may be under telecommand where:
   
@@ -783,7 +844,7 @@ An amateur station on or within 50 km of the Earth's surface may be under teleco
 
 [54 FR 25857, June 20, 1989, as amended at 56 FR 56171, Nov. 1, 1991]
 
-### § 97.215 Telecommand of model craft.
+### § 97.215 Telecommand of model craft. {-}
 
 An amateur station transmitting signals to control a model craft may be operated as follows:
   
@@ -795,13 +856,13 @@ An amateur station transmitting signals to control a model craft may be operated
 
 [54 FR 25857, June 20, 1989, as amended at 56 FR 56171, Nov. 1, 1991]
 
-### § 97.217 Telemetry.
+### § 97.217 Telemetry. {-}
 
 Telemetry transmitted by an amateur station on or within 50 km of the Earth's surface is not considered to be codes or ciphers intended to obscure the meaning of communications.
 
 [56 FR 56172, Nov. 1, 1991. Redesignated at 59 FR 18975, Apr. 21, 1994]
 
-### § 97.219 Message forwarding system.
+### § 97.219 Message forwarding system. {-}
 
 (a) Any amateur station may participate in a message forwarding system, subject to the privileges of the class of operator license held.
 
@@ -817,7 +878,7 @@ Telemetry transmitted by an amateur station on or within 50 km of the Earth's su
 
 [59 FR 18975, Apr. 21, 1994]
 
-### § 97.221 Automatically controlled digital station.
+### § 97.221 Automatically controlled digital station. {-}
 
 (a) This rule section does not apply to an auxiliary station, a beacon station, a repeater station, an earth station, a space station, or a space telecommand station.
 
@@ -831,9 +892,9 @@ Telemetry transmitted by an amateur station on or within 50 km of the Earth's su
 
 [60 FR 26001, May 16, 1995, as amended at 72 FR 3082, Jan. 24, 2007; 77 FR 5412, Feb. 3, 2012]
 
-## Subpart D—Technical Standards
+## Subpart D—Technical Standards {-}
 
-### § 97.301 Authorized frequency bands.
+### § 97.301 Authorized frequency bands. {- #97.301}
 
 The following transmitting frequency bands are available to an amateur station located within 50 km of the Earth's surface, within the specified ITU Region, and outside any area where the amateur service is regulated by any authority other than the FCC.
 
@@ -964,7 +1025,7 @@ UHF	MHz	MHz	MHz
 23 cm	1270–1295	1270–1295	1270–1295	(d), (o)
 [75 FR 27201, May 14, 2010, as amended at 75 FR 78171, Dec. 15, 2010; 80 FR 38911, July 7, 2015; 82 FR 27214, June 14, 2017; 85 FR 64068, Oct. 9, 2020]
 
-### § 97.303 Frequency sharing requirements.
+### § 97.303 Frequency sharing requirements. {-}
 
 The following paragraphs summarize the frequency sharing requirements that apply to amateur stations transmitting in the frequency bands specified in § 97.301 of this part. Each frequency band allocated to the amateur service is designated as either a secondary service or a primary service. A station in a secondary service must not cause harmful interference to, and must accept interference from, stations in a primary service.
 
@@ -1092,7 +1153,7 @@ Carrier	Center
 Note to § 97.303: The Table of Frequency Allocations contains the complete, unabridged, and legally binding frequency sharing requirements that pertain to the Amateur Radio Service. See 47 CFR 2.104, 2.105, and 2.106. The United States, Puerto Rico, and the U.S. Virgin Islands are in Region 2 and other U.S. insular areas are in either Region 2 or 3; see appendix 1 to part 97.
 [75 FR 27203, May 14, 2010, as amended at 77 FR 5412, Feb. 3, 2012; 80 FR 38912, July 7, 2015; 82 FR 27215, June 14, 2017; 82 FR 43872, Sept. 20, 2017; 85 FR 64068, Oct. 9, 2020]
 
-### § 97.305 Authorized emission types.
+### § 97.305 Authorized emission types. {- #97.305}
 
 (a) Except as specified elsewhere in this part, an amateur station may transmit a CW emission on any frequency authorized to the control operator.
 
@@ -1155,7 +1216,7 @@ EHF:
 Above 275 GHz	MCW, phone, image, RTTY, data, SS, test, pulse	(7), (8), and (12).
 [54 FR 25857, June 20, 1989; 54 FR 39536, Sept. 27, 1989; 55 FR 22013, May 30, 1990, as amended at 55 FR 30457, July 26, 1990; 60 FR 15688, Mar. 27, 1995; 64 FR 51471, Sept. 23, 1999; 71 FR 66465, Nov. 15, 2006; 75 FR 27204, May 14, 2010; 77 FR 5412, Feb. 3, 2012; 82 FR 27215, June 14, 2017; 85 FR 64069, Oct. 9, 2020]
 
-### § 97.307 Emission standards.
+### § 97.307 Emission standards. {-}
 
 (a) No amateur station transmission shall occupy more bandwidth than necessary for the information rate and emission type being transmitted, in accordance with good amateur practice.
 
@@ -1215,7 +1276,7 @@ CW	150HA1A	Morse telegraphy by means of on-off keying.
 
 [54 FR 25857, June 20, 1989; 54 FR 30823, July 24, 1989, as amended at 54 FR 39537, Sept. 27, 1989; 60 FR 15688, Mar. 27, 1995; 65 FR 6550, Feb. 10, 2000; 69 FR 24997, May 5, 2004; 77 FR 5412, Feb. 3, 2012; 79 FR 35291, June 20, 2014]
 
-### § 97.309 RTTY and data emission codes.
+### § 97.309 RTTY and data emission codes. {-}
 
 (a) Where authorized by §§ 97.305(c) and 97.307(f) of the part, an amateur station may transmit a RTTY or data emission using the following specified digital codes:
 
@@ -1237,7 +1298,7 @@ CW	150HA1A	Morse telegraphy by means of on-off keying.
 
 [54 FR 25857, June 20, 1989, as amended at 54 FR 39537, Sept. 27, 1989; 56 FR 56172, Nov. 1, 1991; 60 FR 55486, Nov. 1, 1995; 71 FR 25982, May 3, 2006; 71 FR 66465, Nov. 15, 2006; 80 FR 53753, Sept. 8, 2015]
 
-### § 97.311 SS emission types.
+### § 97.311 SS emission types. {- #97.311}
 
 (a) SS emission transmissions by an amateur station are authorized only for communications between points within areas where the amateur service is regulated by the FCC and between an area where the amateur service is regulated by the FCC and an amateur station in another country that permits such communications. SS emission transmissions must not be used for the purpose of obscuring the meaning of any communication.
 
@@ -1253,7 +1314,7 @@ CW	150HA1A	Morse telegraphy by means of on-off keying.
 
 [64 FR 51471, Sept. 23, 1999, as amended at 76 FR 17569, Mar. 30, 2011; 80 FR 53753, Sept. 8, 2015]
 
-### § 97.313 Transmitter power standards.
+### § 97.313 Transmitter power standards. {- #97.313}
 
 (a) An amateur station must use the minimum transmitter power necessary to carry out the desired communications.
 
@@ -1289,7 +1350,7 @@ CW	150HA1A	Morse telegraphy by means of on-off keying.
 
 [54 FR 25857, June 20, 1989, as amended at 56 FR 37161, Aug. 5, 1991; 56 FR 3043, Jan. 28, 1991; 60 FR 15688, Mar. 27, 1995; 65 FR 6550, Feb. 10, 2000; 71 FR 66465, Nov. 15, 2006; 75 FR 27204, May 14, 2010; 75 FR 78171, Dec. 15, 2010; 76 FR 17569, Mar. 30, 2011; 77 FR 5413, Feb. 3, 2012; 80 FR 53753, Sept. 8, 2015; 82 FR 27216, June 14, 2017; 82 FR 43872, Sept. 20, 2017]
 
-### § 97.315 Certification of external RF power amplifiers.
+### § 97.315 Certification of external RF power amplifiers. {-}
 
 (a) Any external RF power amplifier (see § 2.815 of the FCC Rules) manufactured or imported for use at an amateur radio station must be certificated for use in the amateur service in accordance with subpart J of part 2 of the FCC Rules. No amplifier capable of operation below 144 MHz may be constructed or modified by a non-amateur service licensee without a grant of certification from the FCC.
 
@@ -1305,7 +1366,7 @@ CW	150HA1A	Morse telegraphy by means of on-off keying.
 
 [71 FR 66465, Nov. 15, 2006]
 
-### § 97.317 Standards for certification of external RF power amplifiers.
+### § 97.317 Standards for certification of external RF power amplifiers. {-}
 
 (a) To receive a grant of certification, the amplifier must:
 
@@ -1323,25 +1384,25 @@ CW	150HA1A	Morse telegraphy by means of on-off keying.
 
 [71 FR 66465, Nov. 15, 2006]
 
-## Subpart E—Providing Emergency Communications
+## Subpart E—Providing Emergency Communications {- #subpart_E}
 
-§ 97.401 Operation during a disaster.
+### § 97.401 Operation during a disaster. {- #97.401}
 
 A station in, or within 92.6 km (50 nautical miles) of, Alaska may transmit emissions J3E and R3E on the channel at 5.1675 MHz (assigned frequency 5.1689 MHz) for emergency communications. The channel must be shared with stations licensed in the Alaska-Private Fixed Service. The transmitter power must not exceed 150 W PEP. A station in, or within 92.6 km of, Alaska may transmit communications for tests and training drills necessary to ensure the establishment, operation, and maintenance of emergency communication systems.
 
 [71 FR 66465, Nov. 15, 2006]
 
-§ 97.403 Safety of life and protection of property.
+### § 97.403 Safety of life and protection of property. {- #97.403}
 
 No provision of these rules prevents the use by an amateur station of any means of radiocommunication at its disposal to provide essential communication needs in connection with the immediate safety of human life and immediate protection of property when normal communication systems are not available.
 
-§ 97.405 Station in distress.
+### § 97.405 Station in distress. {- #97.405}
 
 (a) No provision of these rules prevents the use by an amateur station in distress of any means at its disposal to attract attention, make known its condition and location, and obtain assistance.
 
 (b) No provision of these rules prevents the use by a station, in the exceptional circumstances described in paragraph (a) of this section, of any means of radiocommunications at its disposal to assist a station in distress.
 
-§ 97.407 Radio amateur civil emergency service.
+### § 97.407 Radio amateur civil emergency service. {- #97.407}
 
 (a) No station may transmit in RACES unless it is an FCC-licensed primary, club, or military recreation station and it is certified by a civil defense organization as registered with that organization. No person may be the control operator of an amateur station transmitting in RACES unless that person holds a FCC-issued amateur operator license and is certified by a civil defense organization as enrolled in that organization.
 
@@ -1365,9 +1426,9 @@ No provision of these rules prevents the use by an amateur station of any means 
 
 [75 FR 78171, Dec. 15, 2010]
 
-## Subpart F—Qualifying Examination Systems
+## Subpart F—Qualifying Examination Systems {-}
 
-### § 97.501 Qualifying for an amateur operator license.
+### § 97.501 Qualifying for an amateur operator license. {-}
 
 Each applicant must pass an examination for a new amateur operator license grant and for each change in operator class. Each applicant for the class of operator license grant specified below must pass, or otherwise receive examination credit for, the following examination elements:
   
@@ -1391,7 +1452,7 @@ A written examination must be such as to prove that the examinee possesses the o
 
 [54 FR 25857, June 20, 1989, as amended at 61 FR 41019, Aug. 7, 1996; 65 FR 6550, Feb. 10, 2000; 72 FR 3082, Jan. 24, 2007]
 
-§ 97.505 Element credit.
+### § 97.505 Element credit.
 
 (a) The administering VEs must give credit as specified below to an examinee holding any of the following license grants:
   
@@ -1406,7 +1467,7 @@ grace period
 
 [79 FR 35291, June 20, 2014]
 
-§ 97.507 Preparing an examination.
+### § 97.507 Preparing an examination.
 
 (a) Each written question set administered to an examinee must be prepared by a VE holding an Amateur Extra Class operator license. A written question set may also be prepared for the following elements by a VE holding an operator license of the class indicated:
   
@@ -1420,7 +1481,7 @@ grace period
 
 [54 FR 25857, June 20, 1989, as amended at 58 FR 29126, May 19, 1993; 59 FR 54834, Nov. 2, 1994; 65 FR 6551, Feb. 10, 2000; 69 FR 24997, May 5, 2004; 79 FR 35291, June 20, 2014; 79 FR 52226, Sept. 3, 2014]
 
-§ 97.509 Administering VE requirements.
+### § 97.509 Administering VE requirements.
 
 (a) Each examination for an amateur operator license must be administered by a team of at least 3 VEs at an examination session coordinated by a VEC. The number of examinees at the session may be limited.
 
@@ -1464,13 +1525,13 @@ grace period
 
 [59 FR 54834, Nov. 2, 1994, as amended at 61 FR 9953, Mar. 12, 1996; 62 FR 17567, Apr. 10, 1997; 63 FR 68980, Dec. 14, 1998; 65 FR 6551, Feb. 10, 2000; 71 FR 66465, Nov. 15, 2006; 79 FR 35291. June 20, 2014]
 
-§ 97.511 Examinee conduct.
+### § 97.511 Examinee conduct.
 
 Each examinee must comply with the instructions given by the administering VEs.
 
 [59 FR 54835, Nov. 2, 1994]
 
-§ 97.513 VE session manager requirements.
+### § 97.513 VE session manager requirements.
 
 (a) A VE session manager may be selected by the VE team for each examination session. The VE session manager must be accredited as a VE by the same VEC that coordinates the examination session. The VE session manager may serve concurrently as an administering VE.
 
@@ -1482,7 +1543,7 @@ Each examinee must comply with the instructions given by the administering VEs.
 
 §§ 97.515-97.517 [Reserved]
 
-§ 97.519 Coordinating examination sessions.
+### § 97.519 Coordinating examination sessions.
 
 (a) A VEC must coordinate the efforts of VEs in preparing and administering examinations.
 
@@ -1506,7 +1567,7 @@ Each examinee must comply with the instructions given by the administering VEs.
 
 [54 FR 25857, June 20, 1989, as amended at 59 FR 54835, Nov. 2, 1994; 62 FR 17567, Apr. 10, 1997; 63 FR 68981, Dec. 14, 1998; 71 FR 66465, Nov. 15, 2006; 79 FR 35291, June 20, 2014]
 
-§ 97.521 VEC qualifications.
+### § 97.521 VEC qualifications.
 
 No organization may serve as a VEC unless it has entered into a written agreement with the FCC. The VEC must abide by the terms of the agreement. In order to be eligible to be a VEC, the entity must:
   
@@ -1520,11 +1581,11 @@ No organization may serve as a VEC unless it has entered into a written agreemen
 
 [54 FR 25857, June 20, 1989, as amended at 58 FR 29127, May 19, 1993; 61 FR 9953, Mar. 12, 1996]
 
-§ 97.523 Question pools.
+### § 97.523 Question pools.
 
 All VECs must cooperate in maintaining one question pool for each written examination element. Each question pool must contain at least 10 times the number of questions required for a single examination. Each question pool must be published and made available to the public prior to its use for making a question set. Each question on each VEC question pool must be prepared by a VE holding the required FCC-issued operator license. See § 97.507(a) of this part.
 
-§ 97.525 Accrediting VEs.
+### § 97.525 Accrediting VEs.
 
 (a) No VEC may accredit a person as a VE if:
   
@@ -1538,7 +1599,7 @@ All VECs must cooperate in maintaining one question pool for each written examin
 
 (b) Each VEC must seek a broad representation of amateur operators to be VEs. No VEC may discriminate in accrediting VEs on the basis of race, sex, religion or national origin; nor on the basis of membership (or lack thereof) in an amateur service organization; nor on the basis of the person accepting or declining to accept reimbursement.
 
-§ 97.527 Reimbursement for expenses.
+### § 97.527 Reimbursement for expenses.
 
 VEs and VECs may be reimbursed by examinees for out-of-pocket expenses incurred in preparing, processing, administering, or coordinating an examination for an amateur operator license.
 
@@ -1550,7 +1611,7 @@ In ITU Region 2, the amateur service is regulated by the FCC within the territor
 
 In ITU Region 3, the amateur service is regulated by the FCC within the Pacific Insular territorial limits of American Samoa (seven islands), Baker Island, Commonwealth of Northern Mariana Islands, Guam Island, Howland Island, Jarvis Island, Kingman Reef, Palmyra Island (more than 50 islets) and Wake Island (Islets Peale, Wake and Wilkes).
 
-Appendix 2 to Part 97—VEC Regions
+### Appendix 2 to Part 97—VEC Regions
 
 1. Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont.
 2. New Jersey and New York.
@@ -1565,34 +1626,3 @@ Appendix 2 to Part 97—VEC Regions
 11. Alaska.
 12. Caribbean Insular areas.
 13. Hawaii and Pacific Insular areas.
-ECFR CONTENT
-PAGES
-
-Home
-Titles
-Search
-Recent Changes
-Corrections
-READER AIDS
-
- Using the eCFR Point-in-Time System
- Understanding the eCFR
- Government Policy and OFR Procedures
- Developer Resources
-INFORMATION
-
-About This Site
-Legal Status
-Privacy
-Accessibility
-FOIA
-No Fear Act
-Continuity Information
-MY ECFR
-
- My Subscriptions
- Sign In / Sign Up
-SOCIAL MEDIA
-
-Facebook
-Twitter

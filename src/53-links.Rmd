@@ -1,0 +1,9 @@
+# Links
+
+## Third party traffic {-}
+
+The ARRL maintains a site with information about which countries U.S.-licensed hams may pass third party traffic to:
+
+<http://www.arrl.org/third-party-operating-agreements>
+
+[Link to def of Amateur Operator](#amateur-operator)
