@@ -7,7 +7,14 @@ Learning to talk the talk is part of what makes joining a new community fun.
 And with ham radio, communicating (in one form or another) is the main point.
 As an international hobby with a 100+ year history, learning how to 'speak ham' is one of the best ways to join our community.
 
-## Acronyms
+By the way, it is ham radio not HAM radio.
+Ham is not an abbreviation for something.
+Also, some new folks might say, "I'm interested in ham; or I'm thinking about getting into HAM."
+That sounds like they are interested in an edible pork product, not our glorious hobby.
+Most hams are forgiving people who want newcomers to join our ranks.
+But saying certain things is like writing a scarlet H in the middle of your forehead.
+
+## Acronyms {-}
 
 ### A {-}
 
@@ -21,17 +28,23 @@ Alternating current.
 
 Audio frequency. 
 
-### AM {-}
+### AFSK {-}
 
-Amplitude modulation.
+Audio frequency shift keying.
 
 ### AGC {-}
 
 Automatic gain control.
 
+### AM {-}
+
+Amplitude modulation.
+
 ### APRS {-}
 
 Automatic Packet Reporting System.
+
+### ARQ {-}
 
 ### cm {-}
 
@@ -44,6 +57,10 @@ Continuous wave.
 ### CTCSS {-}
 
 Continuous Tone-Coded Squelch System.
+
+### dB {-}
+
+Decibel. 
 
 ### DC {-}
 
@@ -81,6 +98,14 @@ Gigahertz.
 
 High frequency. A set of frequencies between 3 [MHz] and 30 [MHz.] The 80/75[m], 60[m], 40[m], 30[m], 20[m], 15[m], 17[m], 15[m], 12[m], and 10[m] ham bands are [HF] bands. [HF] signals can propagate for long distances under common atmospheric conditions.
 
+### IEEE {-}
+
+Institute of Electrical and Electronics Engineers.
+
+### IRLP {-}
+
+Internet Radio Linking Project.
+
 ### ITU {-}
 
 International Telecommunications Union.
@@ -92,6 +117,10 @@ Kilohertz. A unit of frequency. 1 kHz is 1 thousand cycles/sec. The 'H' is capit
 ### LED {-}
 
 Light emitting diode.
+
+### LEO {-}
+
+Low Earth Orbit.
 
 ### $LiFePO_4$ {-}
 
@@ -157,18 +186,6 @@ Shortwave listener.
 
 Standing Wave Ratio. The ratio of forward power to reflected power. High SWR (> 3:1 or more) means that the impedance of your antenna is a poor match to the impedance of your transmitter. This doesn't matter very much for receiving signals, but it does pose a potential problem if you decide to transmit.
 
-### V {-}
-
-Volt or volts. A unit of electrical force.
-
-### VFO {-}
-
-Variable frequency oscillator.
-
-### VHF {-}
-
-Very high frequency. A set of frequencies between 30 and 300 [MHz]. The 6[m], 2[m], and 1.25[cm] bands are VHF bands.
-
 ### UHF {-}
 
 Ultra-high frequency. A set of frequencies between 300 [MHz] and 3 [GHz] (3,000 [MHz]). The 70[cm] band is the most commonly used UHF ham band.
@@ -181,11 +198,27 @@ Universal Licensing System.
 
 Upper sideband.
 
+### V {-}
+
+Volt or volts. A unit of electrical force.
+
+### VFO {-}
+
+Variable frequency oscillator.
+
+### VHF {-}
+
+Very high frequency. A set of frequencies between 30 and 300 [MHz]. The 6[m], 2[m], and 1.25[cm] bands are VHF bands.
+
+### VOiP {-}
+
+Voice Over Internet Protocol.
+
 ### w {-}
 
 Watts. A unit of power.
 
-## Abbreviations/variables
+## Abbreviations/variables {-}
 
 ### CQ {-}
 
@@ -211,7 +244,7 @@ Resistance. $R=E/R$.
 
 ### VOX {-}
 
-## Q-codes
+## Q-codes {-}
 
 ### QRM {-}
 
@@ -225,4 +258,4 @@ Resistance. $R=E/R$.
 
 ### QTH {-}
 
-## Morse code
+## Morse code {-}
