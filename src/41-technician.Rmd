@@ -512,7 +512,7 @@ C. International Morse Code Practice</br>
 D. Telecommand or transmissions of telemetry
 
 
-#### T1D03 (C) [97.211(b), 97.215(b), 97.113(a)(4)] {- #T1D03}
+#### T1D03 (C) [[97.211](#97.211)(b), [97.215](#97.215)(b), [97.113](#97.113)(a)(4)] {- #T1D03}
 
 When is it permissible to transmit messages encoded to obscure their meaning?
 
@@ -522,7 +522,7 @@ B. Only when transmitting certain approved digital codes</br>
 D. Never
 
 
-#### T1D04 (A) [97.113(a)(4), 97.113(c)] {- #T1D04}
+#### T1D04 (A) [[97.113](#97.113)(a)(4), [97.113](#97.113)(c)] {- #T1D04}
 
 Under what conditions is an amateur station authorized to transmit music using a phone emission?
 
@@ -532,7 +532,7 @@ C. When transmissions are limited to less than three minutes per hour</br>
 D. When the music is transmitted above 1280 MHz
 
 
-#### T1D05 (D) [97.113(a)(3)(ii)] {- #T1D05}
+#### T1D05 (D) [[97.113](#97.113)(a)(3)(ii)] {- #T1D05}
 
 When may amateur radio operators use their stations to notify other amateurs of the availability of equipment for sale or trade?
 
@@ -542,7 +542,7 @@ C. When no profit is made on the sale</br>
 **D. When selling amateur radio equipment and not on a regular basis**</br>
 
 
-#### T1D06 (B) [97.113(a)(4)] {- #T1D06}
+#### T1D06 (B) [[97.113](#97.113)(a)(4)] {- #T1D06}
 
 What, if any, are the restrictions concerning transmission of language that may be considered indecent or obscene?
 
@@ -552,7 +552,7 @@ C. The ITU maintains a list of words that are not permitted to be used on amateu
 D. There is no such prohibition 
 
 
-#### T1D07 (D) [97.113(d)] {- #T1D07}
+#### T1D07 (D) [[97.113](#97.113)(d)] {- #T1D07}
 
 What types of amateur stations can automatically retransmit the signals of other amateur stations?
 
@@ -562,7 +562,7 @@ C. Beacon, repeater, or space stations</br>
 **D. Repeater, auxiliary, or space stations**
 
 
-#### T1D08 (B) [97.113(a)(3)(iii)] {- #T1D08}
+#### T1D08 (B) [[97.113](#97.113)(a)(3)(iii)] {- #T1D08}
 
 In which of the following circumstances may the control operator of an amateur station receive compensation for operating that station?
 
@@ -572,7 +572,7 @@ C. When the communication is made to obtain emergency information for a local br
 D. All these choices are correct
 
 
-#### T1D09 (A) [97.113(5)(b)] {- #T1D09}
+#### T1D09 (A) [[97.113](#97.113)(5)(b)] {- #T1D09}
 
 When may amateur stations transmit information in support of broadcasting, program production, or news gathering, assuming no other means is available?
 
@@ -582,7 +582,7 @@ C. Where noncommercial programming is gathered and supplied exclusively to the N
 D. Never
 
 
-#### T1D10 (D) [97.3(a)(10)] {- #T1D10}
+#### T1D10 (D) [[97.3](#97.3)(a)(10)] {- #T1D10}
 
 How does the FCC define broadcasting for the Amateur Radio Service?
 
@@ -592,7 +592,7 @@ C. Transmission of messages directed only to amateur operators</br>
 **D. Transmissions intended for reception by the general public**
 
 
-#### T1D11 (D) [97.119(a)] {- #T1D11}
+#### T1D11 (D) [[97.119](#97.119)(a)] {- #T1D11}
 
 When may an amateur station transmit without identifying on the air?
 
@@ -605,7 +605,7 @@ C. When the transmitted power level is below 1 watt</br>
 
 T1E - Control operator: eligibility, designating, privileges, duties, location, required; Control point; Control types: automatic, remote 
 
-#### T1E01 (D) [97.7(a)] {- #T1E01}
+#### T1E01 (D) [[97.7](#97.7)(a)] {- #T1E01}
 
 When may an amateur station transmit without a control operator?
 
@@ -615,7 +615,7 @@ C. When the transmitting station is an auxiliary station</br>
 **D. Never**
 
 
-#### T1E02 (D) [97.301, 97.207(c)] {- #T1E02}
+#### T1E02 (D) [[97.301](#97.301), [97.207](#97.207)(c)] {- #T1E02}
 
 Who may be the control operator of a station communicating through an amateur satellite or space station?
 
@@ -625,7 +625,7 @@ C. Only an Amateur Extra Class operator who is also an AMSAT member</br>
 **D. Any amateur allowed to transmit on the satellite uplink frequency**
 
 
-#### T1E03 (A) [97.103(b)] {- #T1E03}
+#### T1E03 (A) [[97.103](#97.103)(b)] {- #T1E03}
 
 Who must designate the station control operator?
 
@@ -635,7 +635,7 @@ C. The frequency coordinator</br>
 D. Any licensed operator
 
 
-#### T1E04 (D) [97.103(b)] {- #T1E04}
+#### T1E04 (D) [[97.103](#97.103)(b)] {- #T1E04}
 
 What determines the transmitting frequency privileges of an amateur station?
 
@@ -645,7 +645,7 @@ C. The highest class of operator license held by anyone on the premises</br>
 **D. The class of operator license held by the control operator**
 
 
-#### T1E05 (C) [97.3(a)(14)] {- #T1E05}
+#### T1E05 (C) [[97.3](#97.3)(a)(14)] {- #T1E05}
 
 What is an amateur station’s control point?
 
@@ -655,7 +655,7 @@ B. The location of the station’s transmitting apparatus</br>
 D. The mailing address of the station licensee
 
 
-#### T1E06 (A) [97.301] {- #T1E06}
+#### T1E06 (A) [[97.301](#97.301)] {- #T1E06}
 
 When, under normal circumstances, may a Technician class licensee be the control operator of a station operating in an Amateur Extra Class band segment?
 
@@ -665,7 +665,7 @@ C. As part of a multi-operator contest team</br>
 D. When using a club station whose trustee holds an Amateur Extra Class license
 
 
-#### T1E07 (D) [97.103(a)] {- #T1E07}
+#### T1E07 (D) [[97.103](#97.103)(a)] {- #T1E07}
 
 When the control operator is not the station licensee, who is responsible for the proper operation of the station?
 
@@ -675,7 +675,7 @@ C. Only the control operator</br>
 **D. The control operator and the station licensee**
 
 
-#### T1E08 (A) [97.3(a)(6), 97.205(d)] {- #T1E08}
+#### T1E08 (A) [[97.3](#97.3)(a)(6), [97.205](#97.205)(d)] {- #T1E08}
 
 Which of the following is an example of automatic control?
 
@@ -685,7 +685,7 @@ C. Using a computer or other device to send CW automatically</br>
 D. Using a computer or other device to identify automatically
 
 
-#### T1E09 (D) [97.109(c)] {- #T1E09}
+#### T1E09 (D) [[97.109](97.109)(c)] {- #T1E09}
 
 Which of the following are required for remote control operation?
 
@@ -695,7 +695,7 @@ C. The control operator must indirectly manipulate the controls</br>
 **D. All these choices are correct**
 
 
-#### T1E10 (B) [97.3(a)(39)] {- #T1E10}
+#### T1E10 (B) [[97.3](#97.3)(a)(39)] {- #T1E10}
 
 Which of the following is an example of remote control as defined in Part 97?
 
@@ -705,7 +705,7 @@ C. Controlling a model aircraft, boat, or car by amateur radio</br>
 D. All these choices are correct
 
 
-#### T1E11 (D) [97.103(a)] {- #T1E11}
+#### T1E11 (D) [[97.103](#97.103)(a)] {- #T1E11}
 
 Who does the FCC presume to be the control operator of an amateur station, unless documentation to the contrary is in the station records?
 
@@ -718,7 +718,7 @@ C. The person operating the station equipment</br>
 
 T1F - Station identification; Repeaters; Third party communications; Club stations; FCC inspection 
 
-#### T1F01 (B) [97.103(c)] {- #T1F01}
+#### T1F01 (B) [[97.103](#97.103)(c)] {- #T1F01}
 
 When must the station and its records be available for FCC inspection?
 
@@ -728,7 +728,7 @@ C. At any time after written notification by the FCC of such inspection</br>
 D. Only when presented with a valid warrant by an FCC official or government agent
 
 
-#### T1F02 (C) [97.119 (a)] {- #T1F02}
+#### T1F02 (C) [[97.119](#97.119) (a)] {- #T1F02}
 
 How often must you identify with your FCC-assigned call sign when using tactical call signs such as “Race Headquarters”? 
 
@@ -738,7 +738,7 @@ B. Once during every hour</br>
 D. At the end of every transmission
 
 
-#### T1F03 (D) [97.119(a)] {- #T1F03}
+#### T1F03 (D) [[97.119](#97.119)(a)] {- #T1F03}
 
 When are you required to transmit your assigned call sign?
 
@@ -748,7 +748,7 @@ C. At least every 15 minutes during and at the end of a communication</br>
 **D. At least every 10 minutes during and at the end of a communication**
 
 
-#### T1F04 (C) [97.119(b)(2)] {- #T1F04}
+#### T1F04 (C) [[97.119](#97.119)(b)(2)] {- #T1F04}
 
 What language may you use for identification when operating in a phone sub-band?
 
@@ -758,7 +758,7 @@ B. Any language recognized by the [ITU]</br>
 D. English, French, or Spanish</br>
 
 
-#### T1F05 (B) [97.119(b)(2)] {- #T1F05}
+#### T1F05 (B) [[97.119](#97.119)(b)(2)] {- #T1F05}
 
 What method of call sign identification is required for a station transmitting phone signals?
 
@@ -768,7 +768,7 @@ C. Send the call sign followed by the indicator R</br>
 D. Send the call sign using only a phone emission</br>
 
 
-#### T1F06 (D) [97.119(c)] {- #T1F06}
+#### T1F06 (D) [[97.119](#97.119)(c)] {- #T1F06}
 
 Which of the following self-assigned indicators are acceptable when using a phone transmission?
 
@@ -778,7 +778,7 @@ C. KL7CC slash W3</br>
 **D. All these choices are correct**
 
 
-#### T1F07 (B) [97.115(a)(2)] {- #T1F07}
+#### T1F07 (B) [[97.115](#97.115)(a)(2)] {- #T1F07}
 
 Which of the following restrictions apply when a non-licensed person is allowed to speak to a foreign station using a station under the control of a licensed amateur operator?
 
@@ -788,7 +788,7 @@ C. The licensed control operator must do the station identification</br>
 D. All these choices are correct
 
 
-#### T1F08 (A) [97.3(a)(47)] {- #T1F08}
+#### T1F08 (A) [[97.3](#97.3)(a)(47)] {- #T1F08}
 
 What is the definition of third party communications?
 
@@ -798,7 +798,7 @@ C. Operation when the transmitting equipment is licensed to a person other than 
 D. Temporary authorization for an unlicensed person to transmit on the amateur bands for technical experiments
 
 
-#### T1F09 (C) [97.3(a)(40)] {- #T1F09}
+#### T1F09 (C) [[97.3](#97.3)(a)(40)] {- #T1F09}
 
 What type of amateur station simultaneously retransmits the signal of another amateur station on a different channel or channels?
 
@@ -808,7 +808,7 @@ B. Earth station</br>
 D. Message forwarding station
 
 
-#### T1F10 (A) [97.205(g)] {- #T1F10}
+#### T1F10 (A) [[97.205](#97.205)(g)] {- #T1F10}
 
 Who is accountable if a repeater inadvertently retransmits communications that violate the FCC rules?
 
@@ -818,7 +818,7 @@ C. The owner of the repeater</br>
 D. Both the originating station and the repeater owner
 
 
-#### T1F11 (B) [97.5(b)(2)] {- #T1F11}
+#### T1F11 (B) [[97.5](#97.5)(b)(2)] {- #T1F11}
 
 Which of the following is a requirement for the issuance of a club station license grant?
 
@@ -836,109 +836,121 @@ T2A - Station operation: choosing an operating frequency, calling another statio
 #### T2A01 (B) {- #}
 
 What is a common repeater frequency offset in the 2 meter band?
-A. Plus or minus 5 MHz
-B. Plus or minus 600 kHz
-C. Plus or minus 500 kHz
+
+A. Plus or minus 5 MHz</br>
+**B. Plus or minus 600 kHz**</br>
+C. Plus or minus 500 kHz</br>
 D. Plus or minus 1 MHz
 
 
 #### T2A02 (A) {- #}
 
 What is the national calling frequency for FM simplex operations in the 2 meter band?
-A. 146.520 MHz
-B. 145.000 MHz
-C. 432.100 MHz
+
+**A. 146.520 MHz**</br>
+B. 145.000 MHz</br>
+C. 432.100 MHz</br>
 D. 446.000 MHz
 
 
 #### T2A03 (A) {- #}
 
 What is a common repeater frequency offset in the 70 cm band?
-A. Plus or minus 5 MHz
-B. Plus or minus 600 kHz
-C. Plus or minus 500 kHz
+
+**A. Plus or minus 5 MHz**</br>
+B. Plus or minus 600 kHz</br>
+C. Plus or minus 500 kHz</br>
 D. Plus or minus 1 MHz
 
 
 #### T2A04 (B) {- #}
 
 What is an appropriate way to call another station on a repeater if you know the other station's call sign?
-A. Say "break, break," then say the station's call sign
-B. Say the station's call sign, then identify with your call sign
-C. Say "CQ" three times, then the other station's call sign
+
+A. Say "break, break," then say the station's call sign</br>
+**B. Say the station's call sign, then identify with your call sign**</br>
+C. Say "CQ" three times, then the other station's call sign</br>
 D. Wait for the station to call CQ, then answer
 
 
 #### T2A05 (C) {- #}
 
 How should you respond to a station calling CQ?
-A. Transmit "CQ" followed by the other station’s call sign
-B. Transmit your call sign followed by the other station’s call sign
-C. Transmit the other station’s call sign followed by your call sign
+
+A. Transmit "CQ" followed by the other station’s call sign</br>
+B. Transmit your call sign followed by the other station’s call sign</br>
+C. Transmit the other station’s call sign followed by your call sign</br>
 D. Transmit a signal report followed by your call sign
 
 
 #### T2A06 (A) {- #}
 
 Which of the following is required when making on-the-air test transmissions?
-A. Identify the transmitting station
-B. Conduct tests only between 10 p.m. and 6 a.m. local time
-C. Notify the FCC of the transmissions
+
+**A. Identify the transmitting station**</br>
+B. Conduct tests only between 10 p.m. and 6 a.m. local time</br>
+C. Notify the FCC of the transmissions</br>
 D. All these choices are correct
 
 
 #### T2A07 (A) {- #}
 
 What is meant by "repeater offset”?
-A. The difference between a repeater’s transmit and receive frequencies
-B. The repeater has a time delay to prevent interference
-C. The repeater station identification is done on a separate frequency
+
+**A. The difference between a repeater’s transmit and receive frequencies**</br>
+B. The repeater has a time delay to prevent interference</br>
+C. The repeater station identification is done on a separate frequency</br>
 D. The number of simultaneous transmit frequencies used by a repeater
 
 
 #### T2A08 (D) {- #}
 
 What is the meaning of the procedural signal “[CQ]”?
-A. Call on the quarter hour
-B. Test transmission, no reply expected
-C. Only the called station should transmit
-D. Calling any station
+
+A. Call on the quarter hour</br>
+B. Test transmission, no reply expected</br>
+C. Only the called station should transmit</br>
+**D. Calling any station**
 
 
 #### T2A09 (B) {- #}
 
 Which of the following indicates that a station is listening on a repeater and looking for a contact?
-A. “[CQ] [CQ]” followed by the repeater’s call sign
-B. The station’s call sign followed by the word “monitoring”
-C. The repeater call sign followed by the station’s call sign
+
+A. “[CQ] [CQ]” followed by the repeater’s call sign</br>
+**B. The station’s call sign followed by the word “monitoring”**</br>
+C. The repeater call sign followed by the station’s call sign</br>
 D. “[QSY]” followed by your call sign
 
 
 #### T2A10 (A) {- #}
 
 What is a band plan, beyond the privileges established by the FCC?
-A. A voluntary guideline for using different modes or activities within an amateur band
-B. A list of operating schedules
-C. A list of available net frequencies
+
+**A. A voluntary guideline for using different modes or activities within an amateur band**</br>
+B. A list of operating schedules</br>
+C. A list of available net frequencies</br>
 D. A plan devised by a club to indicate frequency band usage
 
 
 #### T2A11 (C) {- #}
 
 What term describes an amateur station that is transmitting and receiving on the same frequency?
-A. Full duplex
-B. Diplex
-C. Simplex
+
+A. Full duplex</br>
+B. Diplex</br>
+**C. Simplex**</br>
 D. Multiplex
 
 
 #### T2A12 (D) {- #}
 
 What should you do before calling [CQ]?  
-A. Listen first to be sure that no one else is using the frequency
-B. Ask if the frequency is in use
-C. Make sure you are authorized to use that frequency
-D. All these choices are correct
+
+A. Listen first to be sure that no one else is using the frequency</br>
+B. Ask if the frequency is in use</br>
+C. Make sure you are authorized to use that frequency</br>
+**D. All these choices are correct**
 
 ---
 
@@ -947,121 +959,134 @@ T2B – [VHF]/[UHF] operating practices: [FM] repeater, simplex, reverse splits;
 #### T2B01 (C) {- #}
 
 How is a [VHF]/[UHF] transceiver’s “reverse” function used? 
-A. To reduce power output
-B. To increase power output
-C. To listen on a repeater’s input frequency
+
+A. To reduce power output</br>
+B. To increase power output</br>
+**C. To listen on a repeater’s input frequency**</br>
 D. To listen on a repeater’s output frequency
 
 
 #### T2B02 (D) {- #}
 
 What term describes the use of a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver?
-A. Carrier squelch
-B. Tone burst
-C. [DTMF]
-D. [CTCSS]
+
+A. Carrier squelch</br>
+B. Tone burst</br>
+C. [DTMF]</br>
+**D. [CTCSS]**</br>
 
 
 #### T2B03 (A) {- #}
 
 Which of the following describes a linked repeater network?
-A. A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network
-B. A single repeater with more than one receiver
-C. Multiple repeaters with the same control operator
+
+**A. A network of repeaters in which signals received by one repeater are transmitted by all the repeaters in the network**</br>
+B. A single repeater with more than one receiver</br>
+C. Multiple repeaters with the same control operator</br>
 D. A system of repeaters linked by APRS
 
 
 #### T2B04 (D) {- #}
 
 Which of the following could be the reason you are unable to access a repeater whose output you can hear?
-A. Improper transceiver offset
-B. You are using the wrong CTCSS tone
-C. You are using the wrong DCS code
-D. All these choices are correct
+
+A. Improper transceiver offset</br>
+B. You are using the wrong CTCSS tone</br>
+C. You are using the wrong DCS code</br>
+**D. All these choices are correct**
 
 
 #### T2B05 (C) {- #}
 
 What would cause your [FM] transmission audio to be distorted on voice peaks?
-A. Your repeater offset is inverted
-B. You need to talk louder
-C. You are talking too loudly
+
+A. Your repeater offset is inverted</br>
+B. You need to talk louder</br>
+**C. You are talking too loudly**</br>
 D. Your transmit power is too high
 
 
 #### T2B06 (A) {- #}
 
 What type of signaling uses pairs of audio tones?
-A. [DTMF]
-B. [CTCSS]
-C. GPRS
+
+**A. [DTMF]**</br>
+B. [CTCSS]</br>
+C. GPRS</br>
 D. D-STAR
 
 #### T2B07 (C) {- #}
 
 How can you join a digital repeater’s “talkgroup”?
-A. Register your radio with the local FCC office
-B. Join the repeater owner’s club
-C. Program your radio with the group’s ID or code
+
+A. Register your radio with the local FCC office</br>
+B. Join the repeater owner’s club</br>
+**C. Program your radio with the group’s ID or code**</br>
 D. Sign your call after the courtesy tone
 
 
 #### T2B08 (A) {- #}
 
 Which of the following applies when two stations transmitting on the same frequency interfere with each other?
-A. The stations should negotiate continued use of the frequency
-B. Both stations should choose another frequency to avoid conflict
-C. Interference is inevitable, so no action is required
+
+**A. The stations should negotiate continued use of the frequency**</br>
+B. Both stations should choose another frequency to avoid conflict</br>
+C. Interference is inevitable, so no action is required</br>
 D. Use subaudible tones so both stations can share the frequency
 
 
 #### T2B09 (A) {- #}
 
 Why are simplex channels designated in the VHF/UHF band plans?
-A. So stations within range of each other can communicate without tying up a repeater
-B. For contest operation
-C. For working DX only
+
+**A. So stations within range of each other can communicate without tying up a repeater**</br>
+B. For contest operation</br>
+C. For working DX only</br>
 D. So stations with simple transmitters can access the repeater without automated offset
 
 
 #### T2B10 (A) {- #}
 
 Which Q signal indicates that you are receiving interference from other stations?
-A. [QRM]
-B. [QRN]
-C. [QTH]
+
+**A. [QRM]**</br>
+B. [QRN]</br>
+C. [QTH]</br>
 D. [QSB]
 
 
 #### T2B11 (B) {- #}
 
 Which Q signal indicates that you are changing frequency?
-A. [QRU]
-B. [QSY]
-C. [QSL]
+
+A. [QRU]</br>
+**B. [QSY]**</br>
+C. [QSL]</br>
 D. [QRZ]
 
 #### T2B12 (A) {- #}
 
 What is the purpose of the color code used on [DMR] repeater systems?
-A. Must match the repeater color code for access
-B. Defines the frequency pair to use
-C. Identifies the codec used
+
+**A. Must match the repeater color code for access**</br>
+B. Defines the frequency pair to use</br>
+C. Identifies the codec used</br>
 D. Defines the minimum signal level required for access
 
 #### T2B13 (B) {- #}
 
 What is the purpose of a squelch function?
-A. Reduce a [CW] transmitter's key clicks
-B. Mute the receiver audio when a signal is not present
-C. Eliminate parasitic oscillations in an RF amplifier
+
+A. Reduce a [CW] transmitter's key clicks</br>
+**B. Mute the receiver audio when a signal is not present**</br>
+C. Eliminate parasitic oscillations in an RF amplifier</br>
 D. Reduce interference from impulse noise
 
 ---
 
 T2C – Public service: emergency operations, applicability of FCC rules, [RACES] and [ARES], net and traffic procedures, operating restrictions during emergencies, use of phonetics in message handling 
 
-#### T2C01 (D) [97.103(a)]
+#### T2C01 (D) [[97.103](#97.103)(a)] {- #}
 
 When do [FCC] rules NOT apply to the operation of an amateur station?
 
@@ -1070,7 +1095,7 @@ B. When operating under special [FEMA] rules
 C. When operating under special [ARES] rules
 D. [FCC] rules always apply
 
-#### T2C02 (C)
+#### T2C02 (C) {- #}
 
 Which of the following are typical duties of a Net Control Station?
 
@@ -1080,14 +1105,14 @@ C. Call the net to order and direct communications between stations checking in
 D. All these choices are correct
 
 
-#### T2C03 (C)
+#### T2C03 (C) {- #}
 What technique is used to ensure that voice messages containing unusual words are received correctly?
 A. Send the words by voice and Morse code
 B. Speak very loudly into the microphone
 C. Spell the words using a standard phonetic alphabet
 D. All these choices are correct
 
-#### T2C04 (D)
+#### T2C04 (D) {- #}
 
 What is [RACES]?
 
@@ -1096,14 +1121,14 @@ B. An international radio experimentation society
 C. A radio contest held in a short period, sometimes called a “sprint”
 D. An [FCC] part 97 amateur radio service for civil defense communications during national emergencies
 
-#### T2C05 (A)
+#### T2C05 (A) {- #}
 What does the term “traffic” refer to in net operation?
 A. Messages exchanged by net stations
 B. The number of stations checking in and out of a net
 C. Operation by mobile or portable stations
 D. Requests to activate the net by a served agency
 
-#### T2C06 (A)
+#### T2C06 (A) {- #}
 What is the Amateur Radio Emergency Service ([ARES])?
 A. A group of licensed amateurs who have voluntarily registered their qualifications and equipment for communications duty in the public service
 B. A group of licensed amateurs who are members of the military and who voluntarily agreed to provide message handling services in the case of an emergency
@@ -1111,7 +1136,7 @@ C. A training program that provides licensing courses for those interested in ob
 D. A training program that certifies amateur operators for membership in the Radio Amateur Civil Emergency Service
 
 
-#### T2C07 (C)
+#### T2C07 (C) {- #}
 Which of the following is standard practice when you participate in a net?
 
 A. When first responding to the net control station, transmit your call sign, name, and address as in the [FCC] database
@@ -1120,7 +1145,7 @@ C. Unless you are reporting an emergency, transmit only when directed by the net
 D. All these choices are correct 
 
 
-#### T2C08 (A)
+#### T2C08 (A) {- #}
 Which of the following is a characteristic of good traffic handling? 
 A. Passing messages exactly as received
 B. Making decisions as to whether messages are worthy of relay or delivery
@@ -1128,7 +1153,7 @@ C. Ensuring that any newsworthy messages are relayed to the news media
 D. All these choices are correct
 
 
-#### T2C09 (D)
+#### T2C09 (D) {- #}
 Are amateur station control operators ever permitted to operate outside the frequency privileges of their license class?
 A. No
 B. Yes, but only when part of a FEMA emergency plan
@@ -1136,7 +1161,7 @@ C. Yes, but only when part of a RACES emergency plan
 D. Yes, but only in situations involving the immediate safety of human life or protection of property
 
 
-#### T2C10 (D)
+#### T2C10 (D) {- #}
 What information is contained in the preamble of a formal traffic message?
 A. The email address of the originating station
 B. The address of the intended recipient
@@ -1144,7 +1169,7 @@ C. The telephone number of the addressee
 D. Information needed to track the message 
 
 
-#### T2C11 (A)
+#### T2C11 (A) {- #}
 What is meant by “check” in a radiogram header?
 A. The number of words or word equivalents in the text portion of the message
 B. The call sign of the originating station
@@ -1157,7 +1182,7 @@ D. A box on the message form that indicates that the message was received and/or
 
 T3A - Radio wave characteristics: how a radio signal travels, fading, multipath, polarization, wavelength vs absorption; Antenna orientation 
 
-#### T3A01 (C)
+#### T3A01 (C) {- #}
 Why do VHF signal strengths sometimes vary greatly when the antenna is moved only a few feet?
 A. The signal path encounters different concentrations of water vapor
 B. VHF ionospheric propagation is very sensitive to path length
@@ -1165,7 +1190,7 @@ C. Multipath propagation cancels or reinforces signals
 D. All these choices are correct
 
 
-#### T3A02 (B)
+#### T3A02 (B) {- #}
 What is the effect of vegetation on UHF and microwave signals?
 A. Knife-edge diffraction
 B. Absorption
@@ -1173,7 +1198,7 @@ C. Amplification
 D. Polarization rotation
 
 
-#### T3A03 (C)
+#### T3A03 (C) {- #}
 What antenna polarization is normally used for long-distance CW and SSB contacts on the VHF and UHF bands?
 A. Right-hand circular
 B. Left-hand circular
@@ -1181,7 +1206,7 @@ C. Horizontal
 D. Vertical
 
 
-#### T3A04 (B)
+#### T3A04 (B) {- #}
 What happens when antennas at opposite ends of a VHF or UHF line of sight radio link are not using the same polarization?
 A. The modulation sidebands might become inverted
 B. Received signal strength is reduced
@@ -1189,7 +1214,7 @@ C. Signals have an echo effect
 D. Nothing significant will happen
 
 
-#### T3A05 (B)
+#### T3A05 (B) {- #}
 When using a directional antenna, how might your station be able to communicate with a distant repeater if buildings or obstructions are blocking the direct line of sight path?
 A. Change from vertical to horizontal polarization
 B. Try to find a path that reflects signals to the repeater
@@ -1197,7 +1222,7 @@ C. Try the long path
 D. Increase the antenna SWR
 
 
-#### T3A06 (B)
+#### T3A06 (B) {- #}
 
 What is the meaning of the term “picket fencing”?
 
@@ -1207,7 +1232,7 @@ C. A type of ground system used with vertical antennas
 D. Local vs long-distance communications
 
 
-#### T3A07 (C)
+#### T3A07 (C) {- #}
 
 What weather condition might decrease range at microwave frequencies?
 
@@ -1217,7 +1242,7 @@ C. Precipitation
 D. Colder temperatures
 
 
-#### T3A08 (D)
+#### T3A08 (D) {- #}
 What is a likely cause of irregular fading of signals propagated by the ionosphere?
 
 A. Frequency shift due to Faraday rotation
@@ -1226,7 +1251,7 @@ C. Intermodulation distortion
 D. Random combining of signals arriving via different paths 
 
 
-#### T3A09 (B)
+#### T3A09 (B) {- #}
 
 Which of the following results from the fact that signals propagated by the ionosphere are elliptically polarized?
 
@@ -1236,7 +1261,7 @@ C. FM voice is unusable
 D. Both the transmitting and receiving antennas must be of the same polarization
 
 
-#### T3A10 (D)
+#### T3A10 (D) {- #}
 
 What effect does multi-path propagation have on data transmissions?
 
@@ -1246,7 +1271,7 @@ C. No significant changes will occur if the signals are transmitted using FM
 D. Error rates are likely to increase
 
 
-#### T3A11 (C)
+#### T3A11 (C) {- #}
 
 Which region of the atmosphere can refract or bend HF and VHF radio waves?
 
@@ -1256,7 +1281,7 @@ C. The ionosphere
 D. The mesosphere
 
 
-#### T3A12 (B)
+#### T3A12 (B) {- #}
 
 What is the effect of fog and rain on signals in the 10 meter and 6 meter bands?
 
@@ -1269,7 +1294,7 @@ D. Range increase
 
 T3B - Electromagnetic wave properties: wavelength vs frequency, nature and velocity of electromagnetic waves, relationship of wavelength and frequency; Electromagnetic spectrum definitions: UHF, VHF, HF 
 
-#### T3B01 (D)
+#### T3B01 (D) {- #}
 
 What is the relationship between the electric and magnetic fields of an electromagnetic wave?
 
@@ -1279,7 +1304,7 @@ C. They revolve in opposite directions
 D. They are at right angles
 
 
-#### T3B02 (A)
+#### T3B02 (A) {- #}
 What property of a radio wave defines its polarization?
 A. The orientation of the electric field
 B. The orientation of the magnetic field
@@ -1287,7 +1312,7 @@ C. The ratio of the energy in the magnetic field to the energy in the electric f
 D. The ratio of the velocity to the wavelength
 
 
-#### T3B03 (C)
+#### T3B03 (C) {- #}
 What are the two components of a radio wave?
 A. Impedance and reactance
 B. Voltage and current
@@ -1295,7 +1320,7 @@ C. Electric and magnetic fields
 D. Ionizing and non-ionizing radiation
 
 
-#### T3B04 (A)
+#### T3B04 (A) {- #}
 What is the velocity of a radio wave traveling through free space?
 A. Speed of light
 B. Speed of sound
@@ -1303,7 +1328,7 @@ C. Speed inversely proportional to its wavelength
 D. Speed that increases as the frequency increases
 
 
-#### T3B05 (B)
+#### T3B05 (B) {- #}
 What is the relationship between wavelength and frequency?
 A. Wavelength gets longer as frequency increases
 B. Wavelength gets shorter as frequency increases
@@ -1311,7 +1336,7 @@ C. Wavelength and frequency are unrelated
 D. Wavelength and frequency increase as path length increases
 
 
-#### T3B06 (D)
+#### T3B06 (D) {- #}
 What is the formula for converting frequency to approximate wavelength in meters?
 A. Wavelength in meters equals frequency in hertz multiplied by 300
 B. Wavelength in meters equals frequency in hertz divided by 300
@@ -1319,7 +1344,7 @@ C. Wavelength in meters equals frequency in megahertz divided by 300
 D. Wavelength in meters equals 300 divided by frequency in megahertz
 
 
-#### T3B07 (A)
+#### T3B07 (A) {- #}
 In addition to frequency, which of the following is used to identify amateur radio bands?
 A. The approximate wavelength in meters
 B. Traditional letter/number designators
@@ -1327,7 +1352,7 @@ C. Channel numbers
 D. All these choices are correct
 
 
-#### T3B08 (B)
+#### T3B08 (B) {- #}
 What frequency range is referred to as [VHF]?
 A. 30 kHz to 300 kHz
 B. 30 MHz to 300 MHz
@@ -1335,7 +1360,7 @@ C. 300 kHz to 3000 kHz
 D. 300 MHz to 3000 MHz
 
 
-#### T3B09 (D)
+#### T3B09 (D) {- #}
 What frequency range is referred to as [UHF]?
 A. 30 to 300 kHz
 B. 30 to 300 MHz
@@ -1343,7 +1368,7 @@ C. 300 to 3000 kHz
 D. 300 to 3000 MHz
 
 
-#### T3B10 (C)
+#### T3B10 (C) {- #}
 What frequency range is referred to as [HF]?
 A. 300 to 3000 MHz
 B. 30 to 300 MHz
@@ -1351,7 +1376,7 @@ C. 3 to 30 MHz
 D. 300 to 3000 kHz
 
 
-#### T3B11 (B)
+#### T3B11 (B) {- #}
 What is the approximate velocity of a radio wave in free space?
 A. 150,000 meters per second
 B. 300,000,000 meters per second
@@ -1362,7 +1387,7 @@ D. 150,000 miles per hour
 
 T3C - Propagation modes: sporadic E, meteor scatter, auroral propagation, tropospheric ducting; F region skip; Line of sight and radio horizon 
 
-#### T3C01 (C)
+#### T3C01 (C) {- #}
 Why are simplex UHF signals rarely heard beyond their radio horizon?
 A. They are too weak to go very far
 B. FCC regulations prohibit them from going more than 50 miles
@@ -1370,7 +1395,7 @@ C. UHF signals are usually not propagated by the ionosphere
 D. UHF signals are absorbed by the ionospheric D region
 
 
-#### T3C02 (C)
+#### T3C02 (C) {- #}
 What is a characteristic of HF communication compared with communications on VHF and higher frequencies?
 A. HF antennas are generally smaller
 B. HF accommodates wider bandwidth signals
@@ -1378,7 +1403,7 @@ C. Long-distance ionospheric propagation is far more common on HF
 D. There is less atmospheric interference (static) on HF
 
 
-#### T3C03 (B)
+#### T3C03 (B) {- #}
 What is a characteristic of VHF signals received via auroral backscatter?
 A. They are often received from 10,000 miles or more
 B. They are distorted and signal strength varies considerably
@@ -1386,7 +1411,7 @@ C. They occur only during winter nighttime hours
 D. They are generally strongest when your antenna is aimed west
 
 
-#### T3C04 (B)
+#### T3C04 (B) {- #}
 Which of the following types of propagation is most commonly associated with occasional strong signals on the 10, 6, and 2 meter bands from beyond the radio horizon?
 A. Backscatter
 B. Sporadic E
@@ -1394,7 +1419,7 @@ C. D region absorption
 D. Gray-line propagation
 
 
-#### T3C05 (A)
+#### T3C05 (A) {- #}
 Which of the following effects may allow radio signals to travel beyond obstructions between the transmitting and receiving stations?
 A. Knife-edge diffraction
 B. Faraday rotation
@@ -1402,7 +1427,7 @@ C. Quantum tunneling
 D. Doppler shift
 
 
-#### T3C06 (A)
+#### T3C06 (A) {- #}
 What type of propagation is responsible for allowing over-the-horizon VHF and UHF communications to ranges of approximately 300 miles on a regular basis?
 A. Tropospheric ducting
 B. D region refraction
@@ -1410,7 +1435,7 @@ C. F2 region refraction
 D. Faraday rotation
 
 
-#### T3C07 (B)
+#### T3C07 (B) {- #}
 What band is best suited for communicating via meteor scatter?
 A. 33 centimeters
 B. 6 meters
@@ -1418,7 +1443,7 @@ C. 2 meters
 D. 70 centimeters
 
 
-#### T3C08 (D)
+#### T3C08 (D) {- #}
 What causes tropospheric ducting?
 A. Discharges of lightning during electrical storms
 B. Sunspots and solar flares
@@ -1426,7 +1451,7 @@ C. Updrafts from hurricanes and tornadoes
 D. Temperature inversions in the atmosphere
 
 
-#### T3C09 (A)
+#### T3C09 (A) {- #}
 What is generally the best time for long-distance 10 meter band propagation via the F region?
 A. From dawn to shortly after sunset during periods of high sunspot activity
 B. From shortly after sunset to dawn during periods of high sunspot activity
@@ -1434,7 +1459,7 @@ C. From dawn to shortly after sunset during periods of low sunspot activity
 D. From shortly after sunset to dawn during periods of low sunspot activity
 
 
-#### T3C10 (A)
+#### T3C10 (A) {- #}
 Which of the following bands may provide long-distance communications via the ionosphere’s F region during the peak of the sunspot cycle?
 A. 6 and 10 meters 
 B. 23 centimeters 
@@ -1442,7 +1467,7 @@ C. 70 centimeters and 1.25 meters
 D. All these choices are correct
 
 
-#### T3C11 (C)
+#### T3C11 (C) {- #}
 Why is the radio horizon for VHF and UHF signals more distant than the visual horizon?
 A. Radio signals move somewhat faster than the speed of light
 B. Radio waves are not blocked by dust particles
@@ -1966,7 +1991,7 @@ D. kHz
 
 T5D – Ohm’s Law; Series and parallel circuits 
 
-T5D01 (B)
+#### T5D01 (B) {-}
 What formula is used to calculate current in a circuit?
 A. I = E  R
 B. I = E / R
@@ -1974,7 +1999,7 @@ C. I = E + R
 D. I = E - R
 
 
-T5D02 (A)
+#### T5D02 (A) {-}
 What formula is used to calculate voltage in a circuit?
 A. E = I x R
 B. E = I / R
@@ -1982,7 +2007,7 @@ C. E = I + R
 D. E = I - R
 
 
-T5D03 (B)
+#### T5D03 (B) {-}
 What formula is used to calculate resistance in a circuit?
 A. R = E x I
 B. R = E / I
@@ -1990,7 +2015,7 @@ C. R = E + I
 D. R = E - I
 
 
-T5D04 (B)
+#### T5D04 (B) {-}
 What is the resistance of a circuit in which a current of 3 amperes flows when connected to 90 volts?
 A. 3 ohms
 B. 30 ohms
@@ -1998,7 +2023,7 @@ C. 93 ohms
 D. 270 ohms
 
 
-T5D05 (C)
+#### T5D05 (C) {-}
 What is the resistance of a circuit for which the applied voltage is 12 volts and the current flow is 1.5 amperes?
 A. 18 ohms
 B. 0.125 ohms
@@ -2006,7 +2031,7 @@ C. 8 ohms
 D. 13.5 ohms
 
 
-T5D06 (A)
+#### T5D06 (A) {-}
 What is the resistance of a circuit that draws 4 amperes from a 12-volt source?
 A. 3 ohms
 B. 16 ohms
@@ -2014,7 +2039,7 @@ C. 48 ohms
 D. 8 ohms
 
 
-T5D07 (D)
+#### T5D07 (D) {-}
 What is the current in a circuit with an applied voltage of 120 volts and a resistance of 80 ohms?
 A. 9600 amperes
 B. 200 amperes
@@ -2022,7 +2047,7 @@ C. 0.667 amperes
 D. 1.5 amperes
 
 
-T5D08 (C)
+#### T5D08 (C) {-}
 What is the current through a 100-ohm resistor connected across 200 volts?
 A. 20,000 amperes
 B. 0.5 amperes
@@ -2030,7 +2055,7 @@ C. 2 amperes
 D. 100 amperes
 
 
-T5D09 (C)
+#### T5D09 (C) {-}
 What is the current through a 24-ohm resistor connected across 240 volts?
 A. 24,000 amperes
 B. 0.1 amperes
@@ -2038,7 +2063,7 @@ C. 10 amperes
 D. 216 amperes
 
 
-T5D10 (A)
+#### T5D10 (A) {-}
 What is the voltage across a 2-ohm resistor if a current of 0.5 amperes flows through it?
 A. 1 volt
 B. 0.25 volts
@@ -2046,7 +2071,7 @@ C. 2.5 volts
 D. 1.5 volts
 
 
-T5D11 (B)
+#### T5D11 (B) {-}
 What is the voltage across a 10-ohm resistor if a current of 1 ampere flows through it?
 A. 1 volt
 B. 10 volts
@@ -2054,7 +2079,7 @@ C. 11 volts
 D. 9 volts
 
 
-T5D12 (D)
+#### T5D12 (D) {-}
 What is the voltage across a 10-ohm resistor if a current of 2 amperes flows through it?
 A. 8 volts
 B. 0.2 volts
@@ -2062,7 +2087,7 @@ C. 12 volts
 D. 20 volts
 
 
-T5D13 (A)
+#### T5D13 (A) {-}
 In which type of circuit is DC current the same through all components?
 A. Series
 B. Parallel
@@ -2070,7 +2095,7 @@ C. Resonant
 D. Branch
 
 
-T5D14 (B)
+#### T5D14 (B)  {-}
 In which type of circuit is voltage the same across all components?
 A. Series
 B. Parallel
@@ -2079,13 +2104,13 @@ D. Branch
 
 
 
-SUBELEMENT T6 – ELECTRONIC AND ELECTRICAL COMPONENTS {-}
+### SUBELEMENT T6 – ELECTRONIC AND ELECTRICAL COMPONENTS {-}
 
 – [4 Exam Questions - 4 Groups] 
 
 T6A - Fixed and variable resistors; Capacitors; Inductors; Fuses; Switches; Batteries 
 
-T6A01 (B)
+#### T6A01 (B)
 What electrical component opposes the flow of current in a DC circuit?
 A. Inductor
 B. Resistor
@@ -2093,7 +2118,7 @@ C. Inverter
 D. Transformer
 
 
-T6A02 (C)
+#### T6A02 (C)
 What type of component is often used as an adjustable volume control?
 A. Fixed resistor
 B. Power resistor
@@ -2101,7 +2126,7 @@ C. Potentiometer
 D. Transformer
 
 
-T6A03 (B)
+#### T6A03 (B)
 What electrical parameter is controlled by a potentiometer?
 A. Inductance
 B. Resistance
@@ -2109,7 +2134,7 @@ C. Capacitance
 D. Field strength
 
 
-T6A04 (B)
+#### T6A04 (B)
 What electrical component stores energy in an electric field?
 A. Varistor
 B. Capacitor
@@ -2117,7 +2142,7 @@ C. Inductor
 D. Diode
 
 
-T6A05 (D) 
+#### T6A05 (D) 
 What type of electrical component consists of conductive surfaces separated by an insulator?
 A. Resistor
 B. Potentiometer
@@ -2125,7 +2150,7 @@ C. Oscillator
 D. Capacitor
 
 
-T6A06 (C)
+#### T6A06 (C)
 What type of electrical component stores energy in a magnetic field?
 A. Varistor
 B. Capacitor
@@ -2133,7 +2158,7 @@ C. Inductor
 D. Diode
 
 
-T6A07 (D)
+#### T6A07 (D)
 What electrical component is typically constructed as a coil of wire?
 A. Switch
 B. Capacitor
@@ -2141,15 +2166,15 @@ C. Diode
 D. Inductor
 
 
-T6A08 (C)
-What is the function of an SPDT switch?
+#### T6A08 (C)
+What is the function of an [SPDT] switch?
 A. A single circuit is opened or closed
 B. Two circuits are opened or closed
 C. A single circuit is switched between one of two other circuits
 D. Two circuits are each switched between one of two other circuits
 
 
-T6A09 (A)
+#### T6A09 (A)
 What electrical component is used to protect other circuit components from current overloads?
 A. Fuse
 B. Thyratron
@@ -2157,7 +2182,7 @@ C. Varactor
 D. All these choices are correct
 
 
-T6A10 (D)
+#### T6A10 (D)
 Which of the following battery chemistries is rechargeable?
 A. Nickel-metal hydride
 B. Lithium-ion
@@ -2165,7 +2190,7 @@ C. Lead-acid
 D. All these choices are correct
 
 
-T6A11 (B)
+#### T6A11 (B)
 Which of the following battery chemistries is not rechargeable?
 A. Nickel-cadmium
 B. Carbon-zinc
@@ -2173,18 +2198,18 @@ C. Lead-acid
 D. Lithium-ion
 
 
-T6A12(A)
+#### T6A12(A)
 What type of switch is represented by component 3 in figure T-2?
 A. Single-pole single-throw
 B. Single-pole double-throw
 C. Double-pole single-throw
 D. Double-pole double-throw
 
-
+---
 
 T6B – Semiconductors: basic principles and applications of solid state devices, diodes and transistors 
 
-T6B01 (A)
+#### T6B01 (A)
 Which is true about forward voltage drop in a diode?
 A. It is lower in some diode types than in others
 B. It is proportional to peak inverse voltage
@@ -2192,7 +2217,7 @@ C. It indicates that the diode is defective
 D. It has no impact on the voltage delivered to the load
 
 
-T6B02 (C)
+#### T6B02 (C)
 What electronic component allows current to flow in only one direction?
 A. Resistor
 B. Fuse
@@ -2200,7 +2225,7 @@ C. Diode
 D. Driven element
 
 
-T6B03 (C)
+#### T6B03 (C)
 Which of these components can be used as an electronic switch?
 A. Varistor
 B. Potentiometer
@@ -2208,7 +2233,7 @@ C. Transistor
 D. Thermistor
 
 
-T6B04 (B)
+#### T6B04 (B)
 Which of the following components can consist of three regions of semiconductor material?
 A. Alternator
 B. Transistor
@@ -2216,7 +2241,7 @@ C. Triode
 D. Pentagrid converter
 
 
-T6B05 (B)
+#### T6B05 (B)
 What type of transistor has a gate, drain, and source?
 A. Varistor
 B. Field-effect
@@ -2224,7 +2249,7 @@ C. Tesla-effect
 D. Bipolar junction
 
 
-T6B06 (B)
+#### T6B06 (B)
 How is the cathode lead of a semiconductor diode often marked on the package?
 A. With the word "cathode"
 B. With a stripe
@@ -2232,7 +2257,7 @@ C. With the letter C
 D. With the letter K
 
 
-T6B07 (A)
+#### T6B07 (A)
 What causes a light-emitting diode (LED) to emit light?
 A. Forward current
 B. Reverse current
@@ -2240,7 +2265,7 @@ C. Capacitively-coupled RF signal
 D. Inductively-coupled RF signal
 
 
-T6B08 (D)
+#### T6B08 (D)
 What does the abbreviation FET stand for?
 A. Frequency Emission Transmitter
 B. Fast Electron Transistor
@@ -2248,7 +2273,7 @@ C. Free Electron Transmitter
 D. Field Effect Transistor
 
 
-T6B09 (C)
+#### T6B09 (C)
 What are the names for the electrodes of a diode?
 A. Plus and minus
 B. Source and drain
@@ -2256,7 +2281,7 @@ C. Anode and cathode
 D. Gate and base
 
 
-T6B10 (B)
+#### T6B10 (B)
 Which of the following can provide power gain?
 A. Transformer
 B. Transistor
@@ -2264,7 +2289,7 @@ C. Reactor
 D. Resistor
 
 
-T6B11 (A)
+#### T6B11 (A)
 What is the term that describes a device's ability to amplify a signal?
 A. Gain
 B. Forward resistance
@@ -2272,18 +2297,18 @@ C. Forward voltage drop
 D. On resistance
 
 
-T6B12 (B)
+#### T6B12 (B)
 What are the names of the electrodes of a bipolar junction transistor?
 A. Signal, bias, power
 B. Emitter, base, collector
 C. Input, output, supply
 D. Pole one, pole two, output
 
-
+---
 
 T6C - Circuit diagrams: use of schematics, basic structure; Schematic symbols of basic components 
 
-T6C01 (C)
+#### T6C01 (C)
 What is the name of an electrical wiring diagram that uses standard component symbols?
 A. Bill of materials
 B. Connector pinout
@@ -2291,7 +2316,7 @@ C. Schematic
 D. Flow chart
 
 
-T6C02 (A)
+#### T6C02 (A)
 What is component 1 in figure T-1?
 A. Resistor
 B. Transistor
@@ -2299,7 +2324,7 @@ C. Battery
 D. Connector
 
 
-T6C03 (B)
+#### T6C03 (B)
 What is component 2 in figure T-1?
 A. Resistor
 B. Transistor
@@ -2307,7 +2332,7 @@ C. Indicator lamp
 D. Connector
 
 
-T6C04 (C)
+#### T6C04 (C)
 What is component 3 in figure T-1?
 A. Resistor
 B. Transistor
@@ -2315,7 +2340,7 @@ C. Lamp
 D. Ground symbol
 
 
-T6C05 (D)
+#### T6C05 (D)
 What is component 4 in figure T-1?
 A. Resistor
 B. Transistor
@@ -2323,7 +2348,7 @@ C. Ground symbol
 D. Battery
 
 
-T6C06 (B)
+#### T6C06 (B)
 What is component 6 in figure T-2?
 A. Resistor
 B. Capacitor
@@ -2331,7 +2356,7 @@ C. Regulator IC
 D. Transistor
 
 
-T6C07 (D)
+#### T6C07 (D)
 What is component 8 in figure T-2?
 A. Resistor
 B. Inductor
@@ -2339,7 +2364,7 @@ C. Regulator IC
 D. Light emitting diode
 
 
-T6C08 (C)
+#### T6C08 (C)
 What is component 9 in figure T-2?
 A. Variable capacitor
 B. Variable inductor
@@ -2347,7 +2372,7 @@ C. Variable resistor
 D. Variable transformer
 
 
-T6C09 (D)
+#### T6C09 (D)
 What is component 4 in figure T-2?
 A. Variable inductor
 B. Double-pole switch
@@ -2355,7 +2380,7 @@ C. Potentiometer
 D. Transformer
 
 
-T6C10 (D)
+#### T6C10 (D)
 What is component 3 in figure T-3?
 A. Connector
 B. Meter
@@ -2363,7 +2388,7 @@ C. Variable capacitor
 D. Variable inductor
 
 
-T6C11 (A)
+#### T6C11 (A)
 What is component 4 in figure T-3?
 A. Antenna
 B. Transmitter
@@ -2371,18 +2396,18 @@ C. Dummy load
 D. Ground
 
 
-T6C12 (C)
+#### T6C12 (C)
 Which of the following is accurately represented in electrical schematics?
 A. Wire lengths
 B. Physical appearance of components
 C. Component connections
 D. All these choices are correct
 
-
+---
 
 T6D - Component functions: rectifiers, relays, voltage regulators, meters, indicators, integrated circuits, transformers; Resonant circuit; Shielding 
 
-T6D01 (B)
+#### T6D01 (B)
 Which of the following devices or circuits changes an alternating current into a varying direct current signal?
 A. Transformer
 B. Rectifier
@@ -2390,7 +2415,7 @@ C. Amplifier
 D. Reflector
 
 
-T6D02 (A)
+#### T6D02 (A)
 What is a relay?
 A. An electrically-controlled switch
 B. A current controlled amplifier
@@ -2398,7 +2423,7 @@ C. An inverting amplifier
 D. A pass transistor
 
 
-T6D03 (C)
+#### T6D03 (C)
 Which of the following is a reason to use shielded wire?
 A. To decrease the resistance of DC power connections
 B. To increase the current carrying capability of the wire
@@ -2406,7 +2431,7 @@ C. To prevent coupling of unwanted signals to or from the wire
 D. To couple the wire to other signals
 
 
-T6D04 (C)
+#### T6D04 (C)
 Which of the following displays an electrical quantity as a numeric value?
 A. Potentiometer
 B. Transistor
@@ -2414,7 +2439,7 @@ C. Meter
 D. Relay
 
 
-T6D05 (A)
+#### T6D05 (A)
 What type of circuit controls the amount of voltage from a power supply?
 A. Regulator
 B. Oscillator
@@ -2422,7 +2447,7 @@ C. Filter
 D. Phase inverter
 
 
-T6D06 (B)
+#### T6D06 (B)
 What component changes 120 V AC power to a lower AC voltage for other uses?
 A. Variable capacitor
 B. Transformer
@@ -2430,7 +2455,7 @@ C. Transistor
 D. Diode
 
 
-T6D07 (A)
+#### T6D07 (A)
 Which of the following is commonly used as a visual indicator?
 A. LED
 B. FET
@@ -2438,7 +2463,7 @@ C. Zener diode
 D. Bipolar transistor
 
 
-T6D08 (D)
+#### T6D08 (D)
 Which of the following is combined with an inductor to make a resonant circuit?
 A. Resistor
 B. Zener diode
@@ -2446,7 +2471,7 @@ C. Potentiometer
 D. Capacitor
 
 
-T6D09 (C)
+#### T6D09 (C)
 What is the name of a device that combines several semiconductors and other components into one package?
 A. Transducer
 B. Multi-pole relay
@@ -2454,7 +2479,7 @@ C. Integrated circuit
 D. Transformer
 
 
-T6D10 (C)
+#### T6D10 (C)
 What is the function of component 2 in figure T-1?
 A. Give off light when current flows through it
 B. Supply electrical energy
@@ -2462,7 +2487,7 @@ C. Control the flow of current
 D. Convert electrical energy into radio waves
 
 
-T6D11 (A)
+#### T6D11 (A)
 Which of the following is a resonant or tuned circuit?
 A. An inductor and a capacitor in series or parallel
 B. A linear voltage regulator
@@ -2471,13 +2496,13 @@ D. A circuit designed to provide high-fidelity audio
 
 
 
-SUBELEMENT T7 – PRACTICAL CIRCUITS {-}
+### SUBELEMENT T7 – PRACTICAL CIRCUITS {-}
 
 – [4 Exam Questions - 4 Groups] 
 
 T7A – Station equipment: receivers, transceivers, transmitter amplifiers, receive amplifiers, transverters; Basic radio circuit concepts and terminology: sensitivity, selectivity, mixers, oscillators, PTT, modulation 
 
-T7A01 (B)
+#### T7A01 (B)
 Which term describes the ability of a receiver to detect the presence of a signal?
 A. Linearity
 B. Sensitivity
@@ -2485,7 +2510,7 @@ C. Selectivity
 D. Total Harmonic Distortion
 
 
-T7A02 (A)
+#### T7A02 (A)
 What is a transceiver?
 A. A device that combines a receiver and transmitter
 B. A device for matching feed line impedance to 50 ohms
@@ -2493,7 +2518,7 @@ C. A device for automatically sending and decoding Morse code
 D. A device for converting receiver and transmitter frequencies to another band
 
 
-T7A03 (B)
+#### T7A03 (B)
 Which of the following is used to convert a signal from one frequency to another?
 A. Phase splitter
 B. Mixer
@@ -2501,7 +2526,7 @@ C. Inverter
 D. Amplifier
 
 
-T7A04 (C)
+#### T7A04 (C)
 Which term describes the ability of a receiver to discriminate between multiple signals?
 A. Discrimination ratio
 B. Sensitivity
@@ -2509,7 +2534,7 @@ C. Selectivity
 D. Harmonic distortion
 
 
-T7A05 (D)
+#### T7A05 (D)
 What is the name of a circuit that generates a signal at a specific frequency?
 A. Reactance modulator
 B. Phase modulator
@@ -2517,7 +2542,7 @@ C. Low-pass filter
 D. Oscillator
 
 
-T7A06 (C)
+#### T7A06 (C)
 What device converts the RF input and output of a transceiver to another band?
 A. High-pass filter
 B. Low-pass filter
@@ -2525,7 +2550,7 @@ C. Transverter
 D. Phase converter
 
 
-T7A07 (B)
+#### T7A07 (B)
 What is the function of a transceiver’s PTT input?
 A. Input for a key used to send CW
 B. Switches transceiver from receive to transmit when grounded
@@ -2533,7 +2558,7 @@ C. Provides a transmit tuning tone when grounded
 D. Input for a preamplifier tuning tone
 
 
-T7A08 (C)
+#### T7A08 (C)
 Which of the following describes combining speech with an RF carrier signal?
 A. Impedance matching
 B. Oscillation
@@ -2541,7 +2566,7 @@ C. Modulation
 D. Low-pass filtering
 
 
-T7A09 (B)
+#### T7A09 (B)
 What is the function of the SSB/CW-FM switch on a VHF power amplifier?
 A. Change the mode of the transmitted signal
 B. Set the amplifier for proper operation in the selected mode
@@ -2549,7 +2574,7 @@ C. Change the frequency range of the amplifier to operate in the proper segment 
 D. Reduce the received signal noise 
 
 
-T7A10 (B)
+#### T7A10 (B)
 What device increases the transmitted output power from a transceiver?
 A. A voltage divider
 B. An RF power amplifier
@@ -2557,18 +2582,18 @@ C. An impedance network
 D. All these choices are correct
 
 
-T7A11 (A)
+#### T7A11 (A)
 Where is an RF preamplifier installed?
 A. Between the antenna and receiver
 B. At the output of the transmitter power amplifier
 C. Between the transmitter and the antenna tuner
 D. At the output of the receiver audio amplifier
 
-
+---
 
 T7B – Symptoms, causes, and cures of common transmitter and receiver problems: overload and overdrive, distortion, interference and consumer electronics, RF feedback 
 
-T7B01 (D)
+#### T7B01 (D)
 What can you do if you are told your FM handheld or mobile transceiver is over-deviating?
 A. Talk louder into the microphone
 B. Let the transceiver cool off
@@ -2576,7 +2601,7 @@ C. Change to a higher power level
 D. Talk farther away from the microphone
 
 
-T7B02 (A)
+#### T7B02 (A)
 What would cause a broadcast AM or FM radio to receive an amateur radio transmission unintentionally?
 A. The receiver is unable to reject strong signals outside the AM or FM band
 B. The microphone gain of the transmitter is turned up too high
@@ -2584,7 +2609,7 @@ C. The audio amplifier of the transmitter is overloaded
 D. The deviation of an FM transmitter is set too low
 
 
-T7B03 (D)
+#### T7B03 (D)
 Which of the following can cause radio frequency interference?
 A. Fundamental overload
 B. Harmonics
@@ -2592,7 +2617,7 @@ C. Spurious emissions
 D. All these choices are correct
 
 
-T7B04 (D)
+#### T7B04 (D)
 Which of the following could you use to cure distorted audio caused by RF current on the shield of a microphone cable?
 A. Band-pass filter
 B. Low-pass filter
@@ -2600,7 +2625,7 @@ C. Preamplifier
 D. Ferrite choke
 
 
-T7B05 (A)
+#### T7B05 (A)
 How can fundamental overload of a non-amateur radio or TV receiver by an amateur signal be reduced or eliminated?
 A. Block the amateur signal with a filter at the antenna input of the affected receiver
 B. Block the interfering signal with a filter on the amateur transmitter
@@ -2608,7 +2633,7 @@ C. Switch the transmitter from FM to SSB
 D. Switch the transmitter to a narrow-band mode
 
 
-T7B06 (A)
+#### T7B06 (A)
 Which of the following actions should you take if a neighbor tells you that your station’s transmissions are interfering with their radio or TV reception?
 A. Make sure that your station is functioning properly and that it does not cause interference to your own radio or television when it is tuned to the same channel 
 B. Immediately turn off your transmitter and contact the nearest FCC office for assistance
@@ -2616,7 +2641,7 @@ C. Install a harmonic doubler on the output of your transmitter and tune it unti
 D. All these choices are correct
 
 
-T7B07 (D)
+#### T7B07 (D)
 Which of the following can reduce overload of a VHF transceiver by a nearby commercial FM station?
 A. Installing an RF preamplifier
 B. Using double-shielded coaxial cable
@@ -2624,7 +2649,7 @@ C. Installing bypass capacitors on the microphone cable
 D. Installing a band-reject filter
 
 
-T7B08 (D)
+#### T7B08 (D)
 What should you do if something in a neighbor’s home is causing harmful interference to your amateur station?
 A. Work with your neighbor to identify the offending device
 B. Politely inform your neighbor that FCC rules prohibit the use of devices that cause interference
@@ -2632,7 +2657,7 @@ C. Make sure your station meets the standards of good amateur practice
 D. All these choices are correct
 
 
-T7B09 (D)
+#### T7B09 (D)
 What should be the first step to resolve non-fiber optic cable TV interference caused by your amateur radio transmission?
 A. Add a low-pass filter to the TV antenna input
 B. Add a high-pass filter to the TV antenna input
@@ -2640,7 +2665,7 @@ C. Add a preamplifier to the TV antenna input
 D. Be sure all TV feed line coaxial connectors are installed properly
 
 
-T7B10 (D)
+#### T7B10 (D)
 What might be a problem if you receive a report that your audio signal through an FM repeater is distorted or unintelligible?
 A. Your transmitter is slightly off frequency
 B. Your batteries are running low
@@ -2648,18 +2673,18 @@ C. You are in a bad location
 D. All these choices are correct
 
 
-T7B11 (C)
+#### T7B11 (C)
 What is a symptom of RF feedback in a transmitter or transceiver?
 A. Excessive SWR at the antenna connection
 B. The transmitter will not stay on the desired frequency
 C. Reports of garbled, distorted, or unintelligible voice transmissions
 D. Frequent blowing of power supply fuses
 
-
+---
 
 T7C – Antenna and transmission line measurements and troubleshooting: measuring SWR, effects of high SWR, causes of feed line failures; Basic coaxial cable characteristics; Use of dummy loads when testing 
 
-T7C01 (A)
+#### T7C01 (A)
 What is the primary purpose of a dummy load?
 A. To prevent transmitting signals over the air when making tests
 B. To prevent over-modulation of a transmitter
@@ -2667,7 +2692,7 @@ C. To improve the efficiency of an antenna
 D. To improve the signal-to-noise ratio of a receiver
 
 
-T7C02 (B)
+#### T7C02 (B)
 Which of the following is used to determine if an antenna is resonant at the desired operating frequency?
 A. A VTVM
 B. An antenna analyzer
@@ -2675,7 +2700,7 @@ C. A Q meter
 D. A frequency counter
 
 
-T7C03 (B)
+#### T7C03 (B)
 What does a dummy load consist of?
 A. A high-gain amplifier and a TR switch
 B. A non-inductive resistor mounted on a heat sink
@@ -2683,7 +2708,7 @@ C. A low-voltage power supply and a DC relay
 D. A 50-ohm reactance used to terminate a transmission line 
 
 
-T7C04 (C)
+#### T7C04 (C)
 What reading on an SWR meter indicates a perfect impedance match between the antenna and the feed line?
 A. 50:50
 B. Zero
@@ -2691,7 +2716,7 @@ C. 1:1
 D. Full Scale
 
 
-T7C05 (A)
+#### T7C05 (A)
 Why do most solid-state transmitters reduce output power as SWR increases beyond a certain level?
 A. To protect the output amplifier transistors
 B. To comply with FCC rules on spectral purity
@@ -2699,31 +2724,31 @@ C. Because power supplies cannot supply enough current at high SWR
 D. To lower the SWR on the transmission line
 
 
-T7C06 (D)
-What does an SWR reading of 4:1 indicate?
-A. Loss of -4 dB
+#### T7C06 (D)
+What does an [SWR] reading of 4:1 indicate?
+A. Loss of -4 [dB]
 B. Good impedance match
-C. Gain of +4 dB
+C. Gain of +4 [dB]
 D. Impedance mismatch
 
 
-T7C07 (C)
+#### T7C07 (C)
 What happens to power lost in a feed line?
-A. It increases the SWR
+A. It increases the [SWR]
 B. It is radiated as harmonics
 C. It is converted into heat
 D. It distorts the signal
 
 
-T7C08 (D)
-Which instrument can be used to determine SWR? 
+#### T7C08 (D)
+Which instrument can be used to determine [SWR]? 
 A. Voltmeter
 B. Ohmmeter
 C. Iambic pentameter
 D. Directional wattmeter
 
 
-T7C09 (A)
+#### T7C09 (A)
 Which of the following causes failure of coaxial cables?
 A. Moisture contamination
 B. Solder flux contamination
@@ -2731,7 +2756,7 @@ C. Rapid fluctuation in transmitter output power
 D. Operation at 100% duty cycle for an extended period
 
 
-T7C10 (D)
+#### T7C10 (D)
 Why should the outer jacket of coaxial cable be resistant to ultraviolet light?
 A. Ultraviolet resistant jackets prevent harmonic radiation
 B. Ultraviolet light can increase losses in the cable’s jacket
@@ -2739,18 +2764,18 @@ C. Ultraviolet and RF signals can mix, causing interference
 D. Ultraviolet light can damage the jacket and allow water to enter the cable
 
 
-T7C11 (C)
+#### T7C11 (C)
 What is a disadvantage of air core coaxial cable when compared to foam or solid dielectric types?
 A. It has more loss per foot
 B. It cannot be used for VHF or UHF antennas
 C. It requires special techniques to prevent moisture in the cable
 D. It cannot be used at below freezing temperatures
 
-
+---
 
 T7D – Using basic test instruments: voltmeter, ammeter, and ohmmeter; Soldering 
 
-T7D01 (B)
+#### T7D01 (B)
 Which instrument would you use to measure electric potential?
 A. An ammeter
 B. A voltmeter
@@ -2758,7 +2783,7 @@ C. A wavemeter
 D. An ohmmeter
 
 
-T7D02 (B)
+#### T7D02 (B)
 How is a voltmeter connected to a component to measure applied voltage?
 A. In series
 B. In parallel
@@ -2766,7 +2791,7 @@ C. In quadrature
 D. In phase
 
 
-T7D03 (A)
+#### T7D03 (A)
 When configured to measure current, how is a multimeter connected to a component?
 A. In series
 B. In parallel
@@ -2774,7 +2799,7 @@ C. In quadrature
 D. In phase
 
 
-T7D04 (D)
+#### T7D04 (D)
 Which instrument is used to measure electric current?
 A. An ohmmeter
 B. An electrometer
@@ -2782,9 +2807,9 @@ C. A voltmeter
 D. An ammeter
 
 
-T7D05 Question Removed (section not renumbered) 
+#### T7D05 Question Removed (section not renumbered) 
 
-T7D06 (C)
+#### T7D06 (C)
 Which of the following can damage a multimeter?
 A. Attempting to measure resistance using the voltage setting
 B. Failing to connect one of the probes to ground
@@ -2792,7 +2817,7 @@ C. Attempting to measure voltage when using the resistance setting
 D. Not allowing it to warm up properly
 
 
-T7D07 (C)
+#### T7D07 (C)
 Which of the following measurements are made using a multimeter?
 A. Signal strength and noise
 B. Impedance and reactance
@@ -2800,7 +2825,7 @@ C. Voltage and resistance
 D. All these choices are correct
 
 
-T7D08 (A)
+#### T7D08 (A)
 Which of the following types of solder should not be used for radio and electronic applications?
 A. Acid-core solder
 B. Lead-tin solder
@@ -2808,7 +2833,7 @@ C. Rosin-core solder
 D. Tin-copper solder
 
 
-T7D09 (C)
+#### T7D09 (C)
 What is the characteristic appearance of a cold tin-lead solder joint?
 A. Dark black spots
 B. A bright or shiny surface
@@ -2816,7 +2841,7 @@ C. A rough or lumpy surface
 D. Excessive solder
 
 
-T7D10 (A) 
+#### T7D10 (A) 
 What reading indicates that an ohmmeter is connected across a large, discharged capacitor?
 A. Increasing resistance with time
 B. Decreasing resistance with time
@@ -2824,7 +2849,7 @@ C. Steady full-scale reading
 D. Alternating between open and short circuit
 
 
-T7D11 (B)
+#### T7D11 (B)
 Which of the following precautions should be taken when measuring in-circuit resistance with an ohmmeter?
 A. Ensure that the applied voltages are correct
 B. Ensure that the circuit is not powered

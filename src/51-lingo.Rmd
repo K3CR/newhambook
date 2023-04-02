@@ -276,7 +276,7 @@ Voice Over Internet Protocol.
 
 Watts. A unit of power.
 
-## Abbreviations/variables {-}
+## Abbreviations/variables/procedural signals {-}
 
 ### CQ {-}
 
