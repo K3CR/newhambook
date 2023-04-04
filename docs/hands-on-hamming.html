@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 9 Links | A ham: What I am</title>
+  <title>Chapter 3 Hands-on hamming | A ham: What I am</title>
   <meta name="description" content="This is a guidebook for new hams, focused on Penn State." />
   <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 9 Links | A ham: What I am" />
+  <meta property="og:title" content="Chapter 3 Hands-on hamming | A ham: What I am" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is a guidebook for new hams, focused on Penn State." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 9 Links | A ham: What I am" />
+  <meta name="twitter:title" content="Chapter 3 Hands-on hamming | A ham: What I am" />
   
   <meta name="twitter:description" content="This is a guidebook for new hams, focused on Penn State." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="fcc-part-97.html"/>
-
+<link rel="prev" href="getting-started.html"/>
+<link rel="next" href="band-conditions.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -418,13 +418,55 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="links" class="section level1 hasAnchor" number="9">
-<h1><span class="header-section-number">Chapter 9</span> Links<a href="links.html#links" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="third-party-traffic" class="section level2 unnumbered hasAnchor">
-<h2>Third party traffic<a href="links.html#third-party-traffic" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The ARRL maintains a site with information about which countries U.S.-licensed hams may pass third party traffic to:</p>
-<p><a href="http://www.arrl.org/third-party-operating-agreements" class="uri">http://www.arrl.org/third-party-operating-agreements</a></p>
-<p><a href="fcc-part-97.html#amateur-operator">Link to def of Amateur Operator</a></p>
+<div id="hands-on-hamming" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Hands-on hamming<a href="hands-on-hamming.html#hands-on-hamming" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="quest-1-websdr" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Quest 1: WebSDR<a href="hands-on-hamming.html#quest-1-websdr" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Thanks to the widespread availability of inexpensive software-defined radios (SDRs), it’s possible to listen to the ham bands over the internet from sites located all over the world.</p>
+<p>In this quest, we’ll check-in on the bands and listen to some <a href="lingo.html#hf">HF</a> [QSO]s.</p>
+<ol style="list-style-type: decimal">
+<li>Vist the WebSDR site at <a href="https://websdr.org" class="uri">https://websdr.org</a>.</li>
+</ol>
+<p>You will see a screen like the following:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="hands-on-hamming.html#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&quot;include/img/websdr-org.png&quot;</span>)</span></code></pre></div>
+<p><img src="include/img/websdr-org.png" /><!-- --></p>
+</div>
+<div id="quest-2-dmr" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Quest 2: DMR<a href="hands-on-hamming.html#quest-2-dmr" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>You can listen to Digital Mobile Radio (<a href="lingo.html#dmr">DMR</a>) transmissions across the globe on the web without having to log in or have a ham radio license.</p>
+<p>In this quest, we’ll listen in on some conversations using DMR.</p>
+<p>Remember, as a ham, all of our communications except those controlling aircraft or satellites are presumed public.</p>
+<ol style="list-style-type: decimal">
+<li>Visit the <a href="https://brandmeister.network">Brandmeister Network</a> server’s <a href="https://hose.brandmeister.network">hoseline site</a>.</li>
+</ol>
+<p>You will see something like the following:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="hands-on-hamming.html#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&quot;include/img/brandmeister-hoseline-2023-04-03.png&quot;</span>)</span></code></pre></div>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="include/img/brandmeister-hoseline-2023-04-03.png" alt="Brandmeister DMR hoseline as of 2023-04-03 about 1745Z" width="100%" />
+<p class="caption">
+Figure 3.1: Brandmeister DMR hoseline as of 2023-04-03 about 1745Z
+</p>
+</div>
+<p>This shows all of the stations connected to the Brandmeister network in the entire world.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>To listen in on one of these [QSO]s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.</li>
+</ol>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="hands-on-hamming.html#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&quot;include/img/brandmeister-network-active-qso.png&quot;</span>)</span></code></pre></div>
+<p><img src="include/img/brandmeister-network-active-qso.png" /><!-- --></p>
+<p>You can also listen in on specific talkgroups.
+A talkgroup is like a repeater, except that it repeats signals from stations connected via the internet.
+There is often traffic on talkgroup 91 (Worldwide) or talkgroup 93 (North America), so let’s listen in on those.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Click the PLAYER button in the upper right hand corner.</li>
+</ol>
+<p>This will open a small panel where you can select what talkgroups to listen to or which stations to monitor.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="hands-on-hamming.html#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&quot;include/img/brandmeister-hoseline-player-panel.png&quot;</span>)</span></code></pre></div>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="include/img/brandmeister-hoseline-player-panel.png" alt="PLAYER panel from hose.brandmeister.network"  />
+<p class="caption">
+Figure 3.2: PLAYER panel from hose.brandmeister.network
+</p>
+</div>
 
 </div>
 </div>
@@ -433,8 +475,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="fcc-part-97.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="getting-started.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="band-conditions.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -465,7 +507,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/53-links.Rmd",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-hands-on.Rmd",
 "text": "Edit"
 },
 "history": {

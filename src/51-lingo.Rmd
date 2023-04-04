@@ -98,6 +98,10 @@ Amplitude modulation.
 
 Automatic Packet Reporting System.
 
+### ARRL {-}
+
+American Radio Relay League. The non-profit membership organization for U.S.-licensed hams.
+
 ### ARQ {-}
 
 ### [CSCE](#CSCE) {-}
@@ -260,6 +264,10 @@ Upper sideband.
 
 Volt or volts. A unit of electrical force.
 
+### VE {-}
+
+Volunteer examiner. A licensed ham who participates in conducting ham tests.
+
 ### VFO {-}
 
 Variable frequency oscillator.
@@ -271,6 +279,10 @@ Very high frequency. A set of frequencies between 30 and 300 [MHz]. The 6[m], 2[
 ### VOiP {-}
 
 Voice Over Internet Protocol.
+
+### VOX {-}
+
+Voice-activated transmit.
 
 ### w {-}
 

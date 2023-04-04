@@ -1,5 +1,13 @@
 # Getting started
 
+## Get licensed
+
+### Study resources
+
+- [American Radio Relay League ([ARRL])](http://www.arrl.org/licensing-education-training)
+- [HamStudy.org](https://hamstudy.org). The site has integrated iOS and Android apps so you can study on-the-go. (Web site: Free; Apps: paid).
+- [Ham Radio Prep](https://hamradioprep.com). Full licensing courses and test preparation materials. (Paid).
+
 ## Don't buy a radio (yet)
 
 Many prospective hams buy a radio before they have a license.
