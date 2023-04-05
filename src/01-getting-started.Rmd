@@ -1,14 +1,52 @@
 # Getting started
 
-## Get licensed
+## Get licensed {-}
 
-### Study resources
+Unless you shun technology, you probably use multiple radios every day and don't even think about it.
+You might listen to music or news on FM or music or talk on AM. Obviously, that's radio.
+You might watch TV from an over-the-air antenna to avoid or reduce your cable TV bill. 
+TV uses radio waves. So, that's radio.
+
+Your home or work computer might use wifi to talk to the internet. That's radio.
+Your cellphone (smart or dumb) talks to a network of cell towers wherever you go.
+That's radio.
+You might connect headphones, a keyboard, or a mouse to your computer using Bluetooth. That's radio.
+You might have a GPS system in your car or a handheld one when you hike or bike. That's radio.
+You might use a device in your car to open your garage. That's radio.
+
+Besides the radio technology that underlies all of these devices, there is a system of rules and regulations written and enforced by (in the U.S.) the Federal government, specifically, the Federal Communications Commission (FCC).
+The rules govern who can transmit what types of radio signals at what frequencies and at what power levels, among other things.
+
+Most Americans hate rules and regulations and the "red tape" that comes with them.
+On the other hand, many of our most beloved leisure activities would be completely different without rules and regulations.
+Imagine football, baseball, basketball, or fill-in-your-favorite-sport here without some sort of rules.
+And while players can sometimes enforce the rules themselves, it's usually better for everyone if that job is left to referees.
+However annoying they can sometimes be, rules provide structure.
+And that structure often, maybe more often than some of us like to admit, makes an activity more enjoyable.
+Rules about who can do what where with radio have the same impact.
+
+So, while you can use lots of different radios without a license, to transmit signals on the amateur radio bands requires a license.
+Radio amateurs have specific segments of the radio spectrum that are set aside for our  use and enjoyment, often our *exclusive* use.
+Think about that.
+And in return for setting aside valuable parts of the radio frequency spectrum, the FCC requires us to have a license.
+Think of it as a driver's license, a license to drive our radios.
+So, while listening is free, transmitting will cost you $35 (the current licensing fee), plus the time it takes you to study for and pass the licensing exam.
+
+There's more to being a radio amateur than passing a licensing exam, just like there's much more to driving than passing the written test.
+But you have to have a license for the "behind the wheel" part of driving your radio.
+
+This book and website is designed to help you do just that.
+
+### Study resources {-}
+
+There are outstanding licensing materials provided by others. 
+Here are some we especially recommend.
 
 - [American Radio Relay League ([ARRL])](http://www.arrl.org/licensing-education-training)
 - [HamStudy.org](https://hamstudy.org). The site has integrated iOS and Android apps so you can study on-the-go. (Web site: Free; Apps: paid).
 - [Ham Radio Prep](https://hamradioprep.com). Full licensing courses and test preparation materials. (Paid).
 
-## Don't buy a radio (yet)
+## Don't buy a radio (just yet) {-}
 
 Many prospective hams buy a radio before they have a license.
 
@@ -21,5 +59,5 @@ You might even find that a current ham is happy to let you borrow a radio while 
 
 On the other hand, if you just can't hold back, we recommend not spending a whole lot of money.
 
-It's an open secret that hams realize early on is that radios have a way of asking for company.
+It's an open secret that hams realize early on: Radios have a way of asking for company.
 In other words, your first radio is unlikely to be your last or your only.

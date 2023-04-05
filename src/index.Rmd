@@ -13,19 +13,19 @@ biblio-style: apa
 csl: include/bib/apa.csl
 ---
 
-# About
+# About 
 
 This book is about amateur (ham) radio, a hobby that is both old school and new cool.
 It's designed to live on the web so that we can make use of the fabulous resources that exist online.
 It's also designed to supplement but not replace an existing outstanding set of materials for learning about the hobby.
 
-## Origins
+## Origins {-}
 
 This book originated when a group of Penn State students expressed interest in a licensing class.
 In starting with the Technician question pool provided by [HamStudy.org](https://hamstudy.org) Rick Gilmore W3TM realized just how much there is to explain!
 So, he started jotting down ideas about how to make the process easier in a web-book form that he uses in his teaching at Penn State and in his research.
 
-## Philosophy 
+## Philosophy {-}
 
 Most hams agree that getting their "ticket" or license was the start of the journey, not the destination.
 In fact, for many hams, much of the material that must be mastered to pass one of the licensing exams only really makes sense in the specific context of operating or doing something related to operating.
