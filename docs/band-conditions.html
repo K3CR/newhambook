@@ -160,9 +160,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="4" data-path="band-conditions.html"><a href="band-conditions.html"><i class="fa fa-check"></i><b>4</b> Band conditions</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="band-conditions.html"><a href="band-conditions.html#hf-propagation"><i class="fa fa-check"></i><b>4.1</b> HF propagation</a></li>
-<li class="chapter" data-level="4.2" data-path="band-conditions.html"><a href="band-conditions.html#psk-reporter"><i class="fa fa-check"></i><b>4.2</b> PSK Reporter</a></li>
-<li class="chapter" data-level="4.3" data-path="band-conditions.html"><a href="band-conditions.html#wspr-rocks"><i class="fa fa-check"></i><b>4.3</b> WSPR Rocks</a></li>
+<li class="chapter" data-level="" data-path="band-conditions.html"><a href="band-conditions.html#hf-propagation"><i class="fa fa-check"></i>HF propagation</a></li>
+<li class="chapter" data-level="" data-path="band-conditions.html"><a href="band-conditions.html#vhf-propagation"><i class="fa fa-check"></i>VHF propagation</a></li>
+<li class="chapter" data-level="" data-path="band-conditions.html"><a href="band-conditions.html#psk-reporter"><i class="fa fa-check"></i>PSK Reporter</a></li>
+<li class="chapter" data-level="" data-path="band-conditions.html"><a href="band-conditions.html#wspr-rocks"><i class="fa fa-check"></i>WSPR Rocks</a></li>
 </ul></li>
 <li class="part"><span><b>I Operating</b></span></li>
 <li class="chapter" data-level="5" data-path="operating.html"><a href="operating.html"><i class="fa fa-check"></i><b>5</b> Operating</a></li>
@@ -434,8 +435,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The main things to check are what bands are open to what places.
 The band or frequencies we can use to communicate with different places vary by time of day, time of year, current and long-term solar conditions.</p>
 <p>Here are some resources to see how the bands are doing.</p>
-<div id="hf-propagation" class="section level2 hasAnchor" number="4.1">
-<h2><span class="header-section-number">4.1</span> HF propagation<a href="band-conditions.html#hf-propagation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="hf-propagation" class="section level2 unnumbered hasAnchor">
+<h2>HF propagation<a href="band-conditions.html#hf-propagation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The hfpropagation.com <a href="https://www.hfpropagation.com">site</a> has some great visualizations about conditions on HF.</p>
 <p>For example, the following shows a map of RF propagation centered on New York City:</p>
 <div class="figure"><span style="display:block;" id="fig:unnamed-chunk-13"></span>
@@ -445,10 +446,14 @@ Figure 4.1: Propagation map centered on NYC on 2023-04-02 from <a href="https://
 </p>
 </div>
 </div>
-<div id="psk-reporter" class="section level2 hasAnchor" number="4.2">
-<h2><span class="header-section-number">4.2</span> PSK Reporter<a href="band-conditions.html#psk-reporter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="vhf-propagation" class="section level2 unnumbered hasAnchor">
+<h2>VHF propagation<a href="band-conditions.html#vhf-propagation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>See <a href="https://vhf.dxview.org" class="uri">https://vhf.dxview.org</a></p>
+</div>
+<div id="psk-reporter" class="section level2 unnumbered hasAnchor">
+<h2>PSK Reporter<a href="band-conditions.html#psk-reporter" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The pskreporter.info <a href="https://pskreporter.info">site</a> aggregates thousands of signal reports from hams all around the world.</p>
-<p>For example, here is a map of conditions right now.</p>
+<p>For example, here is a real-time map of conditions <em>right now</em>.</p>
 <div class="figure"><span style="display:block;" id="fig:unnamed-chunk-14"></span>
 <iframe src="https://pskreporter.info/pskmap.html" width="100%" height="600px" data-external="1">
 </iframe>
@@ -457,10 +462,10 @@ Figure 4.2: <a href="https://pskreporter.info/pskmap.html" class="uri">https://p
 </p>
 </div>
 </div>
-<div id="wspr-rocks" class="section level2 hasAnchor" number="4.3">
-<h2><span class="header-section-number">4.3</span> WSPR Rocks<a href="band-conditions.html#wspr-rocks" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="wspr-rocks" class="section level2 unnumbered hasAnchor">
+<h2>WSPR Rocks<a href="band-conditions.html#wspr-rocks" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The wspr.rocks <a href="https://wspr.rocks">site</a> provides some terrific visualizations of the latest Weak Signal Propagation Report (WSPR) data.</p>
-<p>Here is a map showing real-time data about which WSPR stations are hearing one another:</p>
+<p>Here is a map showing data about which WSPR stations are hearing one another on 2023-04-02:</p>
 <div class="figure"><span style="display:block;" id="fig:unnamed-chunk-15"></span>
 <img src="include/img/wspr-rocks-2023-04-02.png" alt="https://http://wspr.rocks" width="100%" />
 <p class="caption">
@@ -474,7 +479,7 @@ Figure 4.3: <a href="https://http://wspr.rocks" class="uri">https://http://wspr.
 Figure 4.4: <a href="https://http://wspr.rocks" class="uri">https://http://wspr.rocks</a>
 </p>
 </div>
-<p>20m, 17m, and 15m are long (supporting long distance or DX contacts) at the moment.</p>
+<p>20m, 17m, and 15m were long (supporting long distance or [DX] contacts) at the moment this figure was taken.</p>
 
 </div>
 </div>

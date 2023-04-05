@@ -13,9 +13,6 @@ about
 getting-started
 hands-on-hamming
 band-conditions
-hf-propagation
-psk-reporter
-wspr-rocks
 operating
 technician
 t6d06-b--
