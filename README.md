@@ -1,6 +1,8 @@
 # newhambook
 A web-book for future or new hams.
 
+View the web-book at <https://k3cr.github.io/newhambook>.
+
 ## Render the book
 
 - Install R.

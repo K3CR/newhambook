@@ -15,17 +15,23 @@ csl: include/bib/apa.csl
 
 # About
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+This book is about amateur (ham) radio, a hobby that is both old school and new cool.
+It's designed to live on the web so that we can make use of the fabulous resources that exist online.
+It's also designed to supplement but not replace an existing outstanding set of materials for learning about the hobby.
 
 ## Origins
 
-This book originated when a group of students expressed interest in a licensing class.
+This book originated when a group of Penn State students expressed interest in a licensing class.
+In starting with the Technician question pool provided by [HamStudy.org](https://hamstudy.org) Rick Gilmore W3TM realized just how much there is to explain!
+So, he started jotting down ideas about how to make the process easier in a web-book form that he uses in his teaching at Penn State and in his research.
 
 ## Philosophy 
 
 Most hams agree that getting their "ticket" or license was the start of the journey, not the destination.
-In fact, for many hams, much of the material that must be mastered to pass one of the licensing exams only really makes sense in the specific context of operating.
-So, our philosophy with this book is to emphasize operating practices, and especially *listening*.
+In fact, for many hams, much of the material that must be mastered to pass one of the licensing exams only really makes sense in the specific context of operating or doing something related to operating.
+So, our philosophy with this book is to emphasize hands-on activities, operating practices, and especially *listening*.
+Other hams may have other ideas about the right approach.
+We think that there are many good ways to go forward, and this one particularly appeals to us.
 
 In the U.S., you don't need a license to listen, and even if you are an active operator, you'll spend most of your time listening. 
 Many hams started out as shortwave listeners (SWLs) back when the airwaves were full of shortwave stations that broadcasted programs in the ham bands or adjacent to ham bands.
