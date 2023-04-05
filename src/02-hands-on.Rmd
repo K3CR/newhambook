@@ -1,6 +1,6 @@
 # Hands-on hamming
 
-## Quest 1: WebSDR
+## Quest 1: WebSDR {- #quest-websdr}
 
 Thanks to the widespread availability of inexpensive software-defined radios (SDRs), it's possible to listen to the ham bands over the internet from sites located all over the world.
 
@@ -10,11 +10,17 @@ In this quest, we'll check-in on the bands and listen to some [HF] [QSO]s.
 
 You will see a screen like the following:
 
-```{r}
+```{r, echo=FALSE, fig.align='center'}
 knitr::include_graphics("include/img/websdr-org.png")
 ```
 
-## Quest 2: DMR
+## Quest 2: [DMR] {- #quest-dmr}
+
+:::{.infobox}
+These activities are relevant to the following license pool questions:
+
+[T2B12](#T2B12); [T4B07](#T4B07); [T8D02](#T8D02); [T8D07](#T8D07).
+:::
 
 You can listen to Digital Mobile Radio ([DMR]) transmissions across the globe on the web without having to log in or have a ham radio license.
 
@@ -34,7 +40,7 @@ This shows all of the stations connected to the Brandmeister network in the enti
 
 2. To listen in on one of these [QSO]s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.
 
-```{r}
+```{r, echo=FALSE, fig.align='center'}
 knitr::include_graphics("include/img/brandmeister-network-active-qso.png")
 ```
 
@@ -46,8 +52,123 @@ There is often traffic on talkgroup 91 (Worldwide) or talkgroup 93 (North Americ
 
 This will open a small panel where you can select what talkgroups to listen to or which stations to monitor.
 
-```{r, fig.cap="PLAYER panel from hose.brandmeister.network"}
+```{r, echo=FALSE, fig.align='center', fig.cap="PLAYER panel from hose.brandmeister.network"}
 knitr::include_graphics("include/img/brandmeister-hoseline-player-panel.png")
 ```
+
+## Quest 3: [APRS] {- #quest-aprs}
+
+In this quest, we'll check-in on the Automatic Packet Reporting System (APRS) where hams across the world provide real-time information about their locations and exchange messages, including weather reports.
+
+1. Visit the APRS.fi [website](https://aprs.fi).
+
+The first time you visit this site, it may show you a view of APRS activity near the APRS.fi website author's home in Finland (hence the .fi web domain).
+
+Feel free to scroll out using the minus (-) button in the lower right hand corner and then click and drag to another location. 
+For example, here is a view near Philadelphia, PA.
+
+```{r echo=FALSE, fig.align='center', out.width="100%", fig.cap="APRS activity near Philadelphia, PA on 2023-04-05"}
+knitr::include_graphics("include/img/aprs.fi-2023-04-05.png")
+```
+
+Notice that some of the symbols look like vehicles and have a track that appears to show where they've been.
+
+2. Mouse over one of those symbols.
+
+You should see a set of lines connecting the vehicle symbol to another one on the map.
+The lines show where the RF signal from the vehicle traveled before being heard and sent over the Internet to the APRS.fi site.
+
+```{r echo=FALSE, fig.align='center', out.width="100%", fig.cap="APRS track of moving vehicle K2WB-9."}
+knitr::include_graphics("include/img/aprs-track.png")
+```
+
+The figure shows the station K2WB connecting to a home-based relay station N2IVN and the relayed signal from N2IVN being heard by KD2DVW-1. 
+
+3. Click on the mobile (moving) station's icon.
+
+A small window will open with information about that station.
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("include/img/aprs-k2wb-9.png")
+```
+
+4. Click on the info button in the small window.
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("include/img/aprs-k2wb-9-info.png")
+```
+
+5. Enter `ISS` in the "Track callsign:" window in the upper right of the aprs.fi site.
+
+The International Space Station has an APRS beacon! So, if you have an APRS-enabled radio set up you can hear the ISS when it passes near your location.
+
+I did this on the morning of 2023-04-05, and here was the result.
+
+```{r}
+knitr::include_graphics("include/img/aprs-iss-2023-04-05.png")
+```
+
+The ISS was somewhere over the North Atlantic Ocean.
+I say *was*, because if you look closely, you'll see that the last time the ISS was heard on APRS was on 2023-04-04, about 20 hours before the time I took this screenshot.
+The APRS beacon goes on and off from time to time.
+
+## Quest 4: Satellite tracking {-}
+
+Hams have launched satellites that permit communication across large areas, and the International Space Station (ISS) has ham radio equipment on board.
+
+1. Visit <https://www.n2yo.com/space-station/>
+
+The window in the upper left will show a map of the current location of the ISS.
+
+The window in the upper right will show the current live video feed from the ISS.
+If it's dark, that's probably because the ISS is on the night side of the Earth.
+
+2. Visit the [Amateur Satellite Corporation (AMSAT)](https://www.amsat.org/) tracking [site.](https://www.amsat.org/track/)
+
+Here you can choose to track a number of amateur satellites.
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("include/img/amsat-track.png")
+```
+
+The site will calculate the next time a satellite will pass over your location.
+You need to give it your latitude and longitude or your grid square for this to work.
+
+What's a grid square? Well every part of the Earth has been assigned a code that is a combination of letters and numbers. The codes are part of the [Maidenhead Locator System](https://en.wikipedia.org/wiki/Maidenhead_Locator_System).
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Maidenhead_Locator_System_explained.svg#/media/File:Maidenhead_Locator_System_explained.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Maidenhead_Locator_System_explained.svg/1200px-Maidenhead_Locator_System_explained.svg.png" alt="Maidenhead Locator System explained.svg"></a><br>By &lt;a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid"&gt;Mysid&lt;/a&gt; - Self-drawn in Inkscape., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2526302">Link</a></p>
+
+See the following two figures from Wikipedia.
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Maidenhead_Locator_Map.png#/media/File:Maidenhead_Locator_Map.png"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Maidenhead_Locator_Map.png/1200px-Maidenhead_Locator_Map.png" alt="Maidenhead Locator Map.png"></a><br>By User:Denelson83 - &lt;a rel="nofollow" class="external free" href="http://visibleearth.nasa.gov/view_rec.php?id=2433"&gt;http://visibleearth.nasa.gov/view_rec.php?id=2433&lt;/a&gt;, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=11762818">Link</a></p>
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Maidenhead_grid_over_Europe.svg#/media/File:Maidenhead_grid_over_Europe.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Maidenhead_grid_over_Europe.svg/1200px-Maidenhead_grid_over_Europe.svg.png" alt="Maidenhead grid over Europe.svg"></a><br>By Oona Räisänen (&lt;a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid"&gt;Mysid&lt;/a&gt;) - Base map from &lt;a href="//commons.wikimedia.org/wiki/File:Blank_map_of_Europe_(polar_stereographic_projection)_cropped.svg" class="mw-redirect" title="File:Blank map of Europe (polar stereographic projection) cropped.svg"&gt;Image:Blank map of Europe (polar stereographic projection) cropped.svg&lt;/a&gt;; Grid drawn in Inkscape and based on the (public domain) output of Great Circle Maps v2.3., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=2528974">Link</a></p>
+
+To find out your particular grid square, visit <https://www.karhukoti.com/maidenhead-grid-square-locator>.
+The site gives you both your latitude and longitude and grid square.
+The figure below shows my approximate location and grid square, FN10.
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("include/img/karhukoti-grid-square.png")
+```
+
+Notice that grid squares can be increasingly precise.
+For our purposes now, the four character grid square is sufficient.
+Hams who operate digital modes like FT8 and FT4 using the WSJT-X software use grid squares, too.
+And some hams "collect" contacts in different grid squares.
+For now, we'll use our grid square to calculate when the ISS will pass over our grid square.
+
+3. Enter your grid square in the AMSAT Tracking site.
+
+Hit "Calculate Position" to let the site calculate your latitude and longitude, then hit the "Predict" button.
+
+The results show the next several passes of the [ISS] over my grid square.
+Yours will be different, even if you live in my grid square, because the ISS is always moving.
+
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("include/img/amsat-iss-pred-fn10.png")
+```
+
+## Quest 5: POTA/SOTA hunting {-}
 
 

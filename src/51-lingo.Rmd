@@ -104,6 +104,8 @@ American Radio Relay League. The non-profit membership organization for U.S.-lic
 
 ### ARQ {-}
 
+[Automatic repeat request](https://en.wikipedia.org/wiki/Automatic_repeat_request).
+
 ### [CSCE](#CSCE) {-}
 
 Certificate of Successful Completion of (an amateur radio licensing) Examination.
@@ -160,6 +162,10 @@ Gigahertz.
 
 High frequency. A set of frequencies between 3 [MHz] and 30 [MHz.] The 80/75[m], 60[m], 40[m], 30[m], 20[m], 15[m], 17[m], 15[m], 12[m], and 10[m] ham bands are [HF] bands. [HF] signals can propagate for long distances under common atmospheric conditions.
 
+### IC {-}
+
+Integrated circuit.
+
 ### IEEE {-}
 
 Institute of Electrical and Electronics Engineers.
@@ -167,6 +173,10 @@ Institute of Electrical and Electronics Engineers.
 ### IRLP {-}
 
 Internet Radio Linking Project.
+
+### ISS {-}
+
+International Space Station.
 
 ### ITU {-}
 
@@ -212,6 +222,14 @@ Megahertz. A unit of frequency. 1 MHz is 1 million cycles/sec or 1 million Hertz
 
 Net control station.
 
+### PL-259 {-}
+
+A male-type of [UHF] coax connector. [SO-239] is the female type.
+
+### PSK {-}
+
+Phase shift keying. 
+
 ### PTT {-}
 
 Push to talk.
@@ -224,6 +242,14 @@ Radio Amateur Civil Emergency Service.
 
 Radio frequency.
 
+### RG-58 {-}
+
+A common type of coax used with low power at HF and VHF frequencies.
+
+### RG-213 {-}
+
+A common type of coax used with low to high power at HF, VHF, and UHF frequencies. RG-213 has lower loss than RG-58.
+
 ### RIT {-}
 
 Receiver incremental tuning.
@@ -231,6 +257,10 @@ Receiver incremental tuning.
 ### SDR {-}
 
 Software defined radio.
+
+### SO-239 {-}
+
+A female type of [UHF] coax connector. [PL-259] is the male type.
 
 ### SPDT {-}
 
@@ -251,6 +281,8 @@ Standing Wave Ratio. The ratio of forward power to reflected power. High SWR (> 
 ### UHF {-}
 
 Ultra-high frequency. A set of frequencies between 300 [MHz] and 3 [GHz] (3,000 [MHz]). The 70[cm] band is the most commonly used UHF ham band.
+
+A type of coax connector also called PL-259 (male) and SO-239 (female).
 
 ### ULS {-}
 
