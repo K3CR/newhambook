@@ -6,12 +6,107 @@ Thanks to the widespread availability of inexpensive software-defined radios (SD
 
 In this quest, we'll check-in on the bands and listen to some [HF] [QSO]s.
 
-1. Vist the WebSDR site at <https://websdr.org>.
+### Vist the WebSDR site at <https://websdr.org>. {-}
 
 You will see a screen like the following:
 
-```{r, echo=FALSE, fig.align='center'}
+```{r websdr.org, echo=FALSE, fig.align='center'}
 knitr::include_graphics("include/img/websdr-org.png")
+```
+
+Scroll down to see all of the places around the world where there are webSDR stations to listen to.
+You can pick any one you like, but we'll focus on one in the U.S. that we use often because it's close to our location.
+
+### Visit the K3FEF web SDR {-}
+
+Go to <http://websdr.k3fef.com>.
+This station is located in Milford, PA on the Delaware River.
+It's the closest one to Penn State.
+So, it's often one to consult for listeners in our area.
+
+Here is a screenshot of the K3FEF control panel.
+
+```{r k3fef.com, echo=FALSE, fig.align='center', fig.cap="K3FEF webSDR at http://websdr.k3fef.com"}
+knitr::include_graphics("include/img/k3fef-websdr.png")
+```
+
+The dark blue area at the top depicts the band activity at the time you visit. 
+The figure shows radio signals being heard by K3FEF from about 3300 kHz (3.3 MHz) below the 80m ham band to 5300 kHz (5.5 MHz) in the 60m ham band.
+
+If you are watching this on the web, you will see upwards motion.
+This is how the webSDR depicts the time series or history of recent signals.
+So, time is on the vertical axis of this two-dimensional figure.
+Sometimes this type of frequency-over-time display is called a waterfall.
+Except this waterfall falls upward.
+
+Below the figure are some orange 'flag' or labels that other listeners have added.
+These identify the specific transmissions.
+If you look especially closely, you'll also see a yellow 'hump' around 3875 kHz.
+That's the specific frequency this SDR defaulted to when we opened it up.
+We'll explain what the yellow hump means a bit later.
+
+In the static figure above, you'll notice a lot of activity between about 3550 kHz and 4000 kHz.
+The 80m and 75m ham bands occupy 3500-4000 kHz, so those are hams communicating.
+The figure was taken about 8:00am EDT (1200 UTC).
+These bands are usually open from evening to mid-morning.
+
+Let's focus on the white panel below the waterfall.
+
+```{r, echo=FALSE, fig.align='center', fig.cap="K3FEF webSDR at http://websdr.k3fef.com"}
+knitr::include_graphics("include/img/k3fef-websdr-panel-1.png")
+```
+
+The panel's **Frequency** control tells us that our radio is tuned to 3875 MHz, right in the middle of the 80/75m band, the phone (voice) portion.
+There are some controls to change the frequency, then below that, a set of buttons to change the band.
+The highlighted button confirms that we are in the 80/75m band[^1].
+
+Notice that the K3FEF webSDR covers ham bands up through 6m.
+It does not cover the 15m or 12m bands, though.
+
+[^1]: Why is it called the 80m band and also the 75m band and sometimes the 80m/75m band? Well, 300/3.5=`r 300/3.5` and 300/4.0=`r 300/4.0`. So, the approximate speed of light (in millions of meters per second) divided by the frequency in MHz gives us the approximate wavelength of radio waves. 
+It's a single 0.5 MHz (500 kHz) chunk of frequency reserved exclusively for amateurs that roughly bracket ~80-75m.
+
+Below the **Frequency** control is a set of buttons that control **Bandwidth**.
+No, bandwidth is not the size of your favorite jazz combo.
+Bandwidth means how much of the frequency spectrum the webSDR is capturing at this moment, centered on the 3875 [kHz] frequency we just mentioned.
+Different types of radio transmissions (voice vs. Morse code/[CW] for example) have different bandwidths.
+We often want to adjust our bandwidth to match the type of signal.
+If the bandwidth is much wider than the signal, we're just adding noise.
+If the bandwidth is much narrower than the signal, we can lose information.
+Voice transmissions have wider bandwidth than Morse code/[CW].
+And different types of voice signals have different bandwidths.
+[FM] is the widest, for example; [AM] is in the middle; and single sideband [SSB] the narrowest.
+
+Our bandwidth is 9.69 [kHz] @ -6 [dB] [^2].
+That's wide, except for broadcast FM stations.
+We can adjust the bandwidth incrementally using the *wider*/*narrower* buttons or adjust the bandwidth to match a specific type of signal: *CW-wide*/*CW-nrw* (narrow), *LSB-wide*/*LSB-nrw*, *USB-wide*/*USB-nrw*, *AM-wide*/*AM-nrw*, and *FM*.
+We can also adjust the bandwidth manually.
+
+[^2]: This means that if we look at the peak signal at 3875 kHz and calculate the point on both sides of 3875 kHz where the signal drops by 6 decibels (db) or about 4-fold, we're left with 9.69 kHz of signal. The *width* of the yellow 'hump' in the waterfall display shows us this bandwidth visually.
+
+#### Find a signal to listen to
+
+Click on the <span color="green">green</span> *Firefox audio start* button in the upper right hand of the screen.
+Be ready to adjust the volume on your computer downward!
+Or adjust the volume in the panel or even mute it (see the figure below).
+
+Chances are that you'll just hear static since we're on a random frequency.
+
+```{r, echo=FALSE, fig.align='center', fig.cap="K3FEF webSDR at http://websdr.k3fef.com"}
+knitr::include_graphics("include/img/k3fef-websdr-panel-2.png")
+```
+
+To fix that, look at the **Waterfall view** panel. 
+Zoom *in* by clicking on the button a couple of times.
+Sometimes zooming moves window beyond the frequency where you are currently tuned.
+If that happens, you won't see the yellow 'hump' anymore.
+
+But you can find it again by clicking on the blue/purple area in the waterfall and dragging to the left or the right to put your current frequency--3875 kHz for our example--in the middle of the panel.
+
+In our case, there's a very strong signal around 3810 kHz.
+
+```{r, echo=FALSE, fig.align='center', fig.cap="K3FEF webSDR at http://websdr.k3fef.com"}
+knitr::include_graphics("include/img/k3fef-websdr-3875.png")
 ```
 
 ## Quest 2: [DMR] {- #quest-dmr}
