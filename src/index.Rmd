@@ -4,8 +4,8 @@ author: "Rick Gilmore W3TM"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [include/bib/packages.bib]
-url: your book url like https://k3cr.github.io/newhambook
+bibliography: [include/bib/packages.bib, include/bib/ham.bib]
+url: https://k3cr.github.io/newhambook
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
   This is a guidebook for new hams, focused on Penn State.

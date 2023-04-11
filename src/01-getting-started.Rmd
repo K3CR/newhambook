@@ -45,6 +45,7 @@ Here are some we especially recommend.
 - [American Radio Relay League ([ARRL])](http://www.arrl.org/licensing-education-training)
 - [HamStudy.org](https://hamstudy.org). The site has integrated iOS and Android apps so you can study on-the-go. (Web site: Free; Apps: paid).
 - [Ham Radio Prep](https://hamradioprep.com). Full licensing courses and test preparation materials. (Paid).
+- Technician licensing videos by Ham Radio Crash Course,  [@Course_undated-jl](http://www.youtube.com/playlist?list=PL1KAjn5rGhixvvb_jMZFWmbP97-t9Kyxk)
 
 ## Don't buy a radio (just yet) {-}
 

@@ -23,7 +23,7 @@
 <meta name="author" content="Rick Gilmore W3TM" />
 
 
-<meta name="date" content="2023-04-08" />
+<meta name="date" content="2023-04-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -119,6 +119,28 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="include/css/style.css" type="text/css" />
 <link rel="stylesheet" href="include/css/box.css" type="text/css" />
@@ -160,7 +182,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-dmr"><i class="fa fa-check"></i>Quest 2: DMR</a></li>
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-aprs"><i class="fa fa-check"></i>Quest 3: APRS</a></li>
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-4-satellite-tracking"><i class="fa fa-check"></i>Quest 4: Satellite tracking</a></li>
-<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-5-potasota-hunting"><i class="fa fa-check"></i>Quest 5: POTA/SOTA hunting</a></li>
+<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-5-potasota-hunting"><i class="fa fa-check"></i>Quest 5: [POTA]/[SOTA] hunting</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#visit-pota.app"><i class="fa fa-check"></i><b>3.0.1</b> Visit Pota.app</a></li>
+<li class="chapter" data-level="3.0.2" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#choose-a-station-to-hunt"><i class="fa fa-check"></i><b>3.0.2</b> Choose a station to “hunt”</a></li>
+<li class="chapter" data-level="3.0.3" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#open-websdr"><i class="fa fa-check"></i><b>3.0.3</b> Open WebSDR</a></li>
+<li class="chapter" data-level="3.0.4" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#tune-to-the-pota-station-frequency"><i class="fa fa-check"></i><b>3.0.4</b> Tune to the POTA station frequency</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-6-ft8ft4-digital-modes"><i class="fa fa-check"></i>Quest 6: [FT8]/FT4 digital modes</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="band-conditions.html"><a href="band-conditions.html"><i class="fa fa-check"></i><b>4</b> Band conditions</a>
 <ul>
@@ -210,35 +239,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="part"><span><b>III Supplemental</b></span></li>
 <li class="chapter" data-level="7" data-path="lingo.html"><a href="lingo.html"><i class="fa fa-check"></i><b>7</b> Lingo</a>
 <ul>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#phonetic-alphabet"><i class="fa fa-check"></i>Phonetic alphabet</a>
-<ul>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#alpha"><i class="fa fa-check"></i>Alpha</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#bravo"><i class="fa fa-check"></i>Bravo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#charlie"><i class="fa fa-check"></i>Charlie</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#delta"><i class="fa fa-check"></i>Delta</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#echo"><i class="fa fa-check"></i>Echo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#foxtrot"><i class="fa fa-check"></i>Foxtrot</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#golf"><i class="fa fa-check"></i>Golf</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#hotel"><i class="fa fa-check"></i>Hotel</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#india"><i class="fa fa-check"></i>India</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#juliet"><i class="fa fa-check"></i>Juliet</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#kilo"><i class="fa fa-check"></i>Kilo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#lima"><i class="fa fa-check"></i>Lima</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#mike"><i class="fa fa-check"></i>Mike</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#november"><i class="fa fa-check"></i>November</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#oscar"><i class="fa fa-check"></i>Oscar</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#papa"><i class="fa fa-check"></i>Papa</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#quebec"><i class="fa fa-check"></i>Quebec</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#romeo"><i class="fa fa-check"></i>Romeo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#sierra"><i class="fa fa-check"></i>Sierra</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#tango"><i class="fa fa-check"></i>Tango</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#uniform"><i class="fa fa-check"></i>Uniform</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#victor"><i class="fa fa-check"></i>Victor</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#whiskey"><i class="fa fa-check"></i>Whiskey</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#x-ray"><i class="fa fa-check"></i>X-ray</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#yankee"><i class="fa fa-check"></i>Yankee</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#zulu"><i class="fa fa-check"></i>Zulu</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#phonetic-alphabet"><i class="fa fa-check"></i>Phonetic alphabet</a></li>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#bar"><i class="fa fa-check"></i>Acronyms</a>
 <ul>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#a"><i class="fa fa-check"></i>A</a></li>
@@ -325,7 +326,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#morse-code"><i class="fa fa-check"></i>Morse code</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html"><i class="fa fa-check"></i>FCC Part 97</a>
+<li class="chapter" data-level="8" data-path="part-97.html"><a href="part-97.html"><i class="fa fa-check"></i><b>8</b> FCC Part 97</a>
 <ul>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#subpart-A"><i class="fa fa-check"></i>Subpart A—General Provisions</a>
 <ul>
@@ -342,7 +343,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.21"><i class="fa fa-check"></i>§ 97.21 Application for a modified or renewed license grant.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.23"><i class="fa fa-check"></i>§ 97.23 Mailing and email addresses.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.25"><i class="fa fa-check"></i>§ 97.25 License term.</a></li>
-<li class="chapter" data-level="7.0.1" data-path="part-97.html"><a href="part-97.html#fcc-modification-of-station-license-grant."><i class="fa fa-check"></i><b>7.0.1</b> § 97.27 FCC modification of station license grant.</a></li>
+<li class="chapter" data-level="8.0.1" data-path="part-97.html"><a href="part-97.html#fcc-modification-of-station-license-grant."><i class="fa fa-check"></i><b>8.0.1</b> § 97.27 FCC modification of station license grant.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#replacement-license-grant-document."><i class="fa fa-check"></i>§ 97.29 Replacement license grant document.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#cancellation-on-account-of-the-licensees-death."><i class="fa fa-check"></i>§ 97.31 Cancellation on account of the licensee’s death.</a></li>
 </ul></li>
@@ -396,22 +397,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#subpart-fqualifying-examination-systems"><i class="fa fa-check"></i>Subpart F—Qualifying Examination Systems</a>
 <ul>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#qualifying-for-an-amateur-operator-license."><i class="fa fa-check"></i>§ 97.501 Qualifying for an amateur operator license.</a></li>
-<li class="chapter" data-level="7.0.2" data-path="part-97.html"><a href="part-97.html#element-credit."><i class="fa fa-check"></i><b>7.0.2</b> § 97.505 Element credit.</a></li>
-<li class="chapter" data-level="7.0.3" data-path="part-97.html"><a href="part-97.html#preparing-an-examination."><i class="fa fa-check"></i><b>7.0.3</b> § 97.507 Preparing an examination.</a></li>
-<li class="chapter" data-level="7.0.4" data-path="part-97.html"><a href="part-97.html#administering-ve-requirements."><i class="fa fa-check"></i><b>7.0.4</b> § 97.509 Administering VE requirements.</a></li>
-<li class="chapter" data-level="7.0.5" data-path="part-97.html"><a href="part-97.html#examinee-conduct."><i class="fa fa-check"></i><b>7.0.5</b> § 97.511 Examinee conduct.</a></li>
-<li class="chapter" data-level="7.0.6" data-path="part-97.html"><a href="part-97.html#ve-session-manager-requirements."><i class="fa fa-check"></i><b>7.0.6</b> § 97.513 VE session manager requirements.</a></li>
-<li class="chapter" data-level="7.0.7" data-path="part-97.html"><a href="part-97.html#coordinating-examination-sessions."><i class="fa fa-check"></i><b>7.0.7</b> § 97.519 Coordinating examination sessions.</a></li>
-<li class="chapter" data-level="7.0.8" data-path="part-97.html"><a href="part-97.html#vec-qualifications."><i class="fa fa-check"></i><b>7.0.8</b> § 97.521 VEC qualifications.</a></li>
-<li class="chapter" data-level="7.0.9" data-path="part-97.html"><a href="part-97.html#question-pools."><i class="fa fa-check"></i><b>7.0.9</b> § 97.523 Question pools.</a></li>
-<li class="chapter" data-level="7.0.10" data-path="part-97.html"><a href="part-97.html#accrediting-ves."><i class="fa fa-check"></i><b>7.0.10</b> § 97.525 Accrediting VEs.</a></li>
-<li class="chapter" data-level="7.0.11" data-path="part-97.html"><a href="part-97.html#reimbursement-for-expenses."><i class="fa fa-check"></i><b>7.0.11</b> § 97.527 Reimbursement for expenses.</a></li>
-<li class="chapter" data-level="7.0.12" data-path="part-97.html"><a href="part-97.html#appendix-2-to-part-97vec-regions"><i class="fa fa-check"></i><b>7.0.12</b> Appendix 2 to Part 97—VEC Regions</a></li>
+<li class="chapter" data-level="8.0.2" data-path="part-97.html"><a href="part-97.html#element-credit."><i class="fa fa-check"></i><b>8.0.2</b> § 97.505 Element credit.</a></li>
+<li class="chapter" data-level="8.0.3" data-path="part-97.html"><a href="part-97.html#preparing-an-examination."><i class="fa fa-check"></i><b>8.0.3</b> § 97.507 Preparing an examination.</a></li>
+<li class="chapter" data-level="8.0.4" data-path="part-97.html"><a href="part-97.html#administering-ve-requirements."><i class="fa fa-check"></i><b>8.0.4</b> § 97.509 Administering VE requirements.</a></li>
+<li class="chapter" data-level="8.0.5" data-path="part-97.html"><a href="part-97.html#examinee-conduct."><i class="fa fa-check"></i><b>8.0.5</b> § 97.511 Examinee conduct.</a></li>
+<li class="chapter" data-level="8.0.6" data-path="part-97.html"><a href="part-97.html#ve-session-manager-requirements."><i class="fa fa-check"></i><b>8.0.6</b> § 97.513 VE session manager requirements.</a></li>
+<li class="chapter" data-level="8.0.7" data-path="part-97.html"><a href="part-97.html#coordinating-examination-sessions."><i class="fa fa-check"></i><b>8.0.7</b> § 97.519 Coordinating examination sessions.</a></li>
+<li class="chapter" data-level="8.0.8" data-path="part-97.html"><a href="part-97.html#vec-qualifications."><i class="fa fa-check"></i><b>8.0.8</b> § 97.521 VEC qualifications.</a></li>
+<li class="chapter" data-level="8.0.9" data-path="part-97.html"><a href="part-97.html#question-pools."><i class="fa fa-check"></i><b>8.0.9</b> § 97.523 Question pools.</a></li>
+<li class="chapter" data-level="8.0.10" data-path="part-97.html"><a href="part-97.html#accrediting-ves."><i class="fa fa-check"></i><b>8.0.10</b> § 97.525 Accrediting VEs.</a></li>
+<li class="chapter" data-level="8.0.11" data-path="part-97.html"><a href="part-97.html#reimbursement-for-expenses."><i class="fa fa-check"></i><b>8.0.11</b> § 97.527 Reimbursement for expenses.</a></li>
+<li class="chapter" data-level="8.0.12" data-path="part-97.html"><a href="part-97.html#appendix-2-to-part-97vec-regions"><i class="fa fa-check"></i><b>8.0.12</b> Appendix 2 to Part 97—VEC Regions</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>8</b> Links</a>
+<li class="chapter" data-level="9" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>9</b> Links</a>
 <ul>
 <li class="chapter" data-level="" data-path="links.html"><a href="links.html#third-party-traffic"><i class="fa fa-check"></i>Third party traffic</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="videos.html"><a href="videos.html"><i class="fa fa-check"></i><b>10</b> Videos</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="videos.html"><a href="videos.html#what-hams-do"><i class="fa fa-check"></i><b>10.1</b> What hams do</a></li>
+<li class="chapter" data-level="10.2" data-path="videos.html"><a href="videos.html#wave-behavior"><i class="fa fa-check"></i><b>10.2</b> Wave behavior</a></li>
+<li class="chapter" data-level="10.3" data-path="videos.html"><a href="videos.html#ham-radio-movie-high-frequency"><i class="fa fa-check"></i><b>10.3</b> Ham radio movie, <em>High Frequency</em></a></li>
+<li class="chapter" data-level="10.4" data-path="videos.html"><a href="videos.html#getting-licensed"><i class="fa fa-check"></i><b>10.4</b> Getting licensed</a></li>
+<li class="chapter" data-level="10.5" data-path="videos.html"><a href="videos.html#ham-radio-crash-course-technician-class-course_undated-jl"><i class="fa fa-check"></i><b>10.5</b> Ham Radio Crash Course Technician class <span class="citation">Course (n.d.)</span></a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -449,84 +458,127 @@ Most hams are forgiving people who want newcomers to join our ranks.
 But saying certain things is like writing a scarlet H in the middle of your forehead.</p>
 <div id="phonetic-alphabet" class="section level2 unnumbered hasAnchor">
 <h2>Phonetic alphabet<a href="lingo.html#phonetic-alphabet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="alpha" class="section level3 unnumbered hasAnchor">
-<h3>Alpha<a href="lingo.html#alpha" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="bravo" class="section level3 unnumbered hasAnchor">
-<h3>Bravo<a href="lingo.html#bravo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="charlie" class="section level3 unnumbered hasAnchor">
-<h3>Charlie<a href="lingo.html#charlie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="delta" class="section level3 unnumbered hasAnchor">
-<h3>Delta<a href="lingo.html#delta" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="echo" class="section level3 unnumbered hasAnchor">
-<h3>Echo<a href="lingo.html#echo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="foxtrot" class="section level3 unnumbered hasAnchor">
-<h3>Foxtrot<a href="lingo.html#foxtrot" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="golf" class="section level3 unnumbered hasAnchor">
-<h3>Golf<a href="lingo.html#golf" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="hotel" class="section level3 unnumbered hasAnchor">
-<h3>Hotel<a href="lingo.html#hotel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="india" class="section level3 unnumbered hasAnchor">
-<h3>India<a href="lingo.html#india" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="juliet" class="section level3 unnumbered hasAnchor">
-<h3>Juliet<a href="lingo.html#juliet" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="kilo" class="section level3 unnumbered hasAnchor">
-<h3>Kilo<a href="lingo.html#kilo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="lima" class="section level3 unnumbered hasAnchor">
-<h3>Lima<a href="lingo.html#lima" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="mike" class="section level3 unnumbered hasAnchor">
-<h3>Mike<a href="lingo.html#mike" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="november" class="section level3 unnumbered hasAnchor">
-<h3>November<a href="lingo.html#november" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="oscar" class="section level3 unnumbered hasAnchor">
-<h3>Oscar<a href="lingo.html#oscar" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="papa" class="section level3 unnumbered hasAnchor">
-<h3>Papa<a href="lingo.html#papa" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="quebec" class="section level3 unnumbered hasAnchor">
-<h3>Quebec<a href="lingo.html#quebec" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="romeo" class="section level3 unnumbered hasAnchor">
-<h3>Romeo<a href="lingo.html#romeo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="sierra" class="section level3 unnumbered hasAnchor">
-<h3>Sierra<a href="lingo.html#sierra" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="tango" class="section level3 unnumbered hasAnchor">
-<h3>Tango<a href="lingo.html#tango" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="uniform" class="section level3 unnumbered hasAnchor">
-<h3>Uniform<a href="lingo.html#uniform" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="victor" class="section level3 unnumbered hasAnchor">
-<h3>Victor<a href="lingo.html#victor" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="whiskey" class="section level3 unnumbered hasAnchor">
-<h3>Whiskey<a href="lingo.html#whiskey" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="x-ray" class="section level3 unnumbered hasAnchor">
-<h3>X-ray<a href="lingo.html#x-ray" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="yankee" class="section level3 unnumbered hasAnchor">
-<h3>Yankee<a href="lingo.html#yankee" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
-<div id="zulu" class="section level3 unnumbered hasAnchor">
-<h3>Zulu<a href="lingo.html#zulu" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-</div>
+<p>Amateurs across the globe have agreed on a standard phonetic alphabet–a way of spelling out callsigns and words that makes them more easily understood when propagation might not be ideal.</p>
+<p>The phonetic alphabet is often used on HF, but rarely on VHF or UHF FM.
+That’s because signals on VHF or UHF FM are often heard through repeaters and are usually <em>very</em> readable.
+So, if you’re transmitting on VHF or UHF through a repeater, you don’t need to use the phonetic alphabet.</p>
+<p>Some hams use different phonetic equivalents from the ones below, like “Wacko Three Tiny Microphone” for W3TM.
+As a rule of thumb, it’s better practice and the more common custom to use the standard phonetic alphabet.
+Sometimes under difficult operating conditions, like a busy contest, you might say “Whiskey Three TEXAS MASSACHUSETTS” or something unusual rather than “Whiskey Three Tango Mike”–<em>if</em> the other operator can’t quite copy the last part of your callsign after you’ve tried the standard phonetics several times.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Letter</th>
+<th>Phonetic equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Alpha</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Bravo</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>Charlie</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>Delta</td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td>Echo</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>Foxtrot</td>
+</tr>
+<tr class="odd">
+<td>G</td>
+<td>Golf</td>
+</tr>
+<tr class="even">
+<td>H</td>
+<td>Hotel</td>
+</tr>
+<tr class="odd">
+<td>I</td>
+<td>India</td>
+</tr>
+<tr class="even">
+<td>J</td>
+<td>Juliet</td>
+</tr>
+<tr class="odd">
+<td>K</td>
+<td>Kilo</td>
+</tr>
+<tr class="even">
+<td>L</td>
+<td>Lima</td>
+</tr>
+<tr class="odd">
+<td>M</td>
+<td>Mike</td>
+</tr>
+<tr class="even">
+<td>N</td>
+<td>November</td>
+</tr>
+<tr class="odd">
+<td>O</td>
+<td>Oscar</td>
+</tr>
+<tr class="even">
+<td>P</td>
+<td>Papa (accent on 2nd syllable)</td>
+</tr>
+<tr class="odd">
+<td>Q</td>
+<td>Quebec</td>
+</tr>
+<tr class="even">
+<td>R</td>
+<td>Romeo</td>
+</tr>
+<tr class="odd">
+<td>S</td>
+<td>Sierra</td>
+</tr>
+<tr class="even">
+<td>T</td>
+<td>Tango</td>
+</tr>
+<tr class="odd">
+<td>U</td>
+<td>Uniform</td>
+</tr>
+<tr class="even">
+<td>V</td>
+<td>Victor</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>Whiskey</td>
+</tr>
+<tr class="even">
+<td>X</td>
+<td>X-ray</td>
+</tr>
+<tr class="odd">
+<td>Y</td>
+<td>Yankee</td>
+</tr>
+<tr class="even">
+<td>Z</td>
+<td>Zulu</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="bar" class="section level2 unnumbered hasAnchor">
 <h2>Acronyms<a href="lingo.html#bar" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -795,7 +847,7 @@ But saying certain things is like writing a scarlet H in the middle of your fore
 </div>
 <div id="i" class="section level3 unnumbered hasAnchor">
 <h3>I<a href="lingo.html#i" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Current. <span class="math inline">\(I=E/R\)</span></p>
+<p>Current. <span class="math inline">\(I=E/R\)</span>, <span class="math inline">\(I=P/E\)</span></p>
 </div>
 <div id="p" class="section level3 unnumbered hasAnchor">
 <h3>P<a href="lingo.html#p" class="anchor-section" aria-label="Anchor link to header"></a></h3>

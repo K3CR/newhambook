@@ -23,7 +23,7 @@
 <meta name="author" content="Rick Gilmore W3TM" />
 
 
-<meta name="date" content="2023-04-08" />
+<meta name="date" content="2023-04-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -119,6 +119,28 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="include/css/style.css" type="text/css" />
 <link rel="stylesheet" href="include/css/box.css" type="text/css" />
@@ -160,7 +182,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-dmr"><i class="fa fa-check"></i>Quest 2: DMR</a></li>
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-aprs"><i class="fa fa-check"></i>Quest 3: APRS</a></li>
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-4-satellite-tracking"><i class="fa fa-check"></i>Quest 4: Satellite tracking</a></li>
-<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-5-potasota-hunting"><i class="fa fa-check"></i>Quest 5: POTA/SOTA hunting</a></li>
+<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-5-potasota-hunting"><i class="fa fa-check"></i>Quest 5: [POTA]/[SOTA] hunting</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#visit-pota.app"><i class="fa fa-check"></i><b>3.0.1</b> Visit Pota.app</a></li>
+<li class="chapter" data-level="3.0.2" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#choose-a-station-to-hunt"><i class="fa fa-check"></i><b>3.0.2</b> Choose a station to “hunt”</a></li>
+<li class="chapter" data-level="3.0.3" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#open-websdr"><i class="fa fa-check"></i><b>3.0.3</b> Open WebSDR</a></li>
+<li class="chapter" data-level="3.0.4" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#tune-to-the-pota-station-frequency"><i class="fa fa-check"></i><b>3.0.4</b> Tune to the POTA station frequency</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-6-ft8ft4-digital-modes"><i class="fa fa-check"></i>Quest 6: [FT8]/FT4 digital modes</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="band-conditions.html"><a href="band-conditions.html"><i class="fa fa-check"></i><b>4</b> Band conditions</a>
 <ul>
@@ -210,35 +239,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="part"><span><b>III Supplemental</b></span></li>
 <li class="chapter" data-level="7" data-path="lingo.html"><a href="lingo.html"><i class="fa fa-check"></i><b>7</b> Lingo</a>
 <ul>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#phonetic-alphabet"><i class="fa fa-check"></i>Phonetic alphabet</a>
-<ul>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#alpha"><i class="fa fa-check"></i>Alpha</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#bravo"><i class="fa fa-check"></i>Bravo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#charlie"><i class="fa fa-check"></i>Charlie</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#delta"><i class="fa fa-check"></i>Delta</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#echo"><i class="fa fa-check"></i>Echo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#foxtrot"><i class="fa fa-check"></i>Foxtrot</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#golf"><i class="fa fa-check"></i>Golf</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#hotel"><i class="fa fa-check"></i>Hotel</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#india"><i class="fa fa-check"></i>India</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#juliet"><i class="fa fa-check"></i>Juliet</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#kilo"><i class="fa fa-check"></i>Kilo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#lima"><i class="fa fa-check"></i>Lima</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#mike"><i class="fa fa-check"></i>Mike</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#november"><i class="fa fa-check"></i>November</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#oscar"><i class="fa fa-check"></i>Oscar</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#papa"><i class="fa fa-check"></i>Papa</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#quebec"><i class="fa fa-check"></i>Quebec</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#romeo"><i class="fa fa-check"></i>Romeo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#sierra"><i class="fa fa-check"></i>Sierra</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#tango"><i class="fa fa-check"></i>Tango</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#uniform"><i class="fa fa-check"></i>Uniform</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#victor"><i class="fa fa-check"></i>Victor</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#whiskey"><i class="fa fa-check"></i>Whiskey</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#x-ray"><i class="fa fa-check"></i>X-ray</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#yankee"><i class="fa fa-check"></i>Yankee</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#zulu"><i class="fa fa-check"></i>Zulu</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#phonetic-alphabet"><i class="fa fa-check"></i>Phonetic alphabet</a></li>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#bar"><i class="fa fa-check"></i>Acronyms</a>
 <ul>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#a"><i class="fa fa-check"></i>A</a></li>
@@ -325,7 +326,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#morse-code"><i class="fa fa-check"></i>Morse code</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html"><i class="fa fa-check"></i>FCC Part 97</a>
+<li class="chapter" data-level="8" data-path="part-97.html"><a href="part-97.html"><i class="fa fa-check"></i><b>8</b> FCC Part 97</a>
 <ul>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#subpart-A"><i class="fa fa-check"></i>Subpart A—General Provisions</a>
 <ul>
@@ -342,7 +343,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.21"><i class="fa fa-check"></i>§ 97.21 Application for a modified or renewed license grant.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.23"><i class="fa fa-check"></i>§ 97.23 Mailing and email addresses.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.25"><i class="fa fa-check"></i>§ 97.25 License term.</a></li>
-<li class="chapter" data-level="7.0.1" data-path="part-97.html"><a href="part-97.html#fcc-modification-of-station-license-grant."><i class="fa fa-check"></i><b>7.0.1</b> § 97.27 FCC modification of station license grant.</a></li>
+<li class="chapter" data-level="8.0.1" data-path="part-97.html"><a href="part-97.html#fcc-modification-of-station-license-grant."><i class="fa fa-check"></i><b>8.0.1</b> § 97.27 FCC modification of station license grant.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#replacement-license-grant-document."><i class="fa fa-check"></i>§ 97.29 Replacement license grant document.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#cancellation-on-account-of-the-licensees-death."><i class="fa fa-check"></i>§ 97.31 Cancellation on account of the licensee’s death.</a></li>
 </ul></li>
@@ -396,22 +397,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#subpart-fqualifying-examination-systems"><i class="fa fa-check"></i>Subpart F—Qualifying Examination Systems</a>
 <ul>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#qualifying-for-an-amateur-operator-license."><i class="fa fa-check"></i>§ 97.501 Qualifying for an amateur operator license.</a></li>
-<li class="chapter" data-level="7.0.2" data-path="part-97.html"><a href="part-97.html#element-credit."><i class="fa fa-check"></i><b>7.0.2</b> § 97.505 Element credit.</a></li>
-<li class="chapter" data-level="7.0.3" data-path="part-97.html"><a href="part-97.html#preparing-an-examination."><i class="fa fa-check"></i><b>7.0.3</b> § 97.507 Preparing an examination.</a></li>
-<li class="chapter" data-level="7.0.4" data-path="part-97.html"><a href="part-97.html#administering-ve-requirements."><i class="fa fa-check"></i><b>7.0.4</b> § 97.509 Administering VE requirements.</a></li>
-<li class="chapter" data-level="7.0.5" data-path="part-97.html"><a href="part-97.html#examinee-conduct."><i class="fa fa-check"></i><b>7.0.5</b> § 97.511 Examinee conduct.</a></li>
-<li class="chapter" data-level="7.0.6" data-path="part-97.html"><a href="part-97.html#ve-session-manager-requirements."><i class="fa fa-check"></i><b>7.0.6</b> § 97.513 VE session manager requirements.</a></li>
-<li class="chapter" data-level="7.0.7" data-path="part-97.html"><a href="part-97.html#coordinating-examination-sessions."><i class="fa fa-check"></i><b>7.0.7</b> § 97.519 Coordinating examination sessions.</a></li>
-<li class="chapter" data-level="7.0.8" data-path="part-97.html"><a href="part-97.html#vec-qualifications."><i class="fa fa-check"></i><b>7.0.8</b> § 97.521 VEC qualifications.</a></li>
-<li class="chapter" data-level="7.0.9" data-path="part-97.html"><a href="part-97.html#question-pools."><i class="fa fa-check"></i><b>7.0.9</b> § 97.523 Question pools.</a></li>
-<li class="chapter" data-level="7.0.10" data-path="part-97.html"><a href="part-97.html#accrediting-ves."><i class="fa fa-check"></i><b>7.0.10</b> § 97.525 Accrediting VEs.</a></li>
-<li class="chapter" data-level="7.0.11" data-path="part-97.html"><a href="part-97.html#reimbursement-for-expenses."><i class="fa fa-check"></i><b>7.0.11</b> § 97.527 Reimbursement for expenses.</a></li>
-<li class="chapter" data-level="7.0.12" data-path="part-97.html"><a href="part-97.html#appendix-2-to-part-97vec-regions"><i class="fa fa-check"></i><b>7.0.12</b> Appendix 2 to Part 97—VEC Regions</a></li>
+<li class="chapter" data-level="8.0.2" data-path="part-97.html"><a href="part-97.html#element-credit."><i class="fa fa-check"></i><b>8.0.2</b> § 97.505 Element credit.</a></li>
+<li class="chapter" data-level="8.0.3" data-path="part-97.html"><a href="part-97.html#preparing-an-examination."><i class="fa fa-check"></i><b>8.0.3</b> § 97.507 Preparing an examination.</a></li>
+<li class="chapter" data-level="8.0.4" data-path="part-97.html"><a href="part-97.html#administering-ve-requirements."><i class="fa fa-check"></i><b>8.0.4</b> § 97.509 Administering VE requirements.</a></li>
+<li class="chapter" data-level="8.0.5" data-path="part-97.html"><a href="part-97.html#examinee-conduct."><i class="fa fa-check"></i><b>8.0.5</b> § 97.511 Examinee conduct.</a></li>
+<li class="chapter" data-level="8.0.6" data-path="part-97.html"><a href="part-97.html#ve-session-manager-requirements."><i class="fa fa-check"></i><b>8.0.6</b> § 97.513 VE session manager requirements.</a></li>
+<li class="chapter" data-level="8.0.7" data-path="part-97.html"><a href="part-97.html#coordinating-examination-sessions."><i class="fa fa-check"></i><b>8.0.7</b> § 97.519 Coordinating examination sessions.</a></li>
+<li class="chapter" data-level="8.0.8" data-path="part-97.html"><a href="part-97.html#vec-qualifications."><i class="fa fa-check"></i><b>8.0.8</b> § 97.521 VEC qualifications.</a></li>
+<li class="chapter" data-level="8.0.9" data-path="part-97.html"><a href="part-97.html#question-pools."><i class="fa fa-check"></i><b>8.0.9</b> § 97.523 Question pools.</a></li>
+<li class="chapter" data-level="8.0.10" data-path="part-97.html"><a href="part-97.html#accrediting-ves."><i class="fa fa-check"></i><b>8.0.10</b> § 97.525 Accrediting VEs.</a></li>
+<li class="chapter" data-level="8.0.11" data-path="part-97.html"><a href="part-97.html#reimbursement-for-expenses."><i class="fa fa-check"></i><b>8.0.11</b> § 97.527 Reimbursement for expenses.</a></li>
+<li class="chapter" data-level="8.0.12" data-path="part-97.html"><a href="part-97.html#appendix-2-to-part-97vec-regions"><i class="fa fa-check"></i><b>8.0.12</b> Appendix 2 to Part 97—VEC Regions</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>8</b> Links</a>
+<li class="chapter" data-level="9" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>9</b> Links</a>
 <ul>
 <li class="chapter" data-level="" data-path="links.html"><a href="links.html#third-party-traffic"><i class="fa fa-check"></i>Third party traffic</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="videos.html"><a href="videos.html"><i class="fa fa-check"></i><b>10</b> Videos</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="videos.html"><a href="videos.html#what-hams-do"><i class="fa fa-check"></i><b>10.1</b> What hams do</a></li>
+<li class="chapter" data-level="10.2" data-path="videos.html"><a href="videos.html#wave-behavior"><i class="fa fa-check"></i><b>10.2</b> Wave behavior</a></li>
+<li class="chapter" data-level="10.3" data-path="videos.html"><a href="videos.html#ham-radio-movie-high-frequency"><i class="fa fa-check"></i><b>10.3</b> Ham radio movie, <em>High Frequency</em></a></li>
+<li class="chapter" data-level="10.4" data-path="videos.html"><a href="videos.html#getting-licensed"><i class="fa fa-check"></i><b>10.4</b> Getting licensed</a></li>
+<li class="chapter" data-level="10.5" data-path="videos.html"><a href="videos.html#ham-radio-crash-course-technician-class-course_undated-jl"><i class="fa fa-check"></i><b>10.5</b> Ham Radio Crash Course Technician class <span class="citation">Course (n.d.)</span></a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -439,6 +448,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2>Quest 1: WebSDR<a href="hands-on-hamming.html#quest-websdr" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Thanks to the widespread availability of inexpensive software-defined radios (SDRs), it’s possible to listen to the ham bands over the internet from sites located all over the world.</p>
 <p>In this quest, we’ll check-in on the bands and listen to some <a href="lingo.html#hf">HF</a> [QSO]s.</p>
+<div class="infobox">
+<p>Here are some other web-based SDRs you might try:</p>
+<p><a href="http://kiwisdr.com/public/" class="uri">http://kiwisdr.com/public/</a></p>
+<p><a href="http://www.maghull-scene.co.uk/radio.htm" class="uri">http://www.maghull-scene.co.uk/radio.htm</a></p>
+</div>
 <div id="vist-the-websdr-site-at-httpswebsdr.org." class="section level3 unnumbered hasAnchor">
 <h3>Vist the WebSDR site at <a href="https://websdr.org" class="uri">https://websdr.org</a>.<a href="hands-on-hamming.html#vist-the-websdr-site-at-httpswebsdr.org." class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>You will see a screen like the following:</p>
@@ -660,7 +674,51 @@ Yours will be different, even if you live in my grid square, because the ISS is 
 <p><img src="include/img/amsat-iss-pred-fn10.png" style="display: block; margin: auto;" /></p>
 </div>
 <div id="quest-5-potasota-hunting" class="section level2 unnumbered hasAnchor">
-<h2>Quest 5: POTA/SOTA hunting<a href="hands-on-hamming.html#quest-5-potasota-hunting" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<h2>Quest 5: [POTA]/[SOTA] hunting<a href="hands-on-hamming.html#quest-5-potasota-hunting" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this quest, you will “hunt” hams who are operating using portable stations from one of several thousand parks around the world as part of the Parks on the Air (POTA) system.</p>
+<div id="visit-pota.app" class="section level3 hasAnchor" number="3.0.1">
+<h3><span class="header-section-number">3.0.1</span> Visit Pota.app<a href="hands-on-hamming.html#visit-pota.app" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="hands-on-hamming.html#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">&quot;https://pota.app/&quot;</span>)</span></code></pre></div>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-15"></span>
+<iframe src="https://pota.app/" width="672" height="400px" data-external="1">
+</iframe>
+<p class="caption">
+Figure 3.8: Current Parks on the Air (POTA) from <a href="https://pota.app" class="uri">https://pota.app</a>
+</p>
+</div>
+<p>The site shows hams who are active on the air <em>right now</em> and on what frequencies and using which modes.</p>
+</div>
+<div id="choose-a-station-to-hunt" class="section level3 hasAnchor" number="3.0.2">
+<h3><span class="header-section-number">3.0.2</span> Choose a station to “hunt”<a href="hands-on-hamming.html#choose-a-station-to-hunt" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>By hunt, of course, we mean try to hear on the radio.
+Once you’re licensed with appropriate privileges, you can try to make contact.
+For now, let’s just try to hear the station.</p>
+<p>You have some decisions to make.
+Which mode, CW, FT8, or phone?
+Which band?</p>
+<p>Unless you have already set up a receiver to copy and decode FT8, you can eliminate stations using [FT8] or [FT4].
+Phone is the easiest, but also requires the best band conditions.</p>
+<p>Here are some rules of thumb to guide your choices:</p>
+<ol style="list-style-type: decimal">
+<li><p>The lower frequency (higher wavelength) bands (160m, 80m/75m, 60m, and 40m) propagate longer distances at night than during the day. During the early morning hours, 80m/75m might support regional propagation, meaning you can hear stations within several hundred miles of your location. 60m and 40m might also work for regional communication throughout the day.</p></li>
+<li><p>The higher bands (30m, 20m, 17m, 15m, 12m, and 10m) are long distance (DX) bands and are most active during the day and under good solar conditions.</p></li>
+</ol>
+<p>Once you’ve chosen a station to hunt, you can try to hear them on a WebSDR.</p>
+</div>
+<div id="open-websdr" class="section level3 hasAnchor" number="3.0.3">
+<h3><span class="header-section-number">3.0.3</span> Open WebSDR<a href="hands-on-hamming.html#open-websdr" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If you pick a WebSDR near your location, then you’ll need to consider the rules of thumb above.</p>
+<p>If you pick a WebSDR somewhere else, you’ll have to think like a ham in one of those locations: What bands are open to hams and to what parts of the world from that location?</p>
+</div>
+<div id="tune-to-the-pota-station-frequency" class="section level3 hasAnchor" number="3.0.4">
+<h3><span class="header-section-number">3.0.4</span> Tune to the POTA station frequency<a href="hands-on-hamming.html#tune-to-the-pota-station-frequency" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If the station is still active on the frequency and propagation to the WebSDR location is good, you should see a signal in the waterfall.
+Try to copy the station? Can you hear the callsign? Can you hear any stations trying to call.</p>
+</div>
+</div>
+<div id="quest-6-ft8ft4-digital-modes" class="section level2 unnumbered hasAnchor">
+<h2>Quest 6: [FT8]/FT4 digital modes<a href="hands-on-hamming.html#quest-6-ft8ft4-digital-modes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><a href="https://wsjtx.groups.io/g/main/topic/websdr_for_wsjtx/79502964" class="uri">https://wsjtx.groups.io/g/main/topic/websdr_for_wsjtx/79502964</a></p>
 
 </div>
 </div>

@@ -23,7 +23,7 @@
 <meta name="author" content="Rick Gilmore W3TM" />
 
 
-<meta name="date" content="2023-04-08" />
+<meta name="date" content="2023-04-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -119,6 +119,28 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="include/css/style.css" type="text/css" />
 <link rel="stylesheet" href="include/css/box.css" type="text/css" />
@@ -160,7 +182,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-dmr"><i class="fa fa-check"></i>Quest 2: DMR</a></li>
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-aprs"><i class="fa fa-check"></i>Quest 3: APRS</a></li>
 <li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-4-satellite-tracking"><i class="fa fa-check"></i>Quest 4: Satellite tracking</a></li>
-<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-5-potasota-hunting"><i class="fa fa-check"></i>Quest 5: POTA/SOTA hunting</a></li>
+<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-5-potasota-hunting"><i class="fa fa-check"></i>Quest 5: [POTA]/[SOTA] hunting</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#visit-pota.app"><i class="fa fa-check"></i><b>3.0.1</b> Visit Pota.app</a></li>
+<li class="chapter" data-level="3.0.2" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#choose-a-station-to-hunt"><i class="fa fa-check"></i><b>3.0.2</b> Choose a station to “hunt”</a></li>
+<li class="chapter" data-level="3.0.3" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#open-websdr"><i class="fa fa-check"></i><b>3.0.3</b> Open WebSDR</a></li>
+<li class="chapter" data-level="3.0.4" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#tune-to-the-pota-station-frequency"><i class="fa fa-check"></i><b>3.0.4</b> Tune to the POTA station frequency</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="hands-on-hamming.html"><a href="hands-on-hamming.html#quest-6-ft8ft4-digital-modes"><i class="fa fa-check"></i>Quest 6: [FT8]/FT4 digital modes</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="band-conditions.html"><a href="band-conditions.html"><i class="fa fa-check"></i><b>4</b> Band conditions</a>
 <ul>
@@ -210,35 +239,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="part"><span><b>III Supplemental</b></span></li>
 <li class="chapter" data-level="7" data-path="lingo.html"><a href="lingo.html"><i class="fa fa-check"></i><b>7</b> Lingo</a>
 <ul>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#phonetic-alphabet"><i class="fa fa-check"></i>Phonetic alphabet</a>
-<ul>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#alpha"><i class="fa fa-check"></i>Alpha</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#bravo"><i class="fa fa-check"></i>Bravo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#charlie"><i class="fa fa-check"></i>Charlie</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#delta"><i class="fa fa-check"></i>Delta</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#echo"><i class="fa fa-check"></i>Echo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#foxtrot"><i class="fa fa-check"></i>Foxtrot</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#golf"><i class="fa fa-check"></i>Golf</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#hotel"><i class="fa fa-check"></i>Hotel</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#india"><i class="fa fa-check"></i>India</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#juliet"><i class="fa fa-check"></i>Juliet</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#kilo"><i class="fa fa-check"></i>Kilo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#lima"><i class="fa fa-check"></i>Lima</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#mike"><i class="fa fa-check"></i>Mike</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#november"><i class="fa fa-check"></i>November</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#oscar"><i class="fa fa-check"></i>Oscar</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#papa"><i class="fa fa-check"></i>Papa</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#quebec"><i class="fa fa-check"></i>Quebec</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#romeo"><i class="fa fa-check"></i>Romeo</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#sierra"><i class="fa fa-check"></i>Sierra</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#tango"><i class="fa fa-check"></i>Tango</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#uniform"><i class="fa fa-check"></i>Uniform</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#victor"><i class="fa fa-check"></i>Victor</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#whiskey"><i class="fa fa-check"></i>Whiskey</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#x-ray"><i class="fa fa-check"></i>X-ray</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#yankee"><i class="fa fa-check"></i>Yankee</a></li>
-<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#zulu"><i class="fa fa-check"></i>Zulu</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#phonetic-alphabet"><i class="fa fa-check"></i>Phonetic alphabet</a></li>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#bar"><i class="fa fa-check"></i>Acronyms</a>
 <ul>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#a"><i class="fa fa-check"></i>A</a></li>
@@ -325,7 +326,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="" data-path="lingo.html"><a href="lingo.html#morse-code"><i class="fa fa-check"></i>Morse code</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html"><i class="fa fa-check"></i>FCC Part 97</a>
+<li class="chapter" data-level="8" data-path="part-97.html"><a href="part-97.html"><i class="fa fa-check"></i><b>8</b> FCC Part 97</a>
 <ul>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#subpart-A"><i class="fa fa-check"></i>Subpart A—General Provisions</a>
 <ul>
@@ -342,7 +343,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.21"><i class="fa fa-check"></i>§ 97.21 Application for a modified or renewed license grant.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.23"><i class="fa fa-check"></i>§ 97.23 Mailing and email addresses.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#id_97.25"><i class="fa fa-check"></i>§ 97.25 License term.</a></li>
-<li class="chapter" data-level="7.0.1" data-path="part-97.html"><a href="part-97.html#fcc-modification-of-station-license-grant."><i class="fa fa-check"></i><b>7.0.1</b> § 97.27 FCC modification of station license grant.</a></li>
+<li class="chapter" data-level="8.0.1" data-path="part-97.html"><a href="part-97.html#fcc-modification-of-station-license-grant."><i class="fa fa-check"></i><b>8.0.1</b> § 97.27 FCC modification of station license grant.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#replacement-license-grant-document."><i class="fa fa-check"></i>§ 97.29 Replacement license grant document.</a></li>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#cancellation-on-account-of-the-licensees-death."><i class="fa fa-check"></i>§ 97.31 Cancellation on account of the licensee’s death.</a></li>
 </ul></li>
@@ -396,22 +397,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#subpart-fqualifying-examination-systems"><i class="fa fa-check"></i>Subpart F—Qualifying Examination Systems</a>
 <ul>
 <li class="chapter" data-level="" data-path="part-97.html"><a href="part-97.html#qualifying-for-an-amateur-operator-license."><i class="fa fa-check"></i>§ 97.501 Qualifying for an amateur operator license.</a></li>
-<li class="chapter" data-level="7.0.2" data-path="part-97.html"><a href="part-97.html#element-credit."><i class="fa fa-check"></i><b>7.0.2</b> § 97.505 Element credit.</a></li>
-<li class="chapter" data-level="7.0.3" data-path="part-97.html"><a href="part-97.html#preparing-an-examination."><i class="fa fa-check"></i><b>7.0.3</b> § 97.507 Preparing an examination.</a></li>
-<li class="chapter" data-level="7.0.4" data-path="part-97.html"><a href="part-97.html#administering-ve-requirements."><i class="fa fa-check"></i><b>7.0.4</b> § 97.509 Administering VE requirements.</a></li>
-<li class="chapter" data-level="7.0.5" data-path="part-97.html"><a href="part-97.html#examinee-conduct."><i class="fa fa-check"></i><b>7.0.5</b> § 97.511 Examinee conduct.</a></li>
-<li class="chapter" data-level="7.0.6" data-path="part-97.html"><a href="part-97.html#ve-session-manager-requirements."><i class="fa fa-check"></i><b>7.0.6</b> § 97.513 VE session manager requirements.</a></li>
-<li class="chapter" data-level="7.0.7" data-path="part-97.html"><a href="part-97.html#coordinating-examination-sessions."><i class="fa fa-check"></i><b>7.0.7</b> § 97.519 Coordinating examination sessions.</a></li>
-<li class="chapter" data-level="7.0.8" data-path="part-97.html"><a href="part-97.html#vec-qualifications."><i class="fa fa-check"></i><b>7.0.8</b> § 97.521 VEC qualifications.</a></li>
-<li class="chapter" data-level="7.0.9" data-path="part-97.html"><a href="part-97.html#question-pools."><i class="fa fa-check"></i><b>7.0.9</b> § 97.523 Question pools.</a></li>
-<li class="chapter" data-level="7.0.10" data-path="part-97.html"><a href="part-97.html#accrediting-ves."><i class="fa fa-check"></i><b>7.0.10</b> § 97.525 Accrediting VEs.</a></li>
-<li class="chapter" data-level="7.0.11" data-path="part-97.html"><a href="part-97.html#reimbursement-for-expenses."><i class="fa fa-check"></i><b>7.0.11</b> § 97.527 Reimbursement for expenses.</a></li>
-<li class="chapter" data-level="7.0.12" data-path="part-97.html"><a href="part-97.html#appendix-2-to-part-97vec-regions"><i class="fa fa-check"></i><b>7.0.12</b> Appendix 2 to Part 97—VEC Regions</a></li>
+<li class="chapter" data-level="8.0.2" data-path="part-97.html"><a href="part-97.html#element-credit."><i class="fa fa-check"></i><b>8.0.2</b> § 97.505 Element credit.</a></li>
+<li class="chapter" data-level="8.0.3" data-path="part-97.html"><a href="part-97.html#preparing-an-examination."><i class="fa fa-check"></i><b>8.0.3</b> § 97.507 Preparing an examination.</a></li>
+<li class="chapter" data-level="8.0.4" data-path="part-97.html"><a href="part-97.html#administering-ve-requirements."><i class="fa fa-check"></i><b>8.0.4</b> § 97.509 Administering VE requirements.</a></li>
+<li class="chapter" data-level="8.0.5" data-path="part-97.html"><a href="part-97.html#examinee-conduct."><i class="fa fa-check"></i><b>8.0.5</b> § 97.511 Examinee conduct.</a></li>
+<li class="chapter" data-level="8.0.6" data-path="part-97.html"><a href="part-97.html#ve-session-manager-requirements."><i class="fa fa-check"></i><b>8.0.6</b> § 97.513 VE session manager requirements.</a></li>
+<li class="chapter" data-level="8.0.7" data-path="part-97.html"><a href="part-97.html#coordinating-examination-sessions."><i class="fa fa-check"></i><b>8.0.7</b> § 97.519 Coordinating examination sessions.</a></li>
+<li class="chapter" data-level="8.0.8" data-path="part-97.html"><a href="part-97.html#vec-qualifications."><i class="fa fa-check"></i><b>8.0.8</b> § 97.521 VEC qualifications.</a></li>
+<li class="chapter" data-level="8.0.9" data-path="part-97.html"><a href="part-97.html#question-pools."><i class="fa fa-check"></i><b>8.0.9</b> § 97.523 Question pools.</a></li>
+<li class="chapter" data-level="8.0.10" data-path="part-97.html"><a href="part-97.html#accrediting-ves."><i class="fa fa-check"></i><b>8.0.10</b> § 97.525 Accrediting VEs.</a></li>
+<li class="chapter" data-level="8.0.11" data-path="part-97.html"><a href="part-97.html#reimbursement-for-expenses."><i class="fa fa-check"></i><b>8.0.11</b> § 97.527 Reimbursement for expenses.</a></li>
+<li class="chapter" data-level="8.0.12" data-path="part-97.html"><a href="part-97.html#appendix-2-to-part-97vec-regions"><i class="fa fa-check"></i><b>8.0.12</b> Appendix 2 to Part 97—VEC Regions</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>8</b> Links</a>
+<li class="chapter" data-level="9" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>9</b> Links</a>
 <ul>
 <li class="chapter" data-level="" data-path="links.html"><a href="links.html#third-party-traffic"><i class="fa fa-check"></i>Third party traffic</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="videos.html"><a href="videos.html"><i class="fa fa-check"></i><b>10</b> Videos</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="videos.html"><a href="videos.html#what-hams-do"><i class="fa fa-check"></i><b>10.1</b> What hams do</a></li>
+<li class="chapter" data-level="10.2" data-path="videos.html"><a href="videos.html#wave-behavior"><i class="fa fa-check"></i><b>10.2</b> Wave behavior</a></li>
+<li class="chapter" data-level="10.3" data-path="videos.html"><a href="videos.html#ham-radio-movie-high-frequency"><i class="fa fa-check"></i><b>10.3</b> Ham radio movie, <em>High Frequency</em></a></li>
+<li class="chapter" data-level="10.4" data-path="videos.html"><a href="videos.html#getting-licensed"><i class="fa fa-check"></i><b>10.4</b> Getting licensed</a></li>
+<li class="chapter" data-level="10.5" data-path="videos.html"><a href="videos.html#ham-radio-crash-course-technician-class-course_undated-jl"><i class="fa fa-check"></i><b>10.5</b> Ham Radio Crash Course Technician class <span class="citation">Course (n.d.)</span></a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -549,6 +558,10 @@ Effective 7/01/2022 – 6/30/2026</p>
 <ul>
 <li>[6 Exam Questions - 6 Groups]</li>
 </ul>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FktSv3tDwA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t1a" class="section level4 unnumbered hasAnchor">
 <h4>T1A<a href="technician.html#t1a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Purpose and permissible use of the <a href="part-97.html#amateur-radio-service">Amateur Radio Service</a>; Operator/primary station license grant; Meanings of basic terms used in FCC rules; Interference; RACES rules; Phonetics; Frequency Coordinator</p>
@@ -1120,6 +1133,10 @@ D. All these choices are correct</p>
 <ul>
 <li>[3 Exam Questions - 3 Groups]</li>
 </ul>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OARldMm8DKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t2a" class="section level4 unnumbered hasAnchor">
 <h4>T2A<a href="technician.html#t2a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Station operation: choosing an operating frequency, calling another station, test transmissions; Band plans: calling frequencies, repeater offsets</p>
@@ -1425,6 +1442,10 @@ D. A box on the message form that indicates that the message was received and/or
 <div id="T3" class="section level3 unnumbered hasAnchor">
 <h3>SUBELEMENT T3 – RADIO WAVE PROPAGATION<a href="technician.html#T3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>– [3 Exam Questions - 3 Groups]</p>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dg7URe-ViQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t3a" class="section level4 unnumbered hasAnchor">
 <h4>T3A<a href="technician.html#t3a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Radio wave characteristics: how a radio signal travels, fading, multipath, polarization, wavelength vs absorption; Antenna orientation</p>
@@ -1713,6 +1734,10 @@ D. Radio waves are blocked by dust particles</p>
 <div id="T4" class="section level3 unnumbered hasAnchor">
 <h3>SUBELEMENT T4 – AMATEUR RADIO PRACTICES<a href="technician.html#T4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>– [2 Exam Questions - 2 Groups]</p>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mdD_TNDbQfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t4a" class="section level4 unnumbered hasAnchor">
 <h4>T4A<a href="technician.html#t4a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Station setup: connecting a microphone, a power source, a computer, digital equipment, an SWR meter; bonding; Mobile radio installation</p>
@@ -1917,6 +1942,10 @@ C. Generation of a heterodyne tone</br>
 <div id="subelement-t5-electrical-principles-1" class="section level3 unnumbered hasAnchor">
 <h3>SUBELEMENT T5 – ELECTRICAL PRINCIPLES<a href="technician.html#subelement-t5-electrical-principles-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>– [4 Exam Questions - 4 Groups]</p>
+<p>:::</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oz-oLC-Mm3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+<p>:::</p>
 <div id="t5a" class="section level4 unnumbered hasAnchor">
 <h4>T5A<a href="technician.html#t5a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Current and voltage: terminology and units, conductors and insulators, alternating and direct current</p>
@@ -2353,6 +2382,10 @@ D. Branch</p>
 <div id="T6" class="section level3 unnumbered hasAnchor">
 <h3>SUBELEMENT T6 – ELECTRONIC AND ELECTRICAL COMPONENTS<a href="technician.html#T6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>– [4 Exam Questions - 4 Groups]</p>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eMYOKz0kmPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t6a" class="section level4 unnumbered hasAnchor">
 <h4>T6A<a href="technician.html#t6a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Fixed and variable resistors; Capacitors; Inductors; Fuses; Switches; Batteries</p>
@@ -2749,6 +2782,10 @@ D. A circuit designed to provide high-fidelity audio</p>
 <div id="T7" class="section level3 unnumbered hasAnchor">
 <h3>SUBELEMENT T7 – PRACTICAL CIRCUITS<a href="technician.html#T7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>– [4 Exam Questions - 4 Groups]</p>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9Ipsayvv_dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t7a" class="section level4 unnumbered hasAnchor">
 <h4>T7A<a href="technician.html#t7a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Station equipment: receivers, transceivers, transmitter amplifiers, receive amplifiers, transverters; Basic radio circuit concepts and terminology: sensitivity, selectivity, mixers, oscillators, PTT, modulation</p>
@@ -3114,6 +3151,10 @@ D. Ensure that the circuit is operating at the correct frequency</p>
 <div id="T8" class="section level3 unnumbered hasAnchor">
 <h3>SUBELEMENT T8 – SIGNALS AND EMISSIONS<a href="technician.html#T8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>– [4 Exam Questions - 4 Groups]</p>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KS2AYMyxWAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t8a" class="section level4 unnumbered hasAnchor">
 <h4>T8A<a href="technician.html#t8a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Basic characteristics of FM and SSB; Bandwidth of various modulation modes: CW, SSB, FM, fast-scan TV; Choice of emission type: selection of <a href="lingo.html#usb">USB</a> vs <a href="lingo.html#lsb">LSB</a>, use of SSB for weak signal work, use of FM for VHF packet and repeaters</p>
@@ -3523,6 +3564,10 @@ D. A digital slow-scan TV mode with forward error correction and automatic color
 <ul>
 <li>[2 Exam Questions - 2 Groups]</li>
 </ul>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BLVAiGGk2j0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t9a" class="section level4 unnumbered hasAnchor">
 <h4>T9A<a href="technician.html#t9a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Antennas: vertical and horizontal polarization, concept of antenna gain, definition and types of beam antennas, antenna loading, common portable and mobile antennas, relationships between resonant length and frequency, dipole pattern</p>
@@ -3728,6 +3773,10 @@ D. An indication of the quality of your station’s ground connection</p>
 <div id="subelement-t0-safety-1" class="section level3 unnumbered hasAnchor">
 <h3>SUBELEMENT T0 – SAFETY<a href="technician.html#subelement-t0-safety-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>– [3 Exam Questions - 3 Groups]</p>
+<div class="infobox">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ohvyJl1wMlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</div>
 <div id="t0a" class="section level4 unnumbered hasAnchor">
 <h4>T0A<a href="technician.html#t0a" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Power circuits and hazards: hazardous voltages, fuses and circuit breakers, grounding, electrical code compliance; Lightning protection; Battery safety</p>
@@ -4036,7 +4085,7 @@ D. The local zoning board</p>
 <h2>Figures<a href="technician.html#graphics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="figT-1" class="section level3 unnumbered hasAnchor">
 <h3>T-1<a href="technician.html#figT-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-19"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-20"></span>
 <img src="http://ncvec.org/downloads/T1.jpg" alt="T-1 from http://ncvec.org/downloads/T1.jpg" width="100%" />
 <p class="caption">
 Figure 6.1: T-1 from <a href="http://ncvec.org/downloads/T1.jpg" class="uri">http://ncvec.org/downloads/T1.jpg</a>
@@ -4045,7 +4094,7 @@ Figure 6.1: T-1 from <a href="http://ncvec.org/downloads/T1.jpg" class="uri">htt
 </div>
 <div id="figT-2" class="section level3 unnumbered hasAnchor">
 <h3>T-2<a href="technician.html#figT-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-20"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-21"></span>
 <img src="http://ncvec.org/downloads/T2.jpg" alt="T-2 from http://ncvec.org/downloads/T2.jpg" width="100%" />
 <p class="caption">
 Figure 6.2: T-2 from <a href="http://ncvec.org/downloads/T2.jpg" class="uri">http://ncvec.org/downloads/T2.jpg</a>
@@ -4054,7 +4103,7 @@ Figure 6.2: T-2 from <a href="http://ncvec.org/downloads/T2.jpg" class="uri">htt
 </div>
 <div id="figT-3" class="section level3 unnumbered hasAnchor">
 <h3>T-3<a href="technician.html#figT-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-21"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-22"></span>
 <img src="http://ncvec.org/downloads/T3.jpg" alt="T-3 from http://ncvec.org/downloads/T3.jpg" width="100%" />
 <p class="caption">
 Figure 6.3: T-3 from <a href="http://ncvec.org/downloads/T3.jpg" class="uri">http://ncvec.org/downloads/T3.jpg</a>

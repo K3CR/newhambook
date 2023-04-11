@@ -16,57 +16,44 @@ But saying certain things is like writing a scarlet H in the middle of your fore
 
 ## Phonetic alphabet {- #phonetic-alphabet}
 
-### Alpha {-}
+Amateurs across the globe have agreed on a standard phonetic alphabet--a way of spelling out callsigns and words that makes them more easily understood when propagation might not be ideal.
 
-### Bravo {-}
+The phonetic alphabet is often used on HF, but rarely on VHF or UHF FM.
+That's because signals on VHF or UHF FM are often heard through repeaters and are usually *very* readable.
+So, if you're transmitting on VHF or UHF through a repeater, you don't need to use the phonetic alphabet.
 
-### Charlie {-}
+Some hams use different phonetic equivalents from the ones below, like "Wacko Three Tiny Microphone" for W3TM.
+As a rule of thumb, it's better practice and the more common custom to use the standard phonetic alphabet.
+Sometimes under difficult operating conditions, like a busy contest, you might say "Whiskey Three TEXAS MASSACHUSETTS" or something unusual rather than "Whiskey Three Tango Mike"--*if* the other operator can't quite copy the last part of your callsign after you've tried the standard phonetics several times.
 
-### Delta {-}
-
-### Echo {-}
-
-### Foxtrot {-}
-
-### Golf {-}
-
-### Hotel {-}
-
-### India {-}
-
-### Juliet {-}
-
-### Kilo {-}
-
-### Lima {-}
-
-### Mike {-}
-
-### November {-}
-
-### Oscar {-}
-
-### Papa {-}
-
-### Quebec {-}
-
-### Romeo {-}
-
-### Sierra {-}
-
-### Tango {-}
-
-### Uniform {-}
-
-### Victor {-}
-
-### Whiskey {-}
-
-### X-ray {-}
-
-### Yankee {-}
-
-### Zulu {-}
+| Letter | Phonetic equivalent |
+|--------|---------------------|
+|   A     | Alpha |
+| B | Bravo |
+| C | Charlie |
+| D | Delta |
+| E | Echo |
+| F | Foxtrot |
+| G | Golf |
+| H | Hotel |
+| I | India |
+| J | Juliet |
+| K | Kilo |
+| L | Lima |
+| M | Mike |
+| N | November |
+| O | Oscar |
+| P | Papa (accent on 2nd syllable) |
+| Q | Quebec |
+| R | Romeo |
+| S | Sierra |
+| T | Tango |
+| U | Uniform |
+| V | Victor |
+| W | Whiskey |
+| X | X-ray |
+| Y | Yankee |
+| Z | Zulu |
 
 ## Acronyms {- #bar}
 
@@ -334,7 +321,7 @@ A digital mode of communication.
 
 ### I {-}
 
-Current. $I=E/R$
+Current. $I=E/R$, $I=P/E$
 
 ### P {-}
 

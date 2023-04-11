@@ -162,7 +162,13 @@ Effective 7/01/2022 – 6/30/2026
 
 ### SUBELEMENT T1 – COMMISSION’S RULES  {-}
 
-- [6 Exam Questions - 6 Groups] 
+- [6 Exam Questions - 6 Groups]
+
+::: {.infobox}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FktSv3tDwA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
 
 #### T1A {-}
 
@@ -843,6 +849,10 @@ D. All these choices are correct
 
 - [3 Exam Questions - 3 Groups]
 
+::: {.infobox}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OARldMm8DKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
 #### T2A {-}
 
 Station operation: choosing an operating frequency, calling another station, test transmissions; Band plans: calling frequencies, repeater offsets 
@@ -1216,6 +1226,10 @@ D. A box on the message form that indicates that the message was received and/or
 
 – [3 Exam Questions - 3 Groups] 
 
+::: {.infobox}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dg7URe-ViQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+
 #### T3A {-}
 
 Radio wave characteristics: how a radio signal travels, fading, multipath, polarization, wavelength vs absorption; Antenna orientation 
@@ -1571,6 +1585,12 @@ D. Radio waves are blocked by dust particles
 
 – [2 Exam Questions - 2 Groups] 
 
+::: {.infobox}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mdD_TNDbQfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
+
 #### T4A {-}
 
 Station setup: connecting a microphone, a power source, a computer, digital equipment, an SWR meter; bonding; Mobile radio installation 
@@ -1819,6 +1839,12 @@ C. Generation of a heterodyne tone</br>
 ### SUBELEMENT T5 – ELECTRICAL PRINCIPLES {-}
 
 – [4 Exam Questions - 4 Groups] 
+
+:::
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oz-oLC-Mm3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
 
 #### T5A {-}
 
@@ -2356,6 +2382,12 @@ D. Branch
 
 – [4 Exam Questions - 4 Groups] 
 
+::: {.infobox}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eMYOKz0kmPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
+
 #### T6A {-}
 
 Fixed and variable resistors; Capacitors; Inductors; Fuses; Switches; Batteries 
@@ -2843,6 +2875,12 @@ D. A circuit designed to provide high-fidelity audio
 
 – [4 Exam Questions - 4 Groups] 
 
+::: {.infobox}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9Ipsayvv_dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
+
 #### T7A {-}
 
 Station equipment: receivers, transceivers, transmitter amplifiers, receive amplifiers, transverters; Basic radio circuit concepts and terminology: sensitivity, selectivity, mixers, oscillators, PTT, modulation 
@@ -3290,6 +3328,12 @@ D. Ensure that the circuit is operating at the correct frequency
 ### SUBELEMENT T8 – SIGNALS AND EMISSIONS {- #T8}
 
 – [4 Exam Questions - 4 Groups] 
+
+::: {.infobox}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KS2AYMyxWAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
 
 #### T8A {-}
 
@@ -3791,6 +3835,12 @@ D. A digital slow-scan TV mode with forward error correction and automatic color
 
 - [2 Exam Questions - 2 Groups]
 
+::: {.infobox}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BLVAiGGk2j0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
+
 #### T9A {-}
 
 Antennas: vertical and horizontal polarization, concept of antenna gain, definition and types of beam antennas, antenna loading, common portable and mobile antennas, relationships between resonant length and frequency, dipole pattern 
@@ -4042,6 +4092,12 @@ D. An indication of the quality of your station’s ground connection
 ### SUBELEMENT T0 – SAFETY {-}
 
 – [3 Exam Questions - 3 Groups] 
+
+::: {.infobox}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ohvyJl1wMlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::
 
 #### T0A {-}
 

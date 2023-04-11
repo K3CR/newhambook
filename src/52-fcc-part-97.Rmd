@@ -1,4 +1,4 @@
-# FCC Part 97 {- #part-97}
+# FCC Part 97 {#part-97}
 
 The following was downloaded as a [PDF](include/pdf/47 CFR Part 97 (up to date as of 3-30-2023).pdf) from <https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97> on 2023-04-01.
 

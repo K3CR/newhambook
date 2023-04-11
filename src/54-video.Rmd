@@ -1,0 +1,24 @@
+# Videos
+
+## What hams do
+
+```{r, fig.cap="[@Wolcott2023-uq](https://www.youtube.com/watch?v=wt5wZhC5crI)"}
+knitr::include_url("https://www.youtube.com/embed/wt5wZhC5crI")
+```
+
+## Wave behavior
+
+```{r, fig.cap="[@Channel2012-ez](https://www.youtube.com/watch?v=DovunOxlY1k)"}
+knitr::include_url("https://www.youtube.com/embed/DovunOxlY1k", height="600px")
+```
+
+## Ham radio movie, *High Frequency*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cWQNyc-p-xI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Getting licensed
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ee_SkP-INsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Ham Radio Crash Course Technician class [@Course_undated-jl](http://www.youtube.com/playlist?list=PL1KAjn5rGhixvvb_jMZFWmbP97-t9Kyxk)
