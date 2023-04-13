@@ -315,9 +315,13 @@ Voice Over Internet Protocol.
 
 Voice-activated transmit.
 
-### w {-}
+### W {-}
 
 Watts. A unit of power.
+
+### WSPR {-}
+
+Weak signal propagation reporter. A digital mode.
 
 ## Abbreviations/variables/procedural signals {-}
 
