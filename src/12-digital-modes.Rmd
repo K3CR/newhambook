@@ -1,0 +1,43 @@
+# Digital modes
+
+## Background
+
+Digital modes involve computer-to-computer communication with radio somewhere in the middle.
+The advent of new digital modes that permit DX communication in weak signal conditions has revolutionized the use of digital modes of communication.
+They are one of the most active areas in ham radio.
+
+Hams with a Technician license can operate digital modes on the HF 10m band between 28.0 MHz and 28.3 MHz.
+Technicians can also operate digital modes on segments of the 6m (50.1 MHz-54.0 MHz), 2m (144.1-148.0 MHz), 1.25m (222.0-225.0 MHz), and 70cm (420-450 MHz) band and on higher frequencies.
+
+Outside of a contest, digital mode operators tend to congregate around specific frequencies.
+
+## Modes
+
+There are many different digital modes.
+In many cases, the operator needs a different software program to run each one.
+
+### [FT8]/[FT4]
+
+Nobel Prize winning physicist and ham, Joe Taylor K1JT and colleagues have taken algorithms used to study pulsars to create several digital communication modes for hams that work under weak signal conditions.
+The most widely used of these modes is [FT8].
+Taylor and his colleagues have also created and released a free software program to support these modes called [WSTJ-X]() that runs on Windows, Mac OS, and Linux.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/233HQs_8JGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### WSPR
+
+### APRS
+
+### RTTY, PSK31, and related modes
+
+## Equipment
+
+To operate (i.e., *transmit*) digital modes on HF, VHF, or UHF requires the following:
+
+- A transceiver or separate receiver and transmitter with a transmit/receive (TR) switch.
+- A suitable antenna for the band(s) you will operate on.
+- A computer.
+- Software to generate and decode the specific digital mode you want to use.
+
+## Tips and tricks
+

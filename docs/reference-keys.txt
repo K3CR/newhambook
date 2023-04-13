@@ -24,7 +24,16 @@ choose-a-station-to-hunt
 open-websdr
 tune-to-the-pota-station-frequency
 band-conditions
-operating
+fm-repeaters
+digital-modes
+background
+modes
+ft8ft4
+wspr
+aprs
+rtty-psk31-and-related-modes
+equipment
+tips-and-tricks
 technician
 t6d06-b--
 t8c06-d-bt8c05

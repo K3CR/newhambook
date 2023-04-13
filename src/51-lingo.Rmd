@@ -179,11 +179,11 @@ Light emitting diode.
 
 ### LEO {-}
 
-Low Earth Orbit.
+Low Earth Orbit. Satellites with amateur radio transceivers are often placed in this orbit.
 
 ### $LiFePO_4$ {-}
 
-Lithium Iron Phosphate. A type of rechargeable battery.
+Lithium Iron Phosphate. A type of rechargeable battery. Sometimes this is pronounced "life-po".
 
 ### LSB {-}
 
@@ -213,13 +213,17 @@ Net control station.
 
 A male-type of [UHF] coax connector. [SO-239] is the female type.
 
+### PM {-}
+
+Phase modulation. A type of RF modulation that produces a signal similar to frequency modulation ([FM]).
+
 ### PSK {-}
 
-Phase shift keying. 
+Phase shift keying. A type of signal modulation. PSK is used in a number of digital communication modes.
 
 ### PTT {-}
 
-Push to talk.
+Push to talk. A button and associated circuit that allows a transmitter or transceiver to transmit when pressed.
 
 ### RACES {-}
 

@@ -2947,7 +2947,7 @@ D. Phase converter
 
 ##### T7A07 (B) {- #T7A07}
 
-What is the function of a transceiver’s PTT input?
+What is the function of a transceiver’s [PTT] input?
 
 A. Input for a key used to send CW</br>
 **B. Switches transceiver from receive to transmit when grounded**</br>
@@ -2993,6 +2993,10 @@ Where is an RF preamplifier installed?
 B. At the output of the transmitter power amplifier</br>
 C. Between the transmitter and the antenna tuner</br>
 D. At the output of the receiver audio amplifier
+
+---
+
+---
 
 #### T7B {-}
 
@@ -3102,10 +3106,14 @@ C. You are in a bad location</br>
 
 What is a symptom of RF feedback in a transmitter or transceiver?
 
-A. Excessive SWR at the antenna connection</br>
+A. Excessive [SWR] at the antenna connection</br>
 B. The transmitter will not stay on the desired frequency</br>
 **C. Reports of garbled, distorted, or unintelligible voice transmissions**</br>
 D. Frequent blowing of power supply fuses
+
+---
+
+---
 
 ##### T7C {-}
 
@@ -3143,7 +3151,7 @@ D. A 50-ohm reactance used to terminate a transmission line
 
 ##### T7C04 (C) {- #T7C04}
 
-What reading on an SWR meter indicates a perfect impedance match between the antenna and the feed line?
+What reading on an [SWR] meter indicates a perfect impedance match between the antenna and the feed line?
 
 A. 50:50</br>
 B. Zero</br>
@@ -3157,7 +3165,7 @@ Why do most solid-state transmitters reduce output power as SWR increases beyond
 
 **A. To protect the output amplifier transistors**</br>
 B. To comply with FCC rules on spectral purity</br>
-C. Because power supplies cannot supply enough current at high SWR</br>
+C. Because power supplies cannot supply enough current at high [SWR]</br>
 D. To lower the SWR on the transmission line
 
 
@@ -3219,6 +3227,10 @@ A. It has more loss per foot</br>
 B. It cannot be used for VHF or UHF antennas</br>
 **C. It requires special techniques to prevent moisture in the cable**</br>
 D. It cannot be used at below freezing temperatures
+
+---
+
+---
 
 #### T7D {-}
 
@@ -3325,6 +3337,10 @@ A. Ensure that the applied voltages are correct</br>
 C. Ensure that the circuit is grounded</br>
 D. Ensure that the circuit is operating at the correct frequency
 
+---
+
+---
+
 ### SUBELEMENT T8 – SIGNALS AND EMISSIONS {- #T8}
 
 – [4 Exam Questions - 4 Groups] 
@@ -3354,9 +3370,9 @@ D. Phase shift keying (PSK)
 What type of modulation is commonly used for VHF packet radio transmissions?
 
 **A. FM or PM**</br>
-B. SSB</br>
-C. AM</br>
-D. PSK
+B. [SSB]</br>
+C. [AM]</br>
+D. [PSK]
 
 
 ##### T8A03 (C) {- #T8A03}
@@ -3365,17 +3381,17 @@ Which type of voice mode is often used for long-distance (weak signal) contacts 
 
 A. FM</br>
 B. DRM</br>
-**C. SSB**</br>
+**C. [SSB]**</br>
 D. PM
 
 
 ##### T8A04 (D) {- #T8A04}
 
-Which type of modulation is commonly used for VHF and UHF voice repeaters?
+Which type of modulation is commonly used for [VHF] and [UHF] voice repeaters?
 
-A. AM</br>
-B. SSB</br>
-C. PSK</br>
+A. [AM]</br>
+B. [SSB]</br>
+C. [PSK]</br>
 **D. FM or PM**
 
 
@@ -3383,15 +3399,15 @@ C. PSK</br>
 
 Which of the following types of signal has the narrowest bandwidth?
 
-A. FM voice</br>
-B. SSB voice</br>
-**C. CW**</br>
+A. [FM] voice</br>
+B. [SSB] voice</br>
+**C. [CW]**</br>
 D. Slow-scan TV
 
 
 ##### T8A06 (A) {- #T8A06}
 
-Which sideband is normally used for 10 meter HF, VHF, and UHF single-sideband communications?
+Which sideband is normally used for 10 meter [HF], [VHF], and [UHF] single-sideband communications?
 
 **A. Upper sideband**</br>
 B. Lower sideband</br>
@@ -3556,7 +3572,7 @@ D. Interfering signals within the satellite uplink band
 
 ##### T8B10 (D) {- #T8B10}
 
-What is a LEO satellite?
+What is a [LEO] satellite?
 
 A. A sun synchronous satellite</br>
 B. A highly elliptical orbit satellite</br>
