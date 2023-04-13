@@ -274,7 +274,7 @@ Yours will be different, even if you live in my grid square, because the ISS is 
 knitr::include_graphics("include/img/amsat-iss-pred-fn10.png")
 ```
 
-## Quest 5: [POTA]/[SOTA] hunting {-}
+## Quest 5: [POTA]/[SOTA] hunting {- #quest_pota}
 
 In this quest, you will "hunt" hams who are operating using portable stations from one of several thousand parks around the world as part of the Parks on the Air (POTA) system.
 

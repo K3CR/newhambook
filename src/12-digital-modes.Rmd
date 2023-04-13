@@ -1,6 +1,6 @@
 # Digital modes
 
-## Background
+## Background  {-}
 
 Digital modes involve computer-to-computer communication with radio somewhere in the middle.
 The advent of new digital modes that permit DX communication in weak signal conditions has revolutionized the use of digital modes of communication.
@@ -11,12 +11,12 @@ Technicians can also operate digital modes on segments of the 6m (50.1 MHz-54.0 
 
 Outside of a contest, digital mode operators tend to congregate around specific frequencies.
 
-## Modes
+## Modes {-}
 
 There are many different digital modes.
 In many cases, the operator needs a different software program to run each one.
 
-### [FT8]/[FT4]
+### [FT8]/[FT4] {-}
 
 Nobel Prize winning physicist and ham, Joe Taylor K1JT and colleagues have taken algorithms used to study pulsars to create several digital communication modes for hams that work under weak signal conditions.
 The most widely used of these modes is [FT8].
@@ -24,13 +24,15 @@ Taylor and his colleagues have also created and released a free software program
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/233HQs_8JGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### WSPR
+### WSPR {- #operating_wspr}
 
-### APRS
+### APRS {- #operating_aprs}
 
-### RTTY, PSK31, and related modes
+See the [APRS Quest](#quest_aprs) for an activity you can do with APRS without your ham license.
 
-## Equipment
+### RTTY, PSK31, and related modes {-}
+
+## Equipment {-}
 
 To operate (i.e., *transmit*) digital modes on HF, VHF, or UHF requires the following:
 
@@ -39,5 +41,6 @@ To operate (i.e., *transmit*) digital modes on HF, VHF, or UHF requires the foll
 - A computer.
 - Software to generate and decode the specific digital mode you want to use.
 
-## Tips and tricks
+[T4A07](#T4A07)
 
+## Tips and tricks {-}

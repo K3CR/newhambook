@@ -1,3 +1,39 @@
 # FM repeaters
 
+## Background {-}
+
+Repeaters are special transceivers that receive on one frequency (the input) and automatically re-transmit the received signal on another output frequency.
+The retransmitted signal is often sent with higher power, from an antenna with good gain, and from a high-up location that has many line-of-sight paths to surrounding locations.
+
+
+## Equipment {-}
+
+### HTs {-}
+
+A handi-talkie or HT is often a new ham's first radio transceiver.
+
+HTs can be operated by hand, with usually a single press of the thumb on the [PTT] button to transmit.
+
+Most HTs today are FM-only devices even though the [original HTs invented for use in World War II](https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/handie-talkie-radio.html) were AM transceivers.
+
+Most HTs operate at 4-5W and are perfect for short-distance communication with repeaters or directly with other hams.
+
+Some HTs operate on a single band, most often 2m.
+But reasonably affordable dual-band HTs that operate on 2m and 70cm are also popular.
+A small number of HTs are multi-band, supporting communication on 2m, 1.25m, and 70cm, for example.
+
+HTs usually come with a short, flexible "rubber duck" antenna that works reasonably well outside.
+But these "ducky" antennas are not especially efficient nor work well inside a vehicle or building. [T9A04](#T9A04); [T9A07](T9A07).
+
+Some HTs can even communicate with the [APRS] network.
+See the [APRS Quest](#quest_aprs) for an APRS-related activity and the [section on APRS](#operating_aprs) in the chapter on digital mode operations.
+
+### Mobile rigs {-}
+
+A mobile radio offers higher transmit power (50W or more), a bigger screen, and other useful features.
+These radios can be mounted in a vehicle or used indoors.
+In both cases, the radios must be connected via coax to a suitable antenna that is matched to the band or bands of operation.
+Single band (2m or 70cm) and dual band (2m and 70cm) radios are common.
+
+## Tips and Tricks {-}
 

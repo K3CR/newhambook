@@ -217,6 +217,10 @@ A male-type of [UHF] coax connector. [SO-239] is the female type.
 
 Phase modulation. A type of RF modulation that produces a signal similar to frequency modulation ([FM]).
 
+### POTA
+
+Parks on the Air. An organized activity where hams set up and operate portable stations from parks and related entities all over the world. See <https://pota.app> for more information and the [POTA/SOTA quest](#quest_pota) for a hands-on activity.
+
 ### PSK {-}
 
 Phase shift keying. A type of signal modulation. PSK is used in a number of digital communication modes.
@@ -259,7 +263,11 @@ Single pole double throw. A type of switch.
 
 ### SSB {-}
 
-Single Sideband.
+Single Sideband. A mode of RF modulation where one half of the two symmetric halves of an amplitude-modulated (AM) signal is sent. Upper ([USB]) or lower ([LSB]) sideband are the most common modes for sending voice (phone).
+
+### SOTA {-}
+
+Summits on the Air. An organized activity where hams operate from mountain summits all over the world. See <https://www.sota.org.uk> for more information about the program and the [POTA/SOTA quest](#quest_pota) for a related hands-on activity.
 
 ### SWL {-}
 
