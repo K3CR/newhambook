@@ -19,10 +19,6 @@ about
 getting-started
 hands-on-hamming
 find-a-signal-to-listen-to
-visit-pota.app
-choose-a-station-to-hunt
-open-websdr
-tune-to-the-pota-station-frequency
 band-conditions
 fm-repeaters
 digital-modes

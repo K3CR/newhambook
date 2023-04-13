@@ -23,10 +23,10 @@ But reasonably affordable dual-band HTs that operate on 2m and 70cm are also pop
 A small number of HTs are multi-band, supporting communication on 2m, 1.25m, and 70cm, for example.
 
 HTs usually come with a short, flexible "rubber duck" antenna that works reasonably well outside.
-But these "ducky" antennas are not especially efficient nor work well inside a vehicle or building. [T9A04](#T9A04); [T9A07](T9A07).
+But these "ducky" antennas are not especially efficient nor work well inside a vehicle or building. [T9A04](#T9A04); [T9A07](#T9A07).
 
 Some HTs can even communicate with the [APRS] network.
-See the [APRS Quest](##quest-aprs) for an APRS-related activity and the [section on APRS](#operating_aprs) in the chapter on digital mode operations.
+See the [APRS Quest](#quest-aprs) for an APRS-related activity and the [section on APRS](#operating_aprs) in the chapter on digital mode operations.
 
 ### Mobile rigs {-}
 

@@ -278,15 +278,15 @@ knitr::include_graphics("include/img/amsat-iss-pred-fn10.png")
 
 In this quest, you will "hunt" hams who are operating using portable stations from one of several thousand parks around the world as part of the Parks on the Air (POTA) system.
 
-### Visit Pota.app
+### Visit Pota.app {-}
 
-```{r, fig.cap="Current Parks on the Air (POTA) from https://pota.app"}
+```{r, echo=FALSE, fig.cap="Current Parks on the Air (POTA) from https://pota.app"}
 knitr::include_url("https://pota.app/")
 ```
 
 The site shows hams who are active on the air *right now* and on what frequencies and using which modes.
 
-### Choose a station to "hunt"
+### Choose a station to "hunt" {-}
 
 By hunt, of course, we mean try to hear on the radio.
 Once you're licensed with appropriate privileges, you can try to make contact.
@@ -307,13 +307,13 @@ Here are some rules of thumb to guide your choices:
 
 Once you've chosen a station to hunt, you can try to hear them on a WebSDR.
 
-### Open WebSDR
+### Open WebSDR {-}
 
 If you pick a WebSDR near your location, then you'll need to consider the rules of thumb above.
 
 If you pick a WebSDR somewhere else, you'll have to think like a ham in one of those locations: What bands are open to hams and to what parts of the world from that location?
 
-### Tune to the POTA station frequency
+### Tune to the POTA station frequency {-}
 
 If the station is still active on the frequency and propagation to the WebSDR location is good, you should see a signal in the waterfall.
 Try to copy the station? Can you hear the callsign? Can you hear any stations trying to call.

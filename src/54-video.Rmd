@@ -2,13 +2,13 @@
 
 ## What hams do {-}
 
-```{r, fig.cap="[@Wolcott2023-uq](https://www.youtube.com/watch?v=wt5wZhC5crI)"}
+```{r, echo=FALSE, fig.cap="[@Wolcott2023-uq](https://www.youtube.com/watch?v=wt5wZhC5crI)"}
 knitr::include_url("https://www.youtube.com/embed/wt5wZhC5crI")
 ```
 
 ## Wave behavior {-}
 
-```{r, fig.cap="[@Channel2012-ez](https://www.youtube.com/watch?v=DovunOxlY1k)"}
+```{r, echo=FALSE, fig.cap="[@Channel2012-ez](https://www.youtube.com/watch?v=DovunOxlY1k)"}
 knitr::include_url("https://www.youtube.com/embed/DovunOxlY1k")
 ```
 
@@ -22,3 +22,5 @@ knitr::include_url("https://www.youtube.com/embed/DovunOxlY1k")
 
 
 ## Ham Radio Crash Course Technician class [@Course_undated-jl](http://www.youtube.com/playlist?list=PL1KAjn5rGhixvvb_jMZFWmbP97-t9Kyxk)  {-}
+
+## References {-}
