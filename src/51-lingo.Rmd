@@ -55,7 +55,7 @@ Sometimes under difficult operating conditions, like a busy contest, you might s
 | Y | Yankee |
 | Z | Zulu |
 
-## Acronyms {- #bar}
+## Glossary {- #glossary}
 
 ### A {-}
 
@@ -81,6 +81,10 @@ Automatic gain control.
 
 Amplitude modulation.
 
+### Amateur Extra {-}
+
+The highest amateur radio service license class in the U.S.
+
 ### APRS {-}
 
 Automatic Packet Reporting System.
@@ -99,11 +103,15 @@ Certificate of Successful Completion of (an amateur radio licensing) Examination
 
 ### cm {-}
 
-Centimeters.
+Centimeters, a unit of length.
+
+### CQ {-}
+
+An operating sign meant to communicate that the sender is calling on any amateur station to respond.
 
 ### CW {-}
 
-Continuous wave.
+Continuous wave. A type of [RF] modulation that involves turning a continuous carrier frequency on and off. CW is also another name for sending [Morse code].
 
 ### CTCSS {-}
 
@@ -123,7 +131,20 @@ Digital mobile radio.
 
 ### DTMF {-}
 
-Dual tone multi-frequency.
+Dual tone multi-frequency. Tones sent by VHF or UHF transceivers to control repeaters.
+
+### DX {-}
+
+Long distance communications. 
+A ham calling "CQ DX" is saying that she prefers to talk to distant stations, usually in another country.
+
+### E {-}
+
+Electromotive force or Voltage. $E=IR$
+
+### Extra {-}
+
+[Amateur Extra] class license.
 
 ### FCC {-}
 
@@ -141,13 +162,33 @@ Field Effect Transistor.
 
 Frequency modulation.
 
+### FT4 {-}
+
+A digital mode of communication that is part of the WSJT-X software and has a 7.5 s cycle, half that of FT8.
+
+### FT8 {-}
+
+A digital mode of communication that is part of the WSJT-X software and has a 15 s cycle, twice  that of FT4.
+
+### General {-}
+
+The intermediate [amateur radio service](#amateur-radio-service) license class.
+
 ### GHz {-}
 
-Gigahertz. 
+Gigahertz.
+
+### Grid square {-}
+
+A geographical region using the Maidenhead Grid Square system.
 
 ### HF {-}
 
 High frequency. A set of frequencies between 3 [MHz] and 30 [MHz.] The 80/75[m], 60[m], 40[m], 30[m], 20[m], 15[m], 17[m], 15[m], 12[m], and 10[m] ham bands are [HF] bands. [HF] signals can propagate for long distances under common atmospheric conditions.
+
+### I {-}
+
+Current. $I=E/R$, $I=P/E$
 
 ### IC {-}
 
@@ -209,6 +250,14 @@ Megahertz. A unit of frequency. 1 MHz is 1 million cycles/sec or 1 million Hertz
 
 Net control station.
 
+### P {-}
+
+Power. $P=IE=I^2R$. Power is usually measured in watts ([w]) or some multiple of watts.
+
+### Phone {-}
+
+Voice transmissions.
+
 ### PL-259 {-}
 
 A male-type of [UHF] coax connector. [SO-239] is the female type.
@@ -217,7 +266,7 @@ A male-type of [UHF] coax connector. [SO-239] is the female type.
 
 Phase modulation. A type of RF modulation that produces a signal similar to frequency modulation ([FM]).
 
-### POTA
+### POTA {-}
 
 Parks on the Air. An organized activity where hams set up and operate portable stations from parks and related entities all over the world. See <https://pota.app> for more information and the [POTA/SOTA quest](#quest_pota) for a hands-on activity.
 
@@ -228,6 +277,10 @@ Phase shift keying. A type of signal modulation. PSK is used in a number of digi
 ### PTT {-}
 
 Push to talk. A button and associated circuit that allows a transmitter or transceiver to transmit when pressed.
+
+### R {-}
+
+Resistance. $R=E/R$. Resistance in measured in [Ohms].
 
 ### RACES {-}
 
@@ -277,11 +330,15 @@ Shortwave listener.
 
 Standing Wave Ratio. The ratio of forward power to reflected power. High SWR (> 3:1 or more) means that the impedance of your antenna is a poor match to the impedance of your transmitter. This doesn't matter very much for receiving signals, but it does pose a potential problem if you decide to transmit.
 
+### Technician {-}
+
+The introductory [amateur radio service](#amateur-radio-service) license class.
+
 ### UHF {-}
 
 Ultra-high frequency. A set of frequencies between 300 [MHz] and 3 [GHz] (3,000 [MHz]). The 70[cm] band is the most commonly used UHF ham band.
 
-A type of coax connector also called PL-259 (male) and SO-239 (female).
+Also, a type of coax connector also called PL-259 (male) and SO-239 (female).
 
 ### ULS {-}
 
@@ -290,6 +347,10 @@ Universal Licensing System.
 ### USB {-}
 
 Upper sideband.
+
+### UTC {-}
+
+Coordinated Universal Time. Primary worldwide time standard that does *not* adjust seasonally. See [Wikipedia](https://en.wikipedia.org/wiki/Coordinated_Universal_Time).
 
 ### V {-}
 
@@ -309,7 +370,7 @@ Very high frequency. A set of frequencies between 30 and 300 [MHz]. The 6[m], 2[
 
 ### VOiP {-}
 
-Voice Over Internet Protocol.
+Voice Over Internet Protocol. A technology for sending voice signals over the internet. Digital voice modes such as [DMR], [D-STAR], [Allstar], [EchoLink], and Yaesu System Fusion ([YSF]), [IRLP], and [P25] often rely on VOiP.
 
 ### VOX {-}
 
@@ -323,44 +384,38 @@ Watts. A unit of power.
 
 Weak signal propagation reporter. A digital mode.
 
-## Abbreviations/variables/procedural signals {-}
-
-### CQ {-}
-
-### E {-}
-
-Voltage. $E=IR$
-
-### FT8/FT4 {-}
-
-A digital mode of communication.
-
-### I {-}
-
-Current. $I=E/R$, $I=P/E$
-
-### P {-}
-
-Power. $P=IE=I^2R$. Power is usually measured in watts ([w]) or some multiple of watts.
-
-### R {-}
-
-Resistance. $R=E/R$. 
-
-### VOX {-}
-
 ## Q-codes {-}
 
 ### QRM {-}
 
+Man-made noise.
+
 ### QRN {-}
+
+Natural noise.
 
 ### QRP {-}
 
+Very low power, typically < 5W.
+
 ### QRZ {-}
+
+Who is calling me?
 
 ### QSL {-}
 
+Confirming your transmission or Can you confirm my transmission?
+
+### QSO {-}
+
+A ham radio contact.
+
+### QST {-}
+
+A message for any and all radio amateurs. Also, the name of the monthly magazine provided to members of the [ARRL].
+
 ### QTH {-}
+
+Home location or current operating location.
 
 ## Morse code {-}

@@ -194,7 +194,7 @@ D. All these choices are correct</br>
 
 ##### T1A03 (B) [[97.119](#97.119)(b)(2)] {- #T1A03}
 
-***What do the [FCC] rules state regarding the use of a phonetic alphabet for station identification in the [Amateur Radio Service](#amateur-radio-service)?***
+***What do the [FCC] rules state regarding the use of a [phonetic alphabet](#phonetic-alphabet) for station identification in the [Amateur Radio Service](#amateur-radio-service)?***
 
 A. It is required when transmitting emergency messages</br>
 **B. It is encouraged**</br>
@@ -270,10 +270,10 @@ C. An emergency service using amateur operators certified by a civil defense org
 
 ***When is willful interference to other amateur radio stations permitted?***
 
-A. To stop another amateur station that is breaking the FCC rules</br>
+A. To stop another amateur station that is breaking the [FCC] rules</br>
 **B. At no time**</br>
 C. When making short test transmissions</br>
-D. At any time, stations in the Amateur Radio Service are not protected from willful interference
+D. At any time, stations in the [Amateur Radio Service](#amateur-radio-service) are not protected from willful interference
 
 ---
 
@@ -283,7 +283,7 @@ Frequency allocations; Emission modes; Spectrum sharing; Transmissions near band
 
 ##### T1B01 (C) [[97.301](#97.301) (e)] {- #T1B01}
 
-***Which of the following frequency ranges are available for phone operation by Technician licensees?***
+***Which of the following frequency ranges are available for [phone] operation by Technician licensees?***
 
 A. 28.050 MHz to 28.150 MHz</br>
 B. 28.100 MHz to 28.300 MHz</br>
@@ -330,7 +330,7 @@ C. Emergency traffic only</br>
 
 ##### T1B06 (B) [[97.301](#97.301)(e), [97.305](#97.305)] {- #T1B06}
 
-***On which [HF] bands does a Technician class operator have phone privileges?***
+***On which [HF] bands does a Technician class operator have [phone] privileges?***
 
 A. None</br>
 **B. 10 meter band only**</br>
@@ -406,7 +406,7 @@ Licensing: classes, sequential and vanity call sign systems, places where the [A
 A. Novice, Technician, General, Amateur Extra</br>
 B. Technician, Technician Plus, General, Amateur Extra</br>
 C. Novice, Technician Plus, General, Advanced</br>
-**D. Technician, General, Amateur Extra**
+**D. [Technician], [General], [Amateur Extra]**
 
 ##### T1C02 (D) [[97.19](#97.19)] {- #T1C02}
 

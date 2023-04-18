@@ -6,6 +6,8 @@ fig:unnamed-chunk-6
 fig:unnamed-chunk-7
 fig:unnamed-chunk-8
 fig:unnamed-chunk-15
+fig:hf-signals
+fig:vhf-signals
 fig:unnamed-chunk-16
 fig:unnamed-chunk-17
 fig:unnamed-chunk-18
@@ -15,10 +17,14 @@ fig:unnamed-chunk-21
 fig:unnamed-chunk-22
 fig:unnamed-chunk-23
 fig:unnamed-chunk-24
+fig:unnamed-chunk-25
+fig:unnamed-chunk-26
+fig:unnamed-chunk-27
+fig:unnamed-chunk-28
+fig:unnamed-chunk-29
 about
 getting-started
 hands-on-hamming
-find-a-signal-to-listen-to
 band-conditions
 fm-repeaters
 digital-modes
@@ -26,7 +32,6 @@ technician
 t6d06-b--
 t8c06-d-bt8c05
 lingo
-pota
 part-97
 fcc-modification-of-station-license-grant.
 element-credit.
@@ -42,3 +47,4 @@ reimbursement-for-expenses.
 appendix-2-to-part-97vec-regions
 links
 videos
+history-of-ohms-law

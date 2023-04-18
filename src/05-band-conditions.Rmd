@@ -9,17 +9,26 @@ Here are some resources to see how the bands are doing.
 
 ## HF propagation {-}
 
-The hfpropagation.com [site](https://www.hfpropagation.com) has some great visualizations about conditions on HF.
+The [hfpropagation.com site](https://www.hfpropagation.com) has some great visualizations about conditions on [HF].
 
-For example, the following shows a map of RF propagation centered on New York City:
+For example, the following shows a map of [HF] [RF] propagation centered on New York City:
 
-```{r, echo=FALSE, out.width="100%", fig.cap="Propagation map centered on NYC on 2023-04-02 from https://www.hfpropagation.com"}
+```{r, echo=FALSE, out.width="100%", fig.cap="Propagation map centered on NYC from https://www.hfpropagation.com"}
 knitr::include_graphics("https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/HAP%20Charts/New%20York%20LDOCF.gif")
 ```
 
 ## VHF propagation {-}
 
-See <https://vhf.dxview.org>
+The [dxview](https://vhf.dxview.org) website shows [DX] conditions on the 2m [VHF] band.
+These are typically much more short-lived than [DX] openings on the [HF] bands.
+
+Here is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC].
+
+```{r, echo=FALSE, out.width="100%", fig.cap="VHF DX propagation on 2023-04-18 from https://vhf.dxview.org"}
+knitr::include_graphics("include/img/vhf-propagation-dxview.org.png")
+```
+
+The same site has a cool animation of HF propagation conditions, as well at <https://hf.dxview.org>.
 
 ## PSK Reporter {-}
 

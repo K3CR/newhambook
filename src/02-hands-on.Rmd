@@ -94,7 +94,7 @@ We can also adjust the bandwidth manually.
 
 [^2]: This means that if we look at the peak signal at 3875 kHz and calculate the point on both sides of 3875 kHz where the signal drops by 6 decibels (db) or about 4-fold, we're left with 9.69 kHz of signal. The *width* of the yellow 'hump' in the waterfall display shows us this bandwidth visually.
 
-#### Find a signal to listen to
+#### Find a signal to listen to {-}
 
 Click on the <span color="green">green</span> *Firefox audio start* button in the upper right hand of the screen.
 Be ready to adjust the volume on your computer downward!
@@ -119,12 +119,18 @@ In our case, there's a very strong signal around 3810 kHz.
 knitr::include_graphics("include/img/k3fef-websdr-3875.png")
 ```
 
+Notice that most of the signal around 3810 kHz (3.810 MHz) lies *below* 3810.
+That's because on 75m and 80m, hams use Lower Sideband ([LSB]) for [phone] transmissions.
+To see another example of what LSB and upper sideband ([USB]) signals look like, see [figure below](#fig:hf-signals).
+
 ## Quest 2: [DMR] {- #quest-dmr}
 
 :::{.infobox}
+
 These activities are relevant to the following license pool questions:
 
 [T2B12](#T2B12); [T4B07](#T4B07); [T8D02](#T8D02); [T8D07](#T8D07).
+
 :::
 
 You can listen to Digital Mobile Radio ([DMR]) transmissions across the globe on the web without having to log in or have a ham radio license.
@@ -133,17 +139,22 @@ In this quest, we'll listen in on some conversations using DMR.
 
 Remember, as a ham, all of our communications except those controlling aircraft or satellites are presumed public.
 
-1. Visit the [Brandmeister Network](https://brandmeister.network) server's [hoseline site](https://hose.brandmeister.network).
+### Visit the [Brandmeister Network](https://brandmeister.network) {-}
+
+The Brandmeister Network is one of the largest organizations providing DMR services.
+The Brandmeister Network maintains a [hoseline site](https://hose.brandmeister.network) that shows all of the DMR traffic going through the Network.
 
 You will see something like the following:
 
-```{r, out.width="100%", fig.cap="Brandmeister DMR hoseline as of 2023-04-03 about 1745Z"}
+```{r, echo=FALSE, out.width="100%", fig.cap="Brandmeister DMR hoseline as of 2023-04-03 about 1745Z"}
 knitr::include_graphics("include/img/brandmeister-hoseline-2023-04-03.png")
 ```
 
 This shows all of the stations connected to the Brandmeister network in the entire world.
 
-2. To listen in on one of these [QSO]s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.
+### Click on an active QSO {-}
+
+To listen in on one of these [QSO]s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.
 
 ```{r, echo=FALSE, fig.align='center'}
 knitr::include_graphics("include/img/brandmeister-network-active-qso.png")
@@ -153,7 +164,7 @@ You can also listen in on specific talkgroups.
 A talkgroup is like a repeater, except that it repeats signals from stations connected via the internet.
 There is often traffic on talkgroup 91 (Worldwide) or talkgroup 93 (North America), so let's listen in on those.
 
-3. Click the PLAYER button in the upper right hand corner.
+Click the PLAYER button in the upper right hand corner.
 
 This will open a small panel where you can select what talkgroups to listen to or which stations to monitor.
 
@@ -165,7 +176,7 @@ knitr::include_graphics("include/img/brandmeister-hoseline-player-panel.png")
 
 In this quest, we'll check-in on the Automatic Packet Reporting System (APRS) where hams across the world provide real-time information about their locations and exchange messages, including weather reports.
 
-1. Visit the APRS.fi [website](https://aprs.fi).
+### Visit [APRS.fi](https://aprs.fi) {-}
 
 The first time you visit this site, it may show you a view of APRS activity near the APRS.fi website author's home in Finland (hence the .fi web domain).
 
@@ -178,7 +189,9 @@ knitr::include_graphics("include/img/aprs.fi-2023-04-05.png")
 
 Notice that some of the symbols look like vehicles and have a track that appears to show where they've been.
 
-2. Mouse over one of those symbols.
+### Get more info {-}
+
+Mouse over one of those symbols.
 
 You should see a set of lines connecting the vehicle symbol to another one on the map.
 The lines show where the RF signal from the vehicle traveled before being heard and sent over the Internet to the APRS.fi site.
@@ -189,7 +202,9 @@ knitr::include_graphics("include/img/aprs-track.png")
 
 The figure shows the station K2WB connecting to a home-based relay station N2IVN and the relayed signal from N2IVN being heard by KD2DVW-1. 
 
-3. Click on the mobile (moving) station's icon.
+### Click on a mobile (moving) station {-}
+
+Click on a mobile (moving) station's icon.
 
 A small window will open with information about that station.
 
@@ -197,15 +212,18 @@ A small window will open with information about that station.
 knitr::include_graphics("include/img/aprs-k2wb-9.png")
 ```
 
-4. Click on the info button in the small window.
+Click on the info button in the small window.
 
 ```{r echo=FALSE, fig.align='center'}
 knitr::include_graphics("include/img/aprs-k2wb-9-info.png")
 ```
 
-5. Enter `ISS` in the "Track callsign:" window in the upper right of the aprs.fi site.
+### Find the International Space Station (ISS) {-}
 
-The International Space Station has an APRS beacon! So, if you have an APRS-enabled radio set up you can hear the ISS when it passes near your location.
+The International Space Station has an APRS beacon! 
+So, if you have an APRS-enabled radio set up you can hear the ISS when it passes near your location (and you are listening on the ISS APRS frequency of 144.825 MHz in the 2m band).
+
+Enter `ISS` in the "Track callsign:" window in the upper right of the aprs.fi site.
 
 I did this on the morning of 2023-04-05, and here was the result.
 
@@ -217,18 +235,20 @@ The ISS was somewhere over the North Atlantic Ocean.
 I say *was*, because if you look closely, you'll see that the last time the ISS was heard on APRS was on 2023-04-04, about 20 hours before the time I took this screenshot.
 The APRS beacon goes on and off from time to time.
 
-## Quest 4: Satellite tracking {-}
+## Quest 4: Satellite tracking {- #quest-sattelites}
 
 Hams have launched satellites that permit communication across large areas, and the International Space Station (ISS) has ham radio equipment on board.
 
-1. Visit <https://www.n2yo.com/space-station/>
+### Visit <https://www.n2yo.com/space-station/> {-}
 
 The window in the upper left will show a map of the current location of the ISS.
 
 The window in the upper right will show the current live video feed from the ISS.
 If it's dark, that's probably because the ISS is on the night side of the Earth.
 
-2. Visit the [Amateur Satellite Corporation (AMSAT)](https://www.amsat.org/) tracking [site.](https://www.amsat.org/track/)
+### Visit the [Amateur Satellite Corporation (AMSAT)](https://www.amsat.org/) {-}
+
+The [Amateur Satellite Corporation (AMSAT)](https://www.amsat.org/) also maintains a tracking [site.](https://www.amsat.org/track/)
 
 Here you can choose to track a number of amateur satellites.
 
@@ -263,7 +283,9 @@ Hams who operate digital modes like FT8 and FT4 using the WSJT-X software use gr
 And some hams "collect" contacts in different grid squares.
 For now, we'll use our grid square to calculate when the ISS will pass over our grid square.
 
-3. Enter your grid square in the AMSAT Tracking site.
+### When will the ISS pass over you next? {-}
+
+Enter your grid square in the AMSAT Tracking site.
 
 Hit "Calculate Position" to let the site calculate your latitude and longitude, then hit the "Predict" button.
 
@@ -318,6 +340,55 @@ If you pick a WebSDR somewhere else, you'll have to think like a ham in one of t
 If the station is still active on the frequency and propagation to the WebSDR location is good, you should see a signal in the waterfall.
 Try to copy the station? Can you hear the callsign? Can you hear any stations trying to call.
 
-## Quest 6: [FT8]/FT4 digital modes {-}
+## Quest 6: [FT8]/[FT4] digital modes {-}
 
 https://wsjtx.groups.io/g/main/topic/websdr_for_wsjtx/79502964
+
+## Quest 7: Identify the signal {-}
+
+In this quest, you'll use WebSDR or an SDR receiver to try to find and identify various signals found on the HF and VHF/UHF bands.
+
+```{r hf-signals, echo=FALSE, fig.align='center', fig.cap="HF signal chart from https://www.reddit.com/r/amateurradio/comments/12ota0q/hf_signal_identification_chart_the_shortawaited/?utm_source=share&utm_medium=ios_app&utm_name=ioscss&utm_content=1&utm_term=10"}
+knitr::include_graphics("include/img/hf-signal-chart-scaled.jpg")
+```
+
+```{r vhf-signals, echo=FALSE, fig.align='center', fig.cap="VHF signal chart from https://www.reddit.com/r/amateurradio/comments/12okhb4/i_whipped_up_a_quick_vhfuhf_signal_id_chart_might/?utm_source=share&utm_medium=ios_app&utm_name=ioscss&utm_content=1&utm_term=10"}
+knitr::include_graphics("include/img/vhf-signal-chart-scaled.jpg")
+```
+
+## Quest 8: Find hams in your area {-}
+
+The FCC amateur radio license database is public.
+That's why some hams prefer to use a post office (P.O.) box as their permanent surface mailing address for their license.
+However, the fact that the database is public makes it easy to find hams in your geographic area.
+
+### Open the Amateur Radio License Map application {-}
+
+Visit <https://haminfo.tetranz.com/map>
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="https://haminfo.tetranz.com/map"}
+knitr::include_graphics("include/img/ham-radio-license-map.png")
+```
+
+### Search for hams in your current Zip code {-}
+
+I live in 16801.
+Here is a zoomed-out view of all the hams whose home addresses in the FCC database list 16801.
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="Hams in Zip code 16801 from https://haminfo.tetranz.com/map"}
+knitr::include_graphics("include/img/hams-in-16801.png")
+```
+
+If you check the "Show grid labels" checkbox you will see that the map shows the 6-character [grid square] designator.
+Some hams "collect" QSOs from different grid squares.
+Many hams operating [FT8] or [FT4] exchange grid squares, as do those who operate amateur satellites, see the [satellite quest](#quest-satellites).
+
+### Search for a specific callsign {-}
+
+If you know a ham's callsign, enter it in the Callsign box.
+
+Here is the map of licensed hams near to the mailing address for K3CR, the Penn State Amateur Radio Club's callsign.
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="Hams near K3CR from https://haminfo.tetranz.com/map"}
+knitr::include_graphics("include/img/hams-near-k3cr.png")
+```
