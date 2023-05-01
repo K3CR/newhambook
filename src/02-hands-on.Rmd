@@ -392,3 +392,80 @@ Here is the map of licensed hams near to the mailing address for K3CR, the Penn 
 ```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="Hams near K3CR from https://haminfo.tetranz.com/map"}
 knitr::include_graphics("include/img/hams-near-k3cr.png")
 ```
+
+## Quest 9: Ham geography {-}
+
+One of the great joys of ham radio is communicating with people in different places.
+There are multiple ways to divide up the globe into smaller chunks.
+In this quest, we'll explore some of the ways hams have sliced up the global pie, geographically speaking.
+Each slice has its use in ham radio.
+
+See <https://www.mapability.com/ei8ic/maps/maps.php>
+
+### ITU Regions {-}
+
+<https://en.wikipedia.org/wiki/ITU_Region>
+
+```{r, echo=FALSE, fig.cap="ITU region map from https://www.mapability.com/ei8ic/maps/regions.php"}
+knitr::include_graphics("https://www.mapability.com/ei8ic/maps/IARU_Regions_01.png")
+```
+
+### ITU Zones {-}
+
+```{r, echo=FALSE, fig.cap="ITU zones map from https://www.mapability.com/ei8ic/maps/ituzone.php"}
+knitr::include_graphics("https://www.mapability.com/ei8ic/maps/ITU_Zones_ARRL_01.png")
+```
+
+### DX Entities {-}
+
+ARRL: <http://www.arrl.org/country-lists-prefixes>
+
+<https://www.ng3k.com/Dxcc/dxcc.html>
+
+### CQ Zones {-}
+
+```{r, echo=FALSE, fig.cap="CQ Magazine zones map from https://www.mapability.com/ei8ic/maps/cqzone.php"}
+knitr::include_graphics("https://www.mapability.com/ei8ic/maps/CQ_Zones_01.png")
+```
+
+### Callsign areas {-}
+
+```{r, echo=FALSE, fig.cap="USA callsign areas from https://www.mapability.com/ei8ic/maps/usa_call_areas.php"}
+knitr::include_graphics("https://www.mapability.com/ei8ic/maps/USA_Call_Areas_1652.png")
+```
+
+### ARRL divisions {-}
+
+```{r, echo=FALSE, fig.cap="ARRL divisions map from https://www.mapability.com/ei8ic/maps/arrl_divisions.php"}
+knitr::include_graphics("https://www.mapability.com/ei8ic/maps/ARRL_Divisions_1701.png")
+```
+
+### ARRL/RAC sections {-}
+
+```{r, echo=FALSE, fig.cap="ARRL/RAC sections map from https://www.mapability.com/ei8ic/maps/sections_2.php"}
+knitr::include_graphics("https://www.mapability.com/ei8ic/maps/ARRL_RAC_Sections_2023_1254x969.png")
+```
+
+### Summits on the Air {-}
+
+### Parks on the Air {-}
+
+### Maidenhead Locator {-}
+
+<https://en.wikipedia.org/wiki/Maidenhead_Locator_System#:~:text=The%20Maidenhead%20Locator%20System%20(a.k.a.,was%20limited%20to%20European%20contacts>
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Maidenhead_Locator_Map.png#/media/File:Maidenhead_Locator_Map.png"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Maidenhead_Locator_Map.png/1200px-Maidenhead_Locator_Map.png" alt="Maidenhead Locator Map.png"></a><br>By User:Denelson83 - &lt;a rel="nofollow" class="external free" href="http://visibleearth.nasa.gov/view_rec.php?id=2433"&gt;http://visibleearth.nasa.gov/view_rec.php?id=2433&lt;/a&gt;, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=11762818">Link</a></p>
+
+<https://www.levinecentral.com/ham/grid_square.php?Call=K3CR>
+
+```{r, out.width="100%", echo=FALSE, fig.cap="Maidenhead locator (grid) identifier for K3CR"}
+knitr::include_url("https://www.levinecentral.com/ham/grid_square.php?Call=K3CR", height="800px")
+```
+
+### Latitude/Longitude {-}
+
+### Great Circle maps {-}
+
+```{r, echo=FALSE, fig.cap="Great circle map centered on Washington, DC from https://www.mapability.com/ei8ic/maps/great_circle/capital_cities/washington_usa_great_circle_map.php"}
+knitr::include_graphics("https://www.mapability.com/ei8ic/maps/great_circle/capital_cities/washington_usa_great_circle_map.png")
+```

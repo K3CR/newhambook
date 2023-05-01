@@ -208,7 +208,9 @@ International Space Station.
 
 ### ITU {-}
 
-International Telecommunications Union.
+International Telecommunications Union. The ITU has divided the world into three geographic regions ([ITU Regions](https://en.wikipedia.org/wiki/ITU_Region)). Region 2 comprises the Americas.
+
+<p><a href="https://commons.wikimedia.org/wiki/File:International_Telecommunication_Union_regions_with_dividing_lines.svg#/media/File:International_Telecommunication_Union_regions_with_dividing_lines.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/International_Telecommunication_Union_regions_with_dividing_lines.svg/1200px-International_Telecommunication_Union_regions_with_dividing_lines.svg.png" alt="International Telecommunication Union regions with dividing lines.svg"></a><br>By &lt;a href="https://de.wikipedia.org/wiki/User:Chumwa" class="extiw" title="de:User:Chumwa"&gt;Maximilian Dörrbecker&lt;/a&gt; (&lt;a href="https://de.wikipedia.org/wiki/User:Chumwa" class="extiw" title="de:User:Chumwa"&gt;Chumwa&lt;/a&gt;) - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, using &lt;a href="//commons.wikimedia.org/wiki/File:International_Telecommunication_Union_region.svg" title="File:International Telecommunication Union region.svg"&gt;this file&lt;/a&gt; by &lt;a href="//commons.wikimedia.org/wiki/User:Denelson83" title="User:Denelson83"&gt;Denelson83&lt;/a&gt;, <a href="https://creativecommons.org/licenses/by-sa/2.5" title="Creative Commons Attribution-Share Alike 2.5">CC BY-SA 2.5</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=47850205">Link</a></p>
 
 ### kHz {-}
 
