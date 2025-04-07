@@ -22,7 +22,7 @@ knitr::include_graphics("https://www.sws.bom.gov.au/Images/HF%20Systems/Global%2
 The [dxview](https://vhf.dxview.org) website shows [DX] conditions on the 2m [VHF] band.
 These are typically much more short-lived than [DX] openings on the [HF] bands.
 
-Here is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC].
+Here is a screenshot of conditions observed on 2023-04-18 around 1820 [UTC].
 
 ```{r, echo=FALSE, out.width="100%", fig.cap="VHF DX propagation on 2023-04-18 from https://vhf.dxview.org"}
 knitr::include_graphics("include/img/vhf-propagation-dxview.org.png")
